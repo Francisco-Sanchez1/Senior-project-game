@@ -19,7 +19,10 @@ public class PlayerCntrl : MonoBehaviour
     {
         speedX = Input.GetAxisRaw("Horizontal") * movSpeed;
         speedY = Input.GetAxisRaw("Vertical") * movSpeed;
-        rb.velocity = new Vector2(speedX, speedY);
+        Vector2 movement = new Vector2(speedX, speedY);
+        movement.Normalize();
+
+        rb.velocity = movement * movSpeed;
         
 
     }
