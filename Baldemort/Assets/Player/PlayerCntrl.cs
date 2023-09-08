@@ -5,9 +5,13 @@ using UnityEngine;
 public class PlayerCntrl : MonoBehaviour
 {
 
+    //MVMT stuff
     public float movSpeed; 
-    float speedX, speedY;
-    Rigidbody2D rb;
+    
+    public Rigidbody2D rb;
+
+    Vector2 movement;
+    Vector2 normalizedMovement;
 
     //HealthStuff
     public float maxHealth = 100f;
@@ -23,7 +27,6 @@ public class PlayerCntrl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
 
         //HealthStuff
         currentHealth = maxHealth;
@@ -38,14 +41,11 @@ public class PlayerCntrl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        speedX = Input.GetAxisRaw("Horizontal") * movSpeed;
-        speedY = Input.GetAxisRaw("Vertical") * movSpeed;
-        Vector2 movement = new Vector2(speedX, speedY);
-        movement.Normalize();
+        //Input from user
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
 
-        rb.velocity = movement * movSpeed;
-
-
+        
 
 
         //For Testing Health
@@ -60,6 +60,16 @@ public class PlayerCntrl : MonoBehaviour
             useMana(20f);
         }
 
+    }
+
+    public void FixedUpdate()
+    {
+        //movement
+        Vector2 normalizedMovement = movement.normalized;
+        Vector2 velocity = normalizedMovement * movSpeed * Time.fixedDeltaTime;
+
+        rb.MovePosition(rb.position + velocity);
+        
     }
 
 
