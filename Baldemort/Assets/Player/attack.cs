@@ -7,7 +7,7 @@ public class attack : MonoBehaviour
     public GameObject projectilePrefab;
     public float attackSpeed = 5f;
     public float manaCost = 5f;
-    
+    public float damage = 10f;
     
 
     private Vector2 attackDirection = Vector2.right; // default direction
@@ -77,4 +77,20 @@ public class attack : MonoBehaviour
             }
         }
     }
+
+
+    void OnTriggerEnter2D(Collider2D hitInfo)
+    {
+        Enemy enemy = hitInfo.GetComponent<Enemy>();
+        if (enemy != null)
+        {
+            enemy.TakeDamage(damage);
+        }
+        if (hitInfo.gameObject.CompareTag("Player") || (hitInfo.gameObject.CompareTag("Attack")))
+        {
+            return;
+        }
+        Destroy(gameObject);
+    }
+
 }
