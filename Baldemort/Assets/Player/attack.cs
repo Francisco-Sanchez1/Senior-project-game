@@ -7,6 +7,8 @@ public class attack : MonoBehaviour
     public GameObject projectilePrefab;
     public float attackSpeed = 20f;
     public float manaCost = 5f;
+    public float damage = 10f;
+    
 
     public float cooldownTime = 2f; // Time in seconds for the attack cooldown
     public bool useCooldown = true; // If true, the cooldown system is used
@@ -65,4 +67,20 @@ public class attack : MonoBehaviour
             }
         }
     }
+
+
+    void OnTriggerEnter2D(Collider2D hitInfo)
+    {
+        Enemy enemy = hitInfo.GetComponent<Enemy>();
+        if (enemy != null)
+        {
+            enemy.TakeDamage(damage);
+        }
+        if (hitInfo.gameObject.CompareTag("Player") || (hitInfo.gameObject.CompareTag("Attack")))
+        {
+            return;
+        }
+        Destroy(gameObject);
+    }
+
 }
