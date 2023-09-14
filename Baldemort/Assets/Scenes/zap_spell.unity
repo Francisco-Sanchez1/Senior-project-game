@@ -479,6 +479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3281041315433667969, guid: 475a02834fc0a5f46b6a5725eec44abc, type: 3}
+      propertyPath: attackSpeed
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 3581055320913919986, guid: 475a02834fc0a5f46b6a5725eec44abc, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0

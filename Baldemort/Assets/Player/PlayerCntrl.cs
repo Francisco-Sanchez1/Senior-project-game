@@ -2,16 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 public class PlayerCntrl : MonoBehaviour
 {
 
     //MVMT stuff
-    public float movSpeed; 
-    
+    public float movSpeed;
+
     public Rigidbody2D rb;
 
     Vector2 movement;
     Vector2 normalizedMovement;
+
+    Vector2 mousePos;
 
     //HealthStuff
     public float maxHealth = 100f;
@@ -22,6 +26,17 @@ public class PlayerCntrl : MonoBehaviour
     public float maxMana = 100f;
     public float currentMana;
     public ManaBar manaBar;
+
+    //MANA REGEN STUFF
+    private float ManaRegenTimer;
+    public const float ManaUseTimer = 5.0f;
+    private float SlowRegen;
+    public const float SlowRegenTimer = 1.0f;
+
+    public Camera cam;
+
+    public Animator animator;
+
 
 
     // Start is called before the first frame update
@@ -34,9 +49,15 @@ public class PlayerCntrl : MonoBehaviour
 
         //ManaStuff
         currentMana = maxMana;
-        manaBar.SetMaxMana(maxMana); 
+        manaBar.SetMaxMana(maxMana);
+
+        ManaRegenTimer = ManaUseTimer;
+
+
 
     }
+
+
 
     // Update is called once per frame
     void Update()
@@ -45,9 +66,16 @@ public class PlayerCntrl : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        
+        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+        animator.SetFloat("Horizontal", movement.x);
+        animator.SetFloat("Vertical", movement.y);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
+
+   
 
 
+
+        // TESTING PURPOSES REMOVE WHEN ENEMIES IN
         //For Testing Health
         if (Input.GetKeyDown(KeyCode.E))
         {
@@ -60,7 +88,32 @@ public class PlayerCntrl : MonoBehaviour
             useMana(20f);
         }
 
+        //MANA_REGEN TESTING
+        if (currentMana < maxMana)
+        {
+
+            ManaRegenTimer = ManaRegenTimer - Time.deltaTime;
+            SlowRegen = SlowRegen - Time.deltaTime;
+            if (ManaRegenTimer <= 0.0f && SlowRegen <= 0.0f)
+            {
+                currentMana += 10f;
+                manaBar.SetMana(currentMana);
+                SlowRegen = SlowRegenTimer;
+
+            }
+        }
+
+
     }
+
+
+
+    private Vector2 GetPointer()
+    {
+        Vector3 mousePos = Input.mousePosition;
+        return Camera.main.ScreenToWorldPoint(mousePos);
+    }
+
 
     public void FixedUpdate()
     {
@@ -69,14 +122,32 @@ public class PlayerCntrl : MonoBehaviour
         Vector2 velocity = normalizedMovement * movSpeed * Time.fixedDeltaTime;
 
         rb.MovePosition(rb.position + velocity);
-        
+
+
+
+
+        //Vector2 lookDir = mousePos - rb.position;
+        //float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
+       //rb.rotation = angle;
+
     }
 
+
+    private void AnimateChar()
+    {
+        Vector2 lookDirection = mousePos - (Vector2)transform.position;
+        
+        
+    }
 
     public void takeDamage(float damage)
     {
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
+        if (currentHealth <= 0)
+        {
+            Destroy(gameObject);
+        }
 
     }
 
@@ -84,5 +155,9 @@ public class PlayerCntrl : MonoBehaviour
     {
         currentMana -= manaUse;
         manaBar.SetMana(currentMana);
+        ManaRegenTimer = ManaUseTimer;
+
     }
+
+
 }
