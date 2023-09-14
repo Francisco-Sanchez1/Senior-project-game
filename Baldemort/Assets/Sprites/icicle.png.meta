@@ -1,0 +1,1387 @@
+fileFormatVersion: 2
+guid: 973574f1c9cd3a047b60f85e39b88b6f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4857218843037408790
+    second: icicle_0
+  - first:
+      213: 2480093775578459547
+    second: icicle_1
+  - first:
+      213: -8088811145238553454
+    second: icicle_2
+  - first:
+      213: -1297384904600858116
+    second: icicle_3
+  - first:
+      213: -733971354832805041
+    second: icicle_4
+  - first:
+      213: -3596367214326884150
+    second: icicle_5
+  - first:
+      213: -5457018773480238284
+    second: icicle_6
+  - first:
+      213: -1908631593263479545
+    second: icicle_7
+  - first:
+      213: -7149947213058533069
+    second: icicle_8
+  - first:
+      213: -3638060680949042506
+    second: icicle_9
+  - first:
+      213: -2848549846851733873
+    second: icicle_10
+  - first:
+      213: 5667401128820829746
+    second: icicle_11
+  - first:
+      213: -6203098316602478463
+    second: icicle_12
+  - first:
+      213: 688035415450164757
+    second: icicle_13
+  - first:
+      213: 1091961651912791464
+    second: icicle_14
+  - first:
+      213: -7625943101235955433
+    second: icicle_15
+  - first:
+      213: 1184701803665605286
+    second: icicle_16
+  - first:
+      213: -1023448252539532905
+    second: icicle_17
+  - first:
+      213: -3923132953012571587
+    second: icicle_18
+  - first:
+      213: 6639284850614280305
+    second: icicle_19
+  - first:
+      213: 1301359889399102354
+    second: icicle_20
+  - first:
+      213: -6044278840207729127
+    second: icicle_21
+  - first:
+      213: 4555101493124448689
+    second: icicle_22
+  - first:
+      213: -4519859463649519308
+    second: icicle_23
+  - first:
+      213: 1093811392825502993
+    second: icicle_24
+  - first:
+      213: 1502105014559430883
+    second: icicle_25
+  - first:
+      213: -8606230284561848692
+    second: icicle_26
+  - first:
+      213: -5723034416865212186
+    second: icicle_27
+  - first:
+      213: 4783835060481532126
+    second: icicle_28
+  - first:
+      213: -2997193140404141468
+    second: icicle_29
+  - first:
+      213: -412068286952358256
+    second: icicle_30
+  - first:
+      213: 3355352817331370196
+    second: icicle_31
+  - first:
+      213: -8511680188810767119
+    second: icicle_32
+  - first:
+      213: 9193733455260437213
+    second: icicle_33
+  - first:
+      213: 2810452436517765182
+    second: icicle_34
+  - first:
+      213: 1419710933020330479
+    second: icicle_35
+  - first:
+      213: -2160170812757008816
+    second: icicle_36
+  - first:
+      213: -8776460559759048771
+    second: icicle_37
+  - first:
+      213: -7033568897481603848
+    second: icicle_38
+  - first:
+      213: 8576673760446470288
+    second: icicle_39
+  - first:
+      213: -7400732007034473784
+    second: icicle_40
+  - first:
+      213: -6853977694160174723
+    second: icicle_41
+  - first:
+      213: 2303653104617023075
+    second: icicle_42
+  - first:
+      213: 8305669971308498131
+    second: icicle_43
+  - first:
+      213: 507724521496705971
+    second: icicle_44
+  - first:
+      213: 9033955640155045398
+    second: icicle_45
+  - first:
+      213: 4587821053566097621
+    second: icicle_46
+  - first:
+      213: 6108172440654693208
+    second: icicle_47
+  - first:
+      213: 4185561639138214882
+    second: icicle_48
+  - first:
+      213: -4279499287622877174
+    second: icicle_49
+  - first:
+      213: 1540669167596490140
+    second: icicle_50
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: icicle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 470
+        width: 512
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1eb686231b79cb0800000000000000
+      internalID: -4857218843037408790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 398
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9de20716201b6220800000000000000
+      internalID: 2480093775578459547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 400
+        width: 53
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29cd5d8ae15cebf80800000000000000
+      internalID: -8088811145238553454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 399
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1df489d43cefde0800000000000000
+      internalID: -1297384904600858116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_4
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 397
+        width: 51
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f43e0e701f860d5f0800000000000000
+      internalID: -733971354832805041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_5
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 396
+        width: 54
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac85f2ca213271ec0800000000000000
+      internalID: -3596367214326884150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_6
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 398
+        width: 51
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433921a8656c444b0800000000000000
+      internalID: -5457018773480238284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_7
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 398
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7054174adad2385e0800000000000000
+      internalID: -1908631593263479545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_8
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 397
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3391ada44e846cc90800000000000000
+      internalID: -7149947213058533069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_9
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 330
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b277b00613038dc0800000000000000
+      internalID: -3638060680949042506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_10
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 332
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86b86da10be778d0800000000000000
+      internalID: -2848549846851733873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_11
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 329
+        width: 17
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e630bac47a6ae40800000000000000
+      internalID: 5667401128820829746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_12
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 330
+        width: 17
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180f51c42fa2ae9a0800000000000000
+      internalID: -6203098316602478463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_13
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 327
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e9bc2a0946c8900800000000000000
+      internalID: 688035415450164757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_14
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 330
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a55c92465d672f00800000000000000
+      internalID: 1091961651912791464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_15
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 329
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7197d7547253b2690800000000000000
+      internalID: -7625943101235955433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_16
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 328
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a2c04c7308e07010800000000000000
+      internalID: 1184701803665605286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_17
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 271
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799036d9c3bfbc1f0800000000000000
+      internalID: -1023448252539532905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_18
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 270
+        width: 51
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d327e096d5b3e89c0800000000000000
+      internalID: -3923132953012571587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_19
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 268
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1702f7b256a732c50800000000000000
+      internalID: 6639284850614280305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_20
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 270
+        width: 51
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b339caceb5f0210800000000000000
+      internalID: 1301359889399102354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_21
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 268
+        width: 56
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e12063b686e1ca0800000000000000
+      internalID: -6044278840207729127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_22
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 270
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1c88d8ca8f63f30800000000000000
+      internalID: 4555101493124448689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_23
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 268
+        width: 51
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4399b7ad3cb3641c0800000000000000
+      internalID: -4519859463649519308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_24
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 268
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11da3a0aaaffd2f00800000000000000
+      internalID: 1093811392825502993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 213
+        width: 67
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8d5206d8c88d410800000000000000
+      internalID: 1502105014559430883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 211
+        width: 67
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c866b796727809880800000000000000
+      internalID: -8606230284561848692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_27
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 145
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e80a611582b390b0800000000000000
+      internalID: -5723034416865212186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_28
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 145
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0af0444a8936240800000000000000
+      internalID: 4783835060481532126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_29
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 144
+        width: 52
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46249f6f7b4d766d0800000000000000
+      internalID: -2997193140404141468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_30
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 143
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e3005831a084af0800000000000000
+      internalID: -412068286952358256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_31
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 143
+        width: 53
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d874252c9b909e20800000000000000
+      internalID: 3355352817331370196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_32
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 143
+        width: 51
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4543017ff60e980800000000000000
+      internalID: -8511680188810767119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_33
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 144
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda4c68fdd3b69f70800000000000000
+      internalID: 9193733455260437213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_34
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 145
+        width: 51
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30c5c0c99bb00720800000000000000
+      internalID: 2810452436517765182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_35
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 76
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe94a665293d3b310800000000000000
+      internalID: 1419710933020330479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_36
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 76
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e937347188502e0800000000000000
+      internalID: -2160170812757008816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_37
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 75
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbff55ede9fb33680800000000000000
+      internalID: -8776460559759048771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_38
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 74
+        width: 17
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f48f5a6a5eb36e90800000000000000
+      internalID: -7033568897481603848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_39
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 74
+        width: 17
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09853dd0857760770800000000000000
+      internalID: 8576673760446470288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_40
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 75
+        width: 17
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2b8da43715b4990800000000000000
+      internalID: -7400732007034473784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_41
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 76
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71c121e997c1e0a0800000000000000
+      internalID: -6853977694160174723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_42
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 76
+        width: 15
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3666c6a1b4838ff10800000000000000
+      internalID: 2303653104617023075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_43
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 17
+        width: 53
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dcc87565daa34370800000000000000
+      internalID: 8305669971308498131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_44
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 16
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bbf09323cccb0700800000000000000
+      internalID: 507724521496705971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_45
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 15
+        width: 49
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ef3107ace0f5d70800000000000000
+      internalID: 9033955640155045398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_46
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 15
+        width: 52
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d89dded0f63baf30800000000000000
+      internalID: 4587821053566097621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_47
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 15
+        width: 57
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853cd08e87694c450800000000000000
+      internalID: 6108172440654693208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_48
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 16
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3c55e722a161a30800000000000000
+      internalID: 4185561639138214882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_49
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 17
+        width: 52
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0083b8521a2c94c0800000000000000
+      internalID: -4279499287622877174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: icicle_50
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 17
+        width: 51
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d4cf2f17e816510800000000000000
+      internalID: 1540669167596490140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8ef0d1319d3fd2e4780ef3a9be5eec34
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      icicle_0: -4857218843037408790
+      icicle_1: 2480093775578459547
+      icicle_10: -2848549846851733873
+      icicle_11: 5667401128820829746
+      icicle_12: -6203098316602478463
+      icicle_13: 688035415450164757
+      icicle_14: 1091961651912791464
+      icicle_15: -7625943101235955433
+      icicle_16: 1184701803665605286
+      icicle_17: -1023448252539532905
+      icicle_18: -3923132953012571587
+      icicle_19: 6639284850614280305
+      icicle_2: -8088811145238553454
+      icicle_20: 1301359889399102354
+      icicle_21: -6044278840207729127
+      icicle_22: 4555101493124448689
+      icicle_23: -4519859463649519308
+      icicle_24: 1093811392825502993
+      icicle_25: 1502105014559430883
+      icicle_26: -8606230284561848692
+      icicle_27: -5723034416865212186
+      icicle_28: 4783835060481532126
+      icicle_29: -2997193140404141468
+      icicle_3: -1297384904600858116
+      icicle_30: -412068286952358256
+      icicle_31: 3355352817331370196
+      icicle_32: -8511680188810767119
+      icicle_33: 9193733455260437213
+      icicle_34: 2810452436517765182
+      icicle_35: 1419710933020330479
+      icicle_36: -2160170812757008816
+      icicle_37: -8776460559759048771
+      icicle_38: -7033568897481603848
+      icicle_39: 8576673760446470288
+      icicle_4: -733971354832805041
+      icicle_40: -7400732007034473784
+      icicle_41: -6853977694160174723
+      icicle_42: 2303653104617023075
+      icicle_43: 8305669971308498131
+      icicle_44: 507724521496705971
+      icicle_45: 9033955640155045398
+      icicle_46: 4587821053566097621
+      icicle_47: 6108172440654693208
+      icicle_48: 4185561639138214882
+      icicle_49: -4279499287622877174
+      icicle_5: -3596367214326884150
+      icicle_50: 1540669167596490140
+      icicle_6: -5457018773480238284
+      icicle_7: -1908631593263479545
+      icicle_8: -7149947213058533069
+      icicle_9: -3638060680949042506
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

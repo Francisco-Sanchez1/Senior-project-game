@@ -1,0 +1,4287 @@
+fileFormatVersion: 2
+guid: 21f141ec93371ae488579fdc2a21d78e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2825352926885224070
+    second: More_Magic_0
+  - first:
+      213: 1280108423561327501
+    second: More_Magic_1
+  - first:
+      213: 7258204084921844627
+    second: More_Magic_2
+  - first:
+      213: -3498778520792271676
+    second: More_Magic_3
+  - first:
+      213: -2707958201787175542
+    second: More_Magic_4
+  - first:
+      213: 2131443259188767978
+    second: More_Magic_5
+  - first:
+      213: -8754086540525397763
+    second: More_Magic_6
+  - first:
+      213: 1322743644261292698
+    second: More_Magic_7
+  - first:
+      213: 2189530476851201607
+    second: More_Magic_8
+  - first:
+      213: 1423556950105772485
+    second: More_Magic_9
+  - first:
+      213: 3128873631780614683
+    second: More_Magic_10
+  - first:
+      213: -1374589685059367917
+    second: More_Magic_11
+  - first:
+      213: -879157872675790382
+    second: More_Magic_12
+  - first:
+      213: 7441127097406118529
+    second: More_Magic_13
+  - first:
+      213: -1856927135634584723
+    second: More_Magic_14
+  - first:
+      213: -4331462576482086116
+    second: More_Magic_15
+  - first:
+      213: 7374487334226393829
+    second: More_Magic_16
+  - first:
+      213: 1932552665402788024
+    second: More_Magic_17
+  - first:
+      213: -4240830581762277288
+    second: More_Magic_18
+  - first:
+      213: -5158362592308929282
+    second: More_Magic_19
+  - first:
+      213: -895191190447108713
+    second: More_Magic_20
+  - first:
+      213: 42168941423519071
+    second: More_Magic_21
+  - first:
+      213: 6129226557092285074
+    second: More_Magic_22
+  - first:
+      213: -2607395120439684152
+    second: More_Magic_23
+  - first:
+      213: -5749080782545223847
+    second: More_Magic_24
+  - first:
+      213: 2540887389493581071
+    second: More_Magic_25
+  - first:
+      213: -8051851780645746261
+    second: More_Magic_26
+  - first:
+      213: 1918568777394129242
+    second: More_Magic_27
+  - first:
+      213: 4359235933124194583
+    second: More_Magic_28
+  - first:
+      213: -664397455226854060
+    second: More_Magic_29
+  - first:
+      213: -5163626349831287786
+    second: More_Magic_30
+  - first:
+      213: 3115320309565188134
+    second: More_Magic_31
+  - first:
+      213: -8672880059830810589
+    second: More_Magic_32
+  - first:
+      213: -4541215231978303848
+    second: More_Magic_33
+  - first:
+      213: 2279799147829225251
+    second: More_Magic_34
+  - first:
+      213: 4835845053651619626
+    second: More_Magic_35
+  - first:
+      213: 1185342944485881497
+    second: More_Magic_36
+  - first:
+      213: 6022866417611056384
+    second: More_Magic_37
+  - first:
+      213: -3039551657442957185
+    second: More_Magic_38
+  - first:
+      213: -2923422069672155957
+    second: More_Magic_39
+  - first:
+      213: -3574562880478349226
+    second: More_Magic_40
+  - first:
+      213: -8781665661267703587
+    second: More_Magic_41
+  - first:
+      213: 2359141668495785434
+    second: More_Magic_42
+  - first:
+      213: 3234162092074411280
+    second: More_Magic_43
+  - first:
+      213: 4269770213119510142
+    second: More_Magic_44
+  - first:
+      213: 8065453524115419531
+    second: More_Magic_45
+  - first:
+      213: 639596292742974788
+    second: More_Magic_46
+  - first:
+      213: 6840543973797313074
+    second: More_Magic_47
+  - first:
+      213: -461471808851136027
+    second: More_Magic_48
+  - first:
+      213: 1909279005939508811
+    second: More_Magic_49
+  - first:
+      213: -2449394685472628643
+    second: More_Magic_50
+  - first:
+      213: 1592007099783361422
+    second: More_Magic_51
+  - first:
+      213: 6720319366063470706
+    second: More_Magic_52
+  - first:
+      213: -8773790307964244877
+    second: More_Magic_53
+  - first:
+      213: 2117369716480278859
+    second: More_Magic_54
+  - first:
+      213: 2469743464579860027
+    second: More_Magic_55
+  - first:
+      213: 5657495140664140889
+    second: More_Magic_56
+  - first:
+      213: -4831456692094814162
+    second: More_Magic_57
+  - first:
+      213: 4412354587437424322
+    second: More_Magic_58
+  - first:
+      213: -1176330659267673646
+    second: More_Magic_59
+  - first:
+      213: -1695519990935759743
+    second: More_Magic_60
+  - first:
+      213: 6149586962569159368
+    second: More_Magic_61
+  - first:
+      213: -280290604569641026
+    second: More_Magic_62
+  - first:
+      213: 2354089456818103773
+    second: More_Magic_63
+  - first:
+      213: -678073574072498653
+    second: More_Magic_64
+  - first:
+      213: -2890818100449332174
+    second: More_Magic_65
+  - first:
+      213: -2134192253107334891
+    second: More_Magic_66
+  - first:
+      213: -7509384068173192721
+    second: More_Magic_67
+  - first:
+      213: 807171934910386532
+    second: More_Magic_68
+  - first:
+      213: -5834191849165449124
+    second: More_Magic_69
+  - first:
+      213: 43296093902069741
+    second: More_Magic_70
+  - first:
+      213: -1134336336790879327
+    second: More_Magic_71
+  - first:
+      213: 6869558790527431988
+    second: More_Magic_72
+  - first:
+      213: -3020993414100407185
+    second: More_Magic_73
+  - first:
+      213: -9123138519907224224
+    second: More_Magic_74
+  - first:
+      213: -5636626085656544749
+    second: More_Magic_75
+  - first:
+      213: 5058823508091584589
+    second: More_Magic_76
+  - first:
+      213: 6840158126533466824
+    second: More_Magic_77
+  - first:
+      213: 4044710354797281210
+    second: More_Magic_78
+  - first:
+      213: -5363245929949570809
+    second: More_Magic_79
+  - first:
+      213: 2524160755540647804
+    second: More_Magic_80
+  - first:
+      213: -4820756211095900088
+    second: More_Magic_81
+  - first:
+      213: -312876621919236152
+    second: More_Magic_82
+  - first:
+      213: -1457609015915335432
+    second: More_Magic_83
+  - first:
+      213: -5412206460645283349
+    second: More_Magic_84
+  - first:
+      213: 8385764422367733667
+    second: More_Magic_85
+  - first:
+      213: -1759112215564089158
+    second: More_Magic_86
+  - first:
+      213: -550382396193428634
+    second: More_Magic_87
+  - first:
+      213: -794634108002459281
+    second: More_Magic_88
+  - first:
+      213: 8126946767113804302
+    second: More_Magic_89
+  - first:
+      213: -8366217171869000402
+    second: More_Magic_90
+  - first:
+      213: 998175133540520646
+    second: More_Magic_91
+  - first:
+      213: -5081495398853050961
+    second: More_Magic_92
+  - first:
+      213: -4581633642811914718
+    second: More_Magic_93
+  - first:
+      213: 2477091501797872940
+    second: More_Magic_94
+  - first:
+      213: 648173417173157343
+    second: More_Magic_95
+  - first:
+      213: -6650405122233468261
+    second: More_Magic_96
+  - first:
+      213: -7092265381386787974
+    second: More_Magic_97
+  - first:
+      213: -7138587814687864692
+    second: More_Magic_98
+  - first:
+      213: -8764295672078257020
+    second: More_Magic_99
+  - first:
+      213: 4297768224280090530
+    second: More_Magic_100
+  - first:
+      213: 7514741017259556979
+    second: More_Magic_101
+  - first:
+      213: -2594575966269840495
+    second: More_Magic_102
+  - first:
+      213: -8864296526656695083
+    second: More_Magic_103
+  - first:
+      213: 6980187685071670143
+    second: More_Magic_104
+  - first:
+      213: -7558872517426285508
+    second: More_Magic_105
+  - first:
+      213: 4884612046180588297
+    second: More_Magic_106
+  - first:
+      213: 2802576749064846302
+    second: More_Magic_107
+  - first:
+      213: -2786920647202919850
+    second: More_Magic_108
+  - first:
+      213: -3567872335522209740
+    second: More_Magic_109
+  - first:
+      213: -7487404555036022936
+    second: More_Magic_110
+  - first:
+      213: 4714890490370926823
+    second: More_Magic_111
+  - first:
+      213: 5524348201943852756
+    second: More_Magic_112
+  - first:
+      213: -5449524717699180677
+    second: More_Magic_113
+  - first:
+      213: 393454025141457028
+    second: More_Magic_114
+  - first:
+      213: 8552172703807550578
+    second: More_Magic_115
+  - first:
+      213: 784126766183395209
+    second: More_Magic_116
+  - first:
+      213: -646076307782878384
+    second: More_Magic_117
+  - first:
+      213: -1572155079385246132
+    second: More_Magic_118
+  - first:
+      213: 3107144258877148239
+    second: More_Magic_119
+  - first:
+      213: -2860605284009860791
+    second: More_Magic_120
+  - first:
+      213: 5537516389216969189
+    second: More_Magic_121
+  - first:
+      213: -5634829440933513288
+    second: More_Magic_122
+  - first:
+      213: -6712703562339369469
+    second: More_Magic_123
+  - first:
+      213: -3927959570631391466
+    second: More_Magic_124
+  - first:
+      213: -1010784653597462142
+    second: More_Magic_125
+  - first:
+      213: 5140454446998352509
+    second: More_Magic_126
+  - first:
+      213: -5032317039505262932
+    second: More_Magic_127
+  - first:
+      213: 7354123357429414704
+    second: More_Magic_128
+  - first:
+      213: 8168528348317810363
+    second: More_Magic_129
+  - first:
+      213: 1146585876338347133
+    second: More_Magic_130
+  - first:
+      213: -4294167074381128991
+    second: More_Magic_131
+  - first:
+      213: -4379009961917552049
+    second: More_Magic_132
+  - first:
+      213: -144050683706505957
+    second: More_Magic_133
+  - first:
+      213: -9081331348370347004
+    second: More_Magic_134
+  - first:
+      213: 8291520084892681192
+    second: More_Magic_135
+  - first:
+      213: 3151500986165022199
+    second: More_Magic_136
+  - first:
+      213: 2267302964418735883
+    second: More_Magic_137
+  - first:
+      213: -5570509015030710223
+    second: More_Magic_138
+  - first:
+      213: 2455838490520827372
+    second: More_Magic_139
+  - first:
+      213: 1785647885078371243
+    second: More_Magic_140
+  - first:
+      213: -527177531567491374
+    second: More_Magic_141
+  - first:
+      213: 5527347266175295531
+    second: More_Magic_142
+  - first:
+      213: -1802457819301459857
+    second: More_Magic_143
+  - first:
+      213: 1216168260913824985
+    second: More_Magic_144
+  - first:
+      213: 6491499641600745877
+    second: More_Magic_145
+  - first:
+      213: -6787050942243541581
+    second: More_Magic_146
+  - first:
+      213: -4156936993230476201
+    second: More_Magic_147
+  - first:
+      213: -5487889066768558328
+    second: More_Magic_148
+  - first:
+      213: 439997658784855412
+    second: More_Magic_149
+  - first:
+      213: -1351243800916334474
+    second: More_Magic_150
+  - first:
+      213: -3783504631272048390
+    second: More_Magic_151
+  - first:
+      213: 5645110869970481146
+    second: More_Magic_152
+  - first:
+      213: 7101484197704639647
+    second: More_Magic_153
+  - first:
+      213: -1848737676910840906
+    second: More_Magic_154
+  - first:
+      213: -775235851056444000
+    second: More_Magic_155
+  - first:
+      213: -8780625374163447064
+    second: More_Magic_156
+  - first:
+      213: -7431902052950232564
+    second: More_Magic_157
+  - first:
+      213: 1148375629662620803
+    second: More_Magic_158
+  - first:
+      213: 3749864205516747346
+    second: More_Magic_159
+  - first:
+      213: 8848316620162878099
+    second: More_Magic_160
+  - first:
+      213: -9030053576472075158
+    second: More_Magic_161
+  - first:
+      213: 832728320211957667
+    second: More_Magic_162
+  - first:
+      213: 8979087220385282894
+    second: More_Magic_163
+  - first:
+      213: -2098274076215663935
+    second: More_Magic_164
+  - first:
+      213: -1962613936072918559
+    second: More_Magic_165
+  - first:
+      213: -8108288493565927657
+    second: More_Magic_166
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: More_Magic_0
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 779
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e9a14848ba53720800000000000000
+      internalID: 2825352926885224070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_1
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 818
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83bb5434dbd3c110800000000000000
+      internalID: 1280108423561327501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_2
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 767
+        width: 97
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3934e0dd8225ab460800000000000000
+      internalID: 7258204084921844627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_3
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 790
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4f8600977d17fc0800000000000000
+      internalID: -3498778520792271676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 782
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8daed3ec566b6ad0800000000000000
+      internalID: -2707958201787175542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_5
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 790
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aece8d2f958649d10800000000000000
+      internalID: 2131443259188767978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_6
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 787
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df894fa2cac338680800000000000000
+      internalID: -8754086540525397763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 789
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a991516545b5210800000000000000
+      internalID: 1322743644261292698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_8
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 791
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7468b993e56c26e10800000000000000
+      internalID: 2189530476851201607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_9
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 786
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1d798f08d71c310800000000000000
+      internalID: 1423556950105772485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_10
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 736
+        width: 19
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12be599dfdfb6b20800000000000000
+      internalID: 3128873631780614683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_11
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 767
+        width: 44
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31cce1ed6f97cece0800000000000000
+      internalID: -1374589685059367917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 728
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1eba1a29a9cc3f0800000000000000
+      internalID: -879157872675790382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_13
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 732
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18adc699ba1344760800000000000000
+      internalID: 7441127097406118529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 720
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b87bacb9eda36e0800000000000000
+      internalID: -1856927135634584723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_15
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 725
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1313ea5cbd83e3c0800000000000000
+      internalID: -4331462576482086116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_16
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 722
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea7e25a821775660800000000000000
+      internalID: 7374487334226393829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_17
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 732
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b8411bf86ec1da10800000000000000
+      internalID: 1932552665402788024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_18
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 724
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85042750e0b8525c0800000000000000
+      internalID: -4240830581762277288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_19
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 727
+        width: 43
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc53ce6d80d968b0800000000000000
+      internalID: -5158362592308929282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_20
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 715
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d475fea54a393f0800000000000000
+      internalID: -895191190447108713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_21
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 721
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f556a16cd60d59000800000000000000
+      internalID: 42168941423519071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_22
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 703
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a406364136f0550800000000000000
+      internalID: 6129226557092285074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_23
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 648
+        width: 53
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c31b19d3fba0dbd0800000000000000
+      internalID: -2607395120439684152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_24
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 659
+        width: 19
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ffd5bfc792730b0800000000000000
+      internalID: -5749080782545223847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_25
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 703
+        width: 54
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05d8095e9b034320800000000000000
+      internalID: 2540887389493581071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_26
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 703
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9838e4773124090800000000000000
+      internalID: -8051851780645746261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 669
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a598bb5532020aa10800000000000000
+      internalID: 1918568777394129242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_28
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 657
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7117cf52cfd1f7c30800000000000000
+      internalID: 4359235933124194583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_29
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 661
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 455a78bd80697c6f0800000000000000
+      internalID: -664397455226854060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_30
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 668
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c8571613d1758b0800000000000000
+      internalID: -5163626349831287786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_31
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 657
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628613dd057db3b20800000000000000
+      internalID: 3115320309565188134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_32
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 669
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3284736598db3a780800000000000000
+      internalID: -8672880059830810589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_33
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 661
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e07519ecc5af0c0800000000000000
+      internalID: -4541215231978303848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_34
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 666
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327699dfe3973af10800000000000000
+      internalID: 2279799147829225251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_35
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 664
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f0cb3747f5c1340800000000000000
+      internalID: 4835845053651619626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_36
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 651
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996b817b02f237010800000000000000
+      internalID: 1185342944485881497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_37
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 639
+        width: 57
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0052657a815859350800000000000000
+      internalID: 6022866417611056384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_38
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 639
+        width: 45
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78a9ad2fd751d5d0800000000000000
+      internalID: -3039551657442957185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_39
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 630
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc467a8dd1bed67d0800000000000000
+      internalID: -2923422069672155957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_40
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 373
+        width: 21
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6587ac1cff9946ec0800000000000000
+      internalID: -3574562880478349226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_41
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 639
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd884ebbb91412680800000000000000
+      internalID: -8781665661267703587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_42
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 592
+        width: 45
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add738529da5db020800000000000000
+      internalID: 2359141668495785434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_43
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 603
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0152124994d02ec20800000000000000
+      internalID: 3234162092074411280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_44
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 597
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e764889f265414b30800000000000000
+      internalID: 4269770213119510142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_45
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 599
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8172516f3f3eef60800000000000000
+      internalID: 8065453524115419531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_46
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 587
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d0a94807d40e800800000000000000
+      internalID: 639596292742974788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_47
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 617
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ab0ac508e7eee50800000000000000
+      internalID: 6840543973797313074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_48
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 595
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e13297b5d58899f0800000000000000
+      internalID: -461471808851136027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_49
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 617
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46a22ed32f1f7a10800000000000000
+      internalID: 1909279005939508811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_50
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 575
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50aca1d280020ed0800000000000000
+      internalID: -2449394685472628643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 599
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83bc7eb502f71610800000000000000
+      internalID: 1592007099783361422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_52
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 601
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278346f8bde534d50800000000000000
+      internalID: 6720319366063470706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_53
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 596
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ca600533c3d3680800000000000000
+      internalID: -8773790307964244877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_54
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 594
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b410af0f988626d10800000000000000
+      internalID: 2117369716480278859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_55
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 602
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3600a4889a464220800000000000000
+      internalID: 2469743464579860027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_56
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 600
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954e8c11bd5738e40800000000000000
+      internalID: 5657495140664140889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_57
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 594
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2831089cb733fcb0800000000000000
+      internalID: -4831456692094814162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_58
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 575
+        width: 60
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ced54f9e15db3d30800000000000000
+      internalID: 4412354587437424322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_59
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 570
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d103f37f75dcafe0800000000000000
+      internalID: -1176330659267673646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_60
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 575
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18453be2d8d4878e0800000000000000
+      internalID: -1695519990935759743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_61
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 527
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2ee43b2c8b75550800000000000000
+      internalID: 6149586962569159368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_62
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 524
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf3fb02e253c1cf0800000000000000
+      internalID: -280290604569641026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_63
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 558
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5a22373e76ba020800000000000000
+      internalID: 2354089456818103773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_64
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 530
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32644dd4daff696f0800000000000000
+      internalID: -678073574072498653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_65
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 511
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234b27cf040c1e7d0800000000000000
+      internalID: -2890818100449332174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51195270473d162e0800000000000000
+      internalID: -2134192253107334891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_67
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 533
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe12f86f9fe49c790800000000000000
+      internalID: -7509384068173192721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_68
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 532
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4619ff42996a33b00800000000000000
+      internalID: 807171934910386532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_69
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 533
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58930f8c69c80fa0800000000000000
+      internalID: -5834191849165449124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_70
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 539
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: defd1396191d99000800000000000000
+      internalID: 43296093902069741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_71
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 535
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a303c59c170240f0800000000000000
+      internalID: -1134336336790879327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_72
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 511
+        width: 61
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435bc01d253955f50800000000000000
+      internalID: 6869558790527431988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_73
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 383
+        width: 32
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c20cbee764316d0800000000000000
+      internalID: -3020993414100407185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_74
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 530
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0653f344ad9146180800000000000000
+      internalID: -9123138519907224224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_75
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 519
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31abdb0707ea6c1b0800000000000000
+      internalID: -5636626085656544749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_76
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 462
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40c1358d2d843640800000000000000
+      internalID: 5058823508091584589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_77
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 467
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca578b439f1dee50800000000000000
+      internalID: 6840158126533466824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_78
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 466
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf390d43a2b12830800000000000000
+      internalID: 4044710354797281210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_79
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 470
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709db4e0e3ce195b0800000000000000
+      internalID: -5363245929949570809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_80
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 482
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f5bf565de970320800000000000000
+      internalID: 2524160755540647804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_81
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 487
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840fed874cb391db0800000000000000
+      internalID: -4820756211095900088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_82
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 489
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cfcafbbe5078abf0800000000000000
+      internalID: -312876621919236152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_83
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 485
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0b5f0a25885cbe0800000000000000
+      internalID: -1457609015915335432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_84
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 447
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9e92e26eaf3e4b0800000000000000
+      internalID: -5412206460645283349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_85
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 477
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7665dff48306470800000000000000
+      internalID: 8385764422367733667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_86
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 465
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8804792c06697e0800000000000000
+      internalID: -1759112215564089158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_87
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 477
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b23407026ac58f0800000000000000
+      internalID: -550382396193428634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_88
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 476
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61aa1a2d74e8f4f0800000000000000
+      internalID: -794634108002459281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_89
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 476
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ad35ab607b8c070800000000000000
+      internalID: 8126946767113804302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_90
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 447
+        width: 60
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d99fceec935eb80800000000000000
+      internalID: -8366217171869000402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_91
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 466
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c29f42defa3add00800000000000000
+      internalID: 998175133540520646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_92
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 462
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fadf49f8bd6ea79b0800000000000000
+      internalID: -5081495398853050961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_93
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 400
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2268735f974ca60c0800000000000000
+      internalID: -4581633642811914718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_94
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 399
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c251dc0c895606220800000000000000
+      internalID: 2477091501797872940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_95
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 398
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5057be946cef800800000000000000
+      internalID: 648173417173157343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_96
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 395
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9af5d4d6c305b3a0800000000000000
+      internalID: -6650405122233468261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_97
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 422
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73e3a94636339d90800000000000000
+      internalID: -7092265381386787974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_98
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 428
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8809935434aeec90800000000000000
+      internalID: -7138587814687864692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_99
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 426
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484384f7587fe5680800000000000000
+      internalID: -8764295672078257020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_100
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 426
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a71d2fed6db4ab30800000000000000
+      internalID: 4297768224280090530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_101
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 383
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37040d0f329b94860800000000000000
+      internalID: 7514741017259556979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_102
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 404
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19368b3c7e63efbd0800000000000000
+      internalID: -2594575966269840495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_103
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 412
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d416e82641bbf480800000000000000
+      internalID: -8864296526656695083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_104
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 417
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7bc04a87bb9ed060800000000000000
+      internalID: 6980187685071670143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_105
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 410
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34f7587e7d791790800000000000000
+      internalID: -7558872517426285508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_106
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 400
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b1036b6c0a9c340800000000000000
+      internalID: 4884612046180588297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_107
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 401
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb77cf54b0c4e620800000000000000
+      internalID: 2802576749064846302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_108
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 398
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65aa446ef6ed259d0800000000000000
+      internalID: -2786920647202919850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_109
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 383
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4306145a30f5c7ec0800000000000000
+      internalID: -3567872335522209740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_110
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 386
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867af672a35671890800000000000000
+      internalID: -7487404555036022936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_111
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 383
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e82d61abe7ae6140800000000000000
+      internalID: 4714890490370926823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_112
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 383
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d66e60ab6d6aac40800000000000000
+      internalID: 5524348201943852756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_113
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 333
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7754de54266f54b0800000000000000
+      internalID: -5449524717699180677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_114
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 327
+        width: 11
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480110ce954d57500800000000000000
+      internalID: 393454025141457028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_115
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 363
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274bd3443cb6fa670800000000000000
+      internalID: 8552172703807550578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_116
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 337
+        width: 7
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98fac3da327c1ea00800000000000000
+      internalID: 784126766183395209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_117
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 338
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b3ec8650da807f0800000000000000
+      internalID: -646076307782878384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_118
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 319
+        width: 19
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c469a61f8459e2ae0800000000000000
+      internalID: -1572155079385246132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_119
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 319
+        width: 32
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c4448bd3bce1b20800000000000000
+      internalID: 3107144258877148239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_120
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 319
+        width: 11
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941acfb76a61d48d0800000000000000
+      internalID: -2860605284009860791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_121
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 335
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e16e2521d539dc40800000000000000
+      internalID: 5537516389216969189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_122
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 338
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7be336a701dc1b0800000000000000
+      internalID: -5634829440933513288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_123
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 333
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e334cecafa7d2a0800000000000000
+      internalID: -6712703562339369469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_124
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 319
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6178b6ce4951d79c0800000000000000
+      internalID: -3927959570631391466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_125
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 298
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28138e186b8f8f1f0800000000000000
+      internalID: -1010784653597462142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_126
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 299
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72f9619510965740800000000000000
+      internalID: 5140454446998352509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_127
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 306
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6b42f905e992ab0800000000000000
+      internalID: -5032317039505262932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_128
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 266
+        width: 6
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03bbbf1da381f0660800000000000000
+      internalID: 7354123357429414704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_129
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 299
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbef03b01417c5170800000000000000
+      internalID: 8168528348317810363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_130
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 267
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c80a797cd79ef00800000000000000
+      internalID: 1146585876338347133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_131
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 255
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea955d1ccd0864c0800000000000000
+      internalID: -4294167074381128991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_132
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 290
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ae10004a1aa33c0800000000000000
+      internalID: -4379009961917552049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_133
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 284
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1585089aaa300ef0800000000000000
+      internalID: -144050683706505957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_134
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 291
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c24cce041a8f180800000000000000
+      internalID: -9081331348370347004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_135
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 285
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e38b0c3695611370800000000000000
+      internalID: 8291520084892681192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_136
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 282
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fdc8a513716cbb20800000000000000
+      internalID: 3151500986165022199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_137
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 283
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f6e509804177f10800000000000000
+      internalID: 2267302964418735883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_138
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 269
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130cbfc809391b2b0800000000000000
+      internalID: -5570509015030710223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_139
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 255
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5b9357814e41220800000000000000
+      internalID: 2455838490520827372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_140
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 255
+        width: 9
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab160c6a45e7c810800000000000000
+      internalID: 1785647885078371243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_141
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 270
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d63a5104d61fa8f0800000000000000
+      internalID: -527177531567491374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_142
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 282
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20ea9ead0515bc40800000000000000
+      internalID: 5527347266175295531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_143
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 261
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6849e5c9226cf6e0800000000000000
+      internalID: -1802457819301459857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_144
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 267
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d48fdaf692b0e010800000000000000
+      internalID: 1216168260913824985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_145
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 284
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5912035d780761a50800000000000000
+      internalID: 6491499641600745877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_146
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 273
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bde71b902d8fc1a0800000000000000
+      internalID: -6787050942243541581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_147
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 270
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c21dc34d79f46c0800000000000000
+      internalID: -4156936993230476201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_148
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 228
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807928848f917d3b0800000000000000
+      internalID: -5487889066768558328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_149
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 210
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475ffd91a8f2b1600800000000000000
+      internalID: 439997658784855412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_150
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 222
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678ee691cea6f3de0800000000000000
+      internalID: -1351243800916334474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_151
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 206
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8fbfe659a4e7bc0800000000000000
+      internalID: -3783504631272048390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_152
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 206
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff694a5d66775e40800000000000000
+      internalID: 5645110869970481146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_153
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 229
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f942c36a04a8d8260800000000000000
+      internalID: 7101484197704639647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_154
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 193
+        width: 29
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b339dcb0e6f756e0800000000000000
+      internalID: -1848737676910840906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_155
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 241
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad02a0d91fcd35f0800000000000000
+      internalID: -775235851056444000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_156
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 203
+        width: 11
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2d4337eb3f42680800000000000000
+      internalID: -8780625374163447064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_157
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 203
+        width: 62
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02b76075749cd890800000000000000
+      internalID: -7431902052950232564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_158
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 191
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c81c20d89dfef00800000000000000
+      internalID: 1148375629662620803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_159
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 255
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25237c590a13a0430800000000000000
+      internalID: 3749864205516747346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_160
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 191
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a4efce5198bca70800000000000000
+      internalID: 8848316620162878099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_161
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 192
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64e2af8d1ecea280800000000000000
+      internalID: -9030053576472075158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_162
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 130
+        width: 19
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a734a8cef17e8b00800000000000000
+      internalID: 832728320211957667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_163
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 127
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b7052f0402c9c70800000000000000
+      internalID: 8979087220385282894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_164
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 136
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c221c548de61e2e0800000000000000
+      internalID: -2098274076215663935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_165
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 90
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e97425060563c4e0800000000000000
+      internalID: -1962613936072918559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: More_Magic_166
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 0
+        width: 28
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f9d9c1392997f80800000000000000
+      internalID: -8108288493565927657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      More_Magic_0: 2825352926885224070
+      More_Magic_1: 1280108423561327501
+      More_Magic_10: 3128873631780614683
+      More_Magic_100: 4297768224280090530
+      More_Magic_101: 7514741017259556979
+      More_Magic_102: -2594575966269840495
+      More_Magic_103: -8864296526656695083
+      More_Magic_104: 6980187685071670143
+      More_Magic_105: -7558872517426285508
+      More_Magic_106: 4884612046180588297
+      More_Magic_107: 2802576749064846302
+      More_Magic_108: -2786920647202919850
+      More_Magic_109: -3567872335522209740
+      More_Magic_11: -1374589685059367917
+      More_Magic_110: -7487404555036022936
+      More_Magic_111: 4714890490370926823
+      More_Magic_112: 5524348201943852756
+      More_Magic_113: -5449524717699180677
+      More_Magic_114: 393454025141457028
+      More_Magic_115: 8552172703807550578
+      More_Magic_116: 784126766183395209
+      More_Magic_117: -646076307782878384
+      More_Magic_118: -1572155079385246132
+      More_Magic_119: 3107144258877148239
+      More_Magic_12: -879157872675790382
+      More_Magic_120: -2860605284009860791
+      More_Magic_121: 5537516389216969189
+      More_Magic_122: -5634829440933513288
+      More_Magic_123: -6712703562339369469
+      More_Magic_124: -3927959570631391466
+      More_Magic_125: -1010784653597462142
+      More_Magic_126: 5140454446998352509
+      More_Magic_127: -5032317039505262932
+      More_Magic_128: 7354123357429414704
+      More_Magic_129: 8168528348317810363
+      More_Magic_13: 7441127097406118529
+      More_Magic_130: 1146585876338347133
+      More_Magic_131: -4294167074381128991
+      More_Magic_132: -4379009961917552049
+      More_Magic_133: -144050683706505957
+      More_Magic_134: -9081331348370347004
+      More_Magic_135: 8291520084892681192
+      More_Magic_136: 3151500986165022199
+      More_Magic_137: 2267302964418735883
+      More_Magic_138: -5570509015030710223
+      More_Magic_139: 2455838490520827372
+      More_Magic_14: -1856927135634584723
+      More_Magic_140: 1785647885078371243
+      More_Magic_141: -527177531567491374
+      More_Magic_142: 5527347266175295531
+      More_Magic_143: -1802457819301459857
+      More_Magic_144: 1216168260913824985
+      More_Magic_145: 6491499641600745877
+      More_Magic_146: -6787050942243541581
+      More_Magic_147: -4156936993230476201
+      More_Magic_148: -5487889066768558328
+      More_Magic_149: 439997658784855412
+      More_Magic_15: -4331462576482086116
+      More_Magic_150: -1351243800916334474
+      More_Magic_151: -3783504631272048390
+      More_Magic_152: 5645110869970481146
+      More_Magic_153: 7101484197704639647
+      More_Magic_154: -1848737676910840906
+      More_Magic_155: -775235851056444000
+      More_Magic_156: -8780625374163447064
+      More_Magic_157: -7431902052950232564
+      More_Magic_158: 1148375629662620803
+      More_Magic_159: 3749864205516747346
+      More_Magic_16: 7374487334226393829
+      More_Magic_160: 8848316620162878099
+      More_Magic_161: -9030053576472075158
+      More_Magic_162: 832728320211957667
+      More_Magic_163: 8979087220385282894
+      More_Magic_164: -2098274076215663935
+      More_Magic_165: -1962613936072918559
+      More_Magic_166: -8108288493565927657
+      More_Magic_17: 1932552665402788024
+      More_Magic_18: -4240830581762277288
+      More_Magic_19: -5158362592308929282
+      More_Magic_2: 7258204084921844627
+      More_Magic_20: -895191190447108713
+      More_Magic_21: 42168941423519071
+      More_Magic_22: 6129226557092285074
+      More_Magic_23: -2607395120439684152
+      More_Magic_24: -5749080782545223847
+      More_Magic_25: 2540887389493581071
+      More_Magic_26: -8051851780645746261
+      More_Magic_27: 1918568777394129242
+      More_Magic_28: 4359235933124194583
+      More_Magic_29: -664397455226854060
+      More_Magic_3: -3498778520792271676
+      More_Magic_30: -5163626349831287786
+      More_Magic_31: 3115320309565188134
+      More_Magic_32: -8672880059830810589
+      More_Magic_33: -4541215231978303848
+      More_Magic_34: 2279799147829225251
+      More_Magic_35: 4835845053651619626
+      More_Magic_36: 1185342944485881497
+      More_Magic_37: 6022866417611056384
+      More_Magic_38: -3039551657442957185
+      More_Magic_39: -2923422069672155957
+      More_Magic_4: -2707958201787175542
+      More_Magic_40: -3574562880478349226
+      More_Magic_41: -8781665661267703587
+      More_Magic_42: 2359141668495785434
+      More_Magic_43: 3234162092074411280
+      More_Magic_44: 4269770213119510142
+      More_Magic_45: 8065453524115419531
+      More_Magic_46: 639596292742974788
+      More_Magic_47: 6840543973797313074
+      More_Magic_48: -461471808851136027
+      More_Magic_49: 1909279005939508811
+      More_Magic_5: 2131443259188767978
+      More_Magic_50: -2449394685472628643
+      More_Magic_51: 1592007099783361422
+      More_Magic_52: 6720319366063470706
+      More_Magic_53: -8773790307964244877
+      More_Magic_54: 2117369716480278859
+      More_Magic_55: 2469743464579860027
+      More_Magic_56: 5657495140664140889
+      More_Magic_57: -4831456692094814162
+      More_Magic_58: 4412354587437424322
+      More_Magic_59: -1176330659267673646
+      More_Magic_6: -8754086540525397763
+      More_Magic_60: -1695519990935759743
+      More_Magic_61: 6149586962569159368
+      More_Magic_62: -280290604569641026
+      More_Magic_63: 2354089456818103773
+      More_Magic_64: -678073574072498653
+      More_Magic_65: -2890818100449332174
+      More_Magic_66: -2134192253107334891
+      More_Magic_67: -7509384068173192721
+      More_Magic_68: 807171934910386532
+      More_Magic_69: -5834191849165449124
+      More_Magic_7: 1322743644261292698
+      More_Magic_70: 43296093902069741
+      More_Magic_71: -1134336336790879327
+      More_Magic_72: 6869558790527431988
+      More_Magic_73: -3020993414100407185
+      More_Magic_74: -9123138519907224224
+      More_Magic_75: -5636626085656544749
+      More_Magic_76: 5058823508091584589
+      More_Magic_77: 6840158126533466824
+      More_Magic_78: 4044710354797281210
+      More_Magic_79: -5363245929949570809
+      More_Magic_8: 2189530476851201607
+      More_Magic_80: 2524160755540647804
+      More_Magic_81: -4820756211095900088
+      More_Magic_82: -312876621919236152
+      More_Magic_83: -1457609015915335432
+      More_Magic_84: -5412206460645283349
+      More_Magic_85: 8385764422367733667
+      More_Magic_86: -1759112215564089158
+      More_Magic_87: -550382396193428634
+      More_Magic_88: -794634108002459281
+      More_Magic_89: 8126946767113804302
+      More_Magic_9: 1423556950105772485
+      More_Magic_90: -8366217171869000402
+      More_Magic_91: 998175133540520646
+      More_Magic_92: -5081495398853050961
+      More_Magic_93: -4581633642811914718
+      More_Magic_94: 2477091501797872940
+      More_Magic_95: 648173417173157343
+      More_Magic_96: -6650405122233468261
+      More_Magic_97: -7092265381386787974
+      More_Magic_98: -7138587814687864692
+      More_Magic_99: -8764295672078257020
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
