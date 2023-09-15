@@ -9,6 +9,7 @@ public class PlayerCntrl : MonoBehaviour
 
     //MVMT stuff
     public float movSpeed;
+    public float sprintSpeed;
 
     public Rigidbody2D rb;
 
@@ -62,15 +63,22 @@ public class PlayerCntrl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        float currentSpeed = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift) ? sprintSpeed : movSpeed;
+        
+
+
         //Input from user
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
+
+        // Store the input in a member variable to be used in FixedUpdate
+        movement = new Vector2(horizontalInput, verticalInput).normalized * currentSpeed;
 
         mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
-
+        
    
 
 
@@ -102,7 +110,8 @@ public class PlayerCntrl : MonoBehaviour
 
             }
         }
-
+        
+        
 
     }
 
@@ -118,10 +127,9 @@ public class PlayerCntrl : MonoBehaviour
     public void FixedUpdate()
     {
         //movement
-        Vector2 normalizedMovement = movement.normalized;
-        Vector2 velocity = normalizedMovement * movSpeed * Time.fixedDeltaTime;
+        
 
-        rb.MovePosition(rb.position + velocity);
+        rb.velocity = movement;
 
 
 
