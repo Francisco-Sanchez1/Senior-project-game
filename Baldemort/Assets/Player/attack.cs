@@ -69,18 +69,6 @@ public class attack : MonoBehaviour
     }
 
 
-    void OnTriggerEnter2D(Collider2D hitInfo)
-    {
-        Enemy enemy = hitInfo.GetComponent<Enemy>();
-        if (enemy != null)
-        {
-            enemy.TakeDamage(damage);
-        }
-        if (hitInfo.gameObject.CompareTag("Player") || (hitInfo.gameObject.CompareTag("Attack")))
-        {
-            return;
-        }
-        Destroy(gameObject);
-    }
+
 
 }

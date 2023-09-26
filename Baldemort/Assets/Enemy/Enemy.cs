@@ -2,24 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum EnemyState
+{
+    idle,
+    walk,
+    attack,
+    stagger
+}
+
 public class Enemy : MonoBehaviour
 {
-
-    public float maxHealth = 40f;
+    public EnemyState currentState;
+    public float maxHealth;
     public float currentHealth;
     public HealthBar healthBar;
     public const float Between_Hit = 2.0f;
+    public int baseAttack;
 
-
-    // Start is called before the first frame update
-    public void Start()
+    private void Awake()
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
-    }
-
-    void update()
-    {
+        currentState = EnemyState.idle;
     }
 
     public void TakeDamage(float damage)
@@ -42,10 +46,26 @@ public class Enemy : MonoBehaviour
 
     IEnumerator Inv_Frame()
     {
-        float timeBetweenDamage = 5f;
+        float timeBetweenDamage = 2f;
         yield return new WaitForSeconds(timeBetweenDamage);
     }
 
+    public void Knock(Rigidbody2D myrigidbod, float KnockTime, float damage)
+    {
+        StartCoroutine(KnockCo(myrigidbod, KnockTime));
+        TakeDamage(damage);
+    }
+
+    private IEnumerator KnockCo(Rigidbody2D myrigidbod, float KnockTime)
+    {
+        if (myrigidbod != null)
+        {
+            yield return new WaitForSeconds(KnockTime);
+            myrigidbod.velocity = Vector2.zero;
+            currentState = EnemyState.idle;
+            myrigidbod.velocity = Vector2.zero;
+        }
+    }
 
 }
 

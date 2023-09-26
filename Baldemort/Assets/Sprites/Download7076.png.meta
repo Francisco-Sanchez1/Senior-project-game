@@ -1,0 +1,4648 @@
+fileFormatVersion: 2
+guid: 9614bd8e5ae69d74689f417d125c81f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2375652387590139056
+    second: Download7076_0
+  - first:
+      213: -8866562732098850363
+    second: Download7076_1
+  - first:
+      213: -3617224509378499261
+    second: Download7076_2
+  - first:
+      213: 2651253985673120000
+    second: Download7076_3
+  - first:
+      213: -2620832503861911404
+    second: Download7076_4
+  - first:
+      213: -8048429107118650257
+    second: Download7076_5
+  - first:
+      213: 7633040457544119855
+    second: Download7076_6
+  - first:
+      213: 8976035980875747414
+    second: Download7076_7
+  - first:
+      213: -8577512572439455448
+    second: Download7076_8
+  - first:
+      213: -880050037409104390
+    second: Download7076_9
+  - first:
+      213: 2147949411471714558
+    second: Download7076_10
+  - first:
+      213: -4158446635945571450
+    second: Download7076_11
+  - first:
+      213: -2711412495138062388
+    second: Download7076_12
+  - first:
+      213: 3725975979906369512
+    second: Download7076_13
+  - first:
+      213: 8250460924711459836
+    second: Download7076_14
+  - first:
+      213: 2421979520138215434
+    second: Download7076_15
+  - first:
+      213: 88721566282097513
+    second: Download7076_16
+  - first:
+      213: 2831399294162208130
+    second: Download7076_17
+  - first:
+      213: 5506584053113259251
+    second: Download7076_18
+  - first:
+      213: 4905859037239727341
+    second: Download7076_19
+  - first:
+      213: 6826995991467278555
+    second: Download7076_20
+  - first:
+      213: -5557225395963471700
+    second: Download7076_21
+  - first:
+      213: 4379320395249124874
+    second: Download7076_22
+  - first:
+      213: 2534974903628460985
+    second: Download7076_23
+  - first:
+      213: 5233204869568390079
+    second: Download7076_24
+  - first:
+      213: -7755651952376284711
+    second: Download7076_25
+  - first:
+      213: -2532110858966276966
+    second: Download7076_26
+  - first:
+      213: -1750501318371903147
+    second: Download7076_27
+  - first:
+      213: 1725427083751273967
+    second: Download7076_28
+  - first:
+      213: 9129693279230422207
+    second: Download7076_29
+  - first:
+      213: 8480742601797702099
+    second: Download7076_30
+  - first:
+      213: -2159768807673903305
+    second: Download7076_31
+  - first:
+      213: 6886375907816888083
+    second: Download7076_32
+  - first:
+      213: -3702391610273788426
+    second: Download7076_33
+  - first:
+      213: -3579980287494042877
+    second: Download7076_34
+  - first:
+      213: -2676724054231185535
+    second: Download7076_35
+  - first:
+      213: -1719893112939553508
+    second: Download7076_36
+  - first:
+      213: -496640808435406735
+    second: Download7076_37
+  - first:
+      213: 8679732141044231002
+    second: Download7076_38
+  - first:
+      213: 5393073885686301205
+    second: Download7076_39
+  - first:
+      213: -7832957589169621763
+    second: Download7076_40
+  - first:
+      213: 6787189396104542747
+    second: Download7076_41
+  - first:
+      213: 3653165271361960261
+    second: Download7076_42
+  - first:
+      213: 3014187196043747270
+    second: Download7076_43
+  - first:
+      213: 420220351322377971
+    second: Download7076_44
+  - first:
+      213: -3614969872095065060
+    second: Download7076_45
+  - first:
+      213: -74146221758477810
+    second: Download7076_46
+  - first:
+      213: -6664992240278968106
+    second: Download7076_47
+  - first:
+      213: 1528900799222320250
+    second: Download7076_48
+  - first:
+      213: 1260654055334077502
+    second: Download7076_49
+  - first:
+      213: 6131891148151836553
+    second: Download7076_50
+  - first:
+      213: -57281733188597072
+    second: Download7076_51
+  - first:
+      213: -9001577906463032650
+    second: Download7076_52
+  - first:
+      213: 8428012998050132995
+    second: Download7076_53
+  - first:
+      213: -8886510954353649544
+    second: Download7076_54
+  - first:
+      213: 3917966077191029538
+    second: Download7076_55
+  - first:
+      213: 6496174232335488253
+    second: Download7076_56
+  - first:
+      213: 4408292217684754011
+    second: Download7076_57
+  - first:
+      213: 2009384316575377780
+    second: Download7076_58
+  - first:
+      213: 1441821230325653908
+    second: Download7076_59
+  - first:
+      213: 9213929034450973724
+    second: Download7076_60
+  - first:
+      213: -6099469879621852668
+    second: Download7076_61
+  - first:
+      213: -7883224045554993660
+    second: Download7076_62
+  - first:
+      213: -178354809927573380
+    second: Download7076_63
+  - first:
+      213: 5638429951424188348
+    second: Download7076_64
+  - first:
+      213: 7150426368665435644
+    second: Download7076_65
+  - first:
+      213: -3338059076157826138
+    second: Download7076_66
+  - first:
+      213: -4767162412837468980
+    second: Download7076_67
+  - first:
+      213: 7789080579164661576
+    second: Download7076_68
+  - first:
+      213: -942345620586988118
+    second: Download7076_69
+  - first:
+      213: -30179926093913032
+    second: Download7076_70
+  - first:
+      213: 931339798243060659
+    second: Download7076_71
+  - first:
+      213: 7742179945915374233
+    second: Download7076_72
+  - first:
+      213: 2682224756507042263
+    second: Download7076_73
+  - first:
+      213: -6730675289018678882
+    second: Download7076_74
+  - first:
+      213: 6001310119742743955
+    second: Download7076_75
+  - first:
+      213: -6510728419033096200
+    second: Download7076_76
+  - first:
+      213: -4102797889492598566
+    second: Download7076_77
+  - first:
+      213: 1985692829516855703
+    second: Download7076_78
+  - first:
+      213: 7290318143688265449
+    second: Download7076_79
+  - first:
+      213: 4433404529824677661
+    second: Download7076_80
+  - first:
+      213: 8399739336855282529
+    second: Download7076_81
+  - first:
+      213: -970578671851771763
+    second: Download7076_82
+  - first:
+      213: -8349607618014144696
+    second: Download7076_83
+  - first:
+      213: 4925719071428785135
+    second: Download7076_84
+  - first:
+      213: 4545872511466577386
+    second: Download7076_85
+  - first:
+      213: 947616763278463961
+    second: Download7076_86
+  - first:
+      213: -5296399944532220679
+    second: Download7076_87
+  - first:
+      213: -4477651066337703593
+    second: Download7076_88
+  - first:
+      213: 8767767658228857094
+    second: Download7076_89
+  - first:
+      213: 5283150191257061840
+    second: Download7076_90
+  - first:
+      213: 2410556685436547409
+    second: Download7076_91
+  - first:
+      213: -3265351653289329116
+    second: Download7076_92
+  - first:
+      213: 8932187725218627208
+    second: Download7076_93
+  - first:
+      213: -1196782687110568348
+    second: Download7076_94
+  - first:
+      213: 4363326340581576619
+    second: Download7076_95
+  - first:
+      213: -6942362006719808780
+    second: Download7076_96
+  - first:
+      213: 652408205234049560
+    second: Download7076_97
+  - first:
+      213: 8860184768918279927
+    second: Download7076_98
+  - first:
+      213: -2590731423669630973
+    second: Download7076_99
+  - first:
+      213: 1459784547326360848
+    second: Download7076_100
+  - first:
+      213: 1065228577769677222
+    second: Download7076_101
+  - first:
+      213: 1623747478604385282
+    second: Download7076_102
+  - first:
+      213: 3919347689193855024
+    second: Download7076_103
+  - first:
+      213: 2166719063352649778
+    second: Download7076_104
+  - first:
+      213: 1283198955878693678
+    second: Download7076_105
+  - first:
+      213: 2599544619917463659
+    second: Download7076_106
+  - first:
+      213: 2596794884023290833
+    second: Download7076_107
+  - first:
+      213: -9088575092038428664
+    second: Download7076_108
+  - first:
+      213: -906736782876874722
+    second: Download7076_109
+  - first:
+      213: -2283037144916446236
+    second: Download7076_110
+  - first:
+      213: 7112808271948354832
+    second: Download7076_111
+  - first:
+      213: 1296438580572669463
+    second: Download7076_112
+  - first:
+      213: 7219074710422633002
+    second: Download7076_113
+  - first:
+      213: 8719494832762607505
+    second: Download7076_114
+  - first:
+      213: 4409851089946026681
+    second: Download7076_115
+  - first:
+      213: 2932616757604656974
+    second: Download7076_116
+  - first:
+      213: 4792387636463931850
+    second: Download7076_117
+  - first:
+      213: 3035993724295865108
+    second: Download7076_118
+  - first:
+      213: -8978225590138898424
+    second: Download7076_119
+  - first:
+      213: -3456620829711682385
+    second: Download7076_120
+  - first:
+      213: 7774441682515577315
+    second: Download7076_121
+  - first:
+      213: 6332014637884406513
+    second: Download7076_122
+  - first:
+      213: 7200886003021182180
+    second: Download7076_123
+  - first:
+      213: -7839323962862138388
+    second: Download7076_124
+  - first:
+      213: -1595926317652172930
+    second: Download7076_125
+  - first:
+      213: -827231485915488884
+    second: Download7076_126
+  - first:
+      213: -3106924629145123372
+    second: Download7076_127
+  - first:
+      213: 1407658339542157845
+    second: Download7076_128
+  - first:
+      213: 1158188056183552501
+    second: Download7076_129
+  - first:
+      213: -6385254550711887593
+    second: Download7076_130
+  - first:
+      213: 1124088007656006527
+    second: Download7076_131
+  - first:
+      213: -5374322618333776560
+    second: Download7076_132
+  - first:
+      213: 2689410421666677407
+    second: Download7076_133
+  - first:
+      213: 8265731258291439051
+    second: Download7076_134
+  - first:
+      213: 803573576506445279
+    second: Download7076_135
+  - first:
+      213: 5843703559437159319
+    second: Download7076_136
+  - first:
+      213: -2458404464897915515
+    second: Download7076_137
+  - first:
+      213: 4514421575931741105
+    second: Download7076_138
+  - first:
+      213: -3662379752505548264
+    second: Download7076_139
+  - first:
+      213: 4401609346144989996
+    second: Download7076_140
+  - first:
+      213: -8457011769001799329
+    second: Download7076_141
+  - first:
+      213: -3194231259179338684
+    second: Download7076_142
+  - first:
+      213: 6900184004821352018
+    second: Download7076_143
+  - first:
+      213: 8231364553104763097
+    second: Download7076_144
+  - first:
+      213: -2111873637664472722
+    second: Download7076_145
+  - first:
+      213: -8544382301255151053
+    second: Download7076_146
+  - first:
+      213: -34613822720776732
+    second: Download7076_147
+  - first:
+      213: 3957079302570940158
+    second: Download7076_148
+  - first:
+      213: 8982094242985888692
+    second: Download7076_149
+  - first:
+      213: 2952332807634701166
+    second: Download7076_150
+  - first:
+      213: -8471524506622884341
+    second: Download7076_151
+  - first:
+      213: -1191389330856811890
+    second: Download7076_152
+  - first:
+      213: -7777459780298923060
+    second: Download7076_153
+  - first:
+      213: 1330271958780400940
+    second: Download7076_154
+  - first:
+      213: -4898217255569754153
+    second: Download7076_155
+  - first:
+      213: 4088912525989738032
+    second: Download7076_156
+  - first:
+      213: 29436207923494422
+    second: Download7076_157
+  - first:
+      213: -2517731090313727971
+    second: Download7076_158
+  - first:
+      213: 1403625432863485076
+    second: Download7076_159
+  - first:
+      213: 1601973062558572925
+    second: Download7076_160
+  - first:
+      213: -7092921004417286547
+    second: Download7076_161
+  - first:
+      213: -7932663135890120904
+    second: Download7076_162
+  - first:
+      213: -1697928868657194428
+    second: Download7076_163
+  - first:
+      213: -4659227758399403916
+    second: Download7076_164
+  - first:
+      213: 3894736491625892742
+    second: Download7076_165
+  - first:
+      213: -6923367130692906635
+    second: Download7076_166
+  - first:
+      213: -6252550397502759925
+    second: Download7076_167
+  - first:
+      213: -4906451987499699363
+    second: Download7076_168
+  - first:
+      213: 3180757089261873715
+    second: Download7076_169
+  - first:
+      213: 160291164122104677
+    second: Download7076_170
+  - first:
+      213: -7789023455245459477
+    second: Download7076_171
+  - first:
+      213: -1636915166838044476
+    second: Download7076_172
+  - first:
+      213: 1557061692077468470
+    second: Download7076_173
+  - first:
+      213: 4507564300932457638
+    second: Download7076_174
+  - first:
+      213: 4390555243613469156
+    second: Download7076_175
+  - first:
+      213: -1319216521240453609
+    second: Download7076_176
+  - first:
+      213: -2529720967684910057
+    second: Download7076_177
+  - first:
+      213: 6226868354213170117
+    second: Download7076_178
+  - first:
+      213: -3319342958361731905
+    second: Download7076_179
+  - first:
+      213: -5836097951529617182
+    second: Download7076_180
+  - first:
+      213: -799614949579573705
+    second: Download7076_181
+  - first:
+      213: -3477927123646580719
+    second: Download7076_182
+  - first:
+      213: -6608483190609036998
+    second: Download7076_183
+  - first:
+      213: -2067960573531017623
+    second: Download7076_184
+  - first:
+      213: 4935923316263231736
+    second: Download7076_185
+  - first:
+      213: 2956840456896312558
+    second: Download7076_186
+  - first:
+      213: 1081334327921706961
+    second: Download7076_187
+  - first:
+      213: -6685480489244826447
+    second: Download7076_188
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Download7076_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1281
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05391ef7dbcf70fd0800000000000000
+      internalID: -2375652387590139056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1281
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1f7861c24a3f480800000000000000
+      internalID: -8866562732098850363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_2
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1281
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d68ad39790dcdc0800000000000000
+      internalID: -3617224509378499261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1281
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0098269f3752bc420800000000000000
+      internalID: 2651253985673120000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1281
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490638739bee0abd0800000000000000
+      internalID: -2620832503861911404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1281
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c47469e5c3e4090800000000000000
+      internalID: -8048429107118650257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_6
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1281
+        width: 81
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f263a14cad10ee960800000000000000
+      internalID: 7633040457544119855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_7
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1217
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6505933ea29419c70800000000000000
+      internalID: 8976035980875747414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_8
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1217
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8299c4fc2cd86f880800000000000000
+      internalID: -8577512572439455448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1217
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd39a7572f69c3f0800000000000000
+      internalID: -880050037409104390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_10
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1217
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8e7420c9c0fcd10800000000000000
+      internalID: 2147949411471714558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_11
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1217
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bcb0721da3a46c0800000000000000
+      internalID: -4158446635945571450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_12
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1217
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf7dbb83b02f5ad0800000000000000
+      internalID: -2711412495138062388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_13
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1217
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e705f3a96355b330800000000000000
+      internalID: 3725975979906369512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1153
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfbdaaa8f768f7270800000000000000
+      internalID: 8250460924711459836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1153
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a000c179a899c9120800000000000000
+      internalID: 2421979520138215434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1153
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96329226bc33b3100800000000000000
+      internalID: 88721566282097513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_17
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1153
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28584d918a62b4720800000000000000
+      internalID: 2831399294162208130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_18
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1153
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f485ab65015b6c40800000000000000
+      internalID: 5506584053113259251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_19
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1153
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de450d05dcc151440800000000000000
+      internalID: 4905859037239727341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_20
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1153
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd04c6aeeac5ebe50800000000000000
+      internalID: 6826995991467278555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_21
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1162
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca851d022f4c0e2b0800000000000000
+      internalID: -5557225395963471700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_22
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1162
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06827462b876cc30800000000000000
+      internalID: 4379320395249124874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_23
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1162
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3fd457e3a0e2320800000000000000
+      internalID: 2534974903628460985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_24
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1162
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3e7772a1410a840800000000000000
+      internalID: 5233204869568390079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_25
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1162
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9fb09f3a36e5490800000000000000
+      internalID: -7755651952376284711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_26
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1088
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94e767e6922cdcd0800000000000000
+      internalID: -2532110858966276966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_27
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1089
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559f6935358f4b7e0800000000000000
+      internalID: -1750501318371903147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_28
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1089
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe535dc7ac2f1f710800000000000000
+      internalID: 1725427083751273967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_29
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1089
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbcecc09aaf23be70800000000000000
+      internalID: 9129693279230422207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_30
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1089
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d19ca3a676a1b570800000000000000
+      internalID: 8480742601797702099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_31
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1089
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737c0ad56b5f602e0800000000000000
+      internalID: -2159768807673903305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_32
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1089
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317db3f0762519f50800000000000000
+      internalID: 6886375907816888083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_33
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1025
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd8e3252767e9cc0800000000000000
+      internalID: -3702391610273788426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_34
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1023
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b440565ea515ec0800000000000000
+      internalID: -3579980287494042877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_35
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1023
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1878ec197ad5adad0800000000000000
+      internalID: -2676724054231185535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_36
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1023
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1dd89f7356b128e0800000000000000
+      internalID: -1719893112939553508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_37
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1023
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178ae38e0d39b19f0800000000000000
+      internalID: -496640808435406735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_38
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1023
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b6b74256a947870800000000000000
+      internalID: 8679732141044231002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_39
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1023
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51284c3102c08da40800000000000000
+      internalID: 5393073885686301205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_40
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1023
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df438dcc29ebb4390800000000000000
+      internalID: -7832957589169621763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_41
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 961
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1afb12bbc0f03e50800000000000000
+      internalID: 6787189396104542747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_42
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 961
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549b2518576a2b230800000000000000
+      internalID: 3653165271361960261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_43
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 961
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfd7b2f84b84d920800000000000000
+      internalID: 3014187196043747270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_44
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 961
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fec5ffde2ce4d500800000000000000
+      internalID: 420220351322377971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_45
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 961
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1cc804ed0c05ddc0800000000000000
+      internalID: -3614969872095065060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_46
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 961
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a06a6776498fef0800000000000000
+      internalID: -74146221758477810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_47
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 961
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8ef6fbed03183a0800000000000000
+      internalID: -6664992240278968106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_48
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 961
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c057a2d2fb73510800000000000000
+      internalID: 1528900799222320250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_49
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 897
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34e7d02f2ebe7110800000000000000
+      internalID: 1260654055334077502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_50
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 898
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98fc3f6d28ad81550800000000000000
+      internalID: 6131891148151836553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_51
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 898
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bacc21319e743ff0800000000000000
+      internalID: -57281733188597072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_52
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 898
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba34432698f31380800000000000000
+      internalID: -9001577906463032650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_53
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 898
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304372f0b2156f470800000000000000
+      internalID: 8428012998050132995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_54
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 896
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8781229ae55cca480800000000000000
+      internalID: -8886510954353649544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_55
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 898
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223800193696f5630800000000000000
+      internalID: 3917966077191029538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_56
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 898
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4176dcb0c072a50800000000000000
+      internalID: 6496174232335488253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_57
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 833
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ef7357a666d2d30800000000000000
+      internalID: 4408292217684754011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_58
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 833
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47967b6c364c2eb10800000000000000
+      internalID: 2009384316575377780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_59
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 833
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4916d2715c0620410800000000000000
+      internalID: 1441821230325653908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_60
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 833
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14bb1ca3a37edf70800000000000000
+      internalID: 9213929034450973724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_61
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 833
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402e1faf5745a5ba0800000000000000
+      internalID: -6099469879621852668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_62
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 833
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40670e76f79299290800000000000000
+      internalID: -7883224045554993660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_63
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 833
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70e84ece3b568df0800000000000000
+      internalID: -178354809927573380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_64
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 833
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbfcf89ca2abf3e40800000000000000
+      internalID: 5638429951424188348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_65
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 770
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfdb3e0d5ea6b3360800000000000000
+      internalID: 7150426368665435644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_66
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 770
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab185eb4f4dca1d0800000000000000
+      internalID: -3338059076157826138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_67
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 769
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc48a340b03a7ddb0800000000000000
+      internalID: -4767162412837468980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_68
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 768
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847e008b48f581c60800000000000000
+      internalID: 7789080579164661576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_69
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 769
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad744d96ad1ce2f0800000000000000
+      internalID: -942345620586988118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_70
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 770
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83423d16487c49ff0800000000000000
+      internalID: -30179926093913032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_71
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 769
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb267fac98ccec00800000000000000
+      internalID: 931339798243060659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_72
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 768
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a507714afb17b60800000000000000
+      internalID: 7742179945915374233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_73
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 769
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d16c5b743d293520800000000000000
+      internalID: 2682224756507042263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_74
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 704
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91ca8b3c76d792a0800000000000000
+      internalID: -6730675289018678882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_75
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 705
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3952932f1cfe84350800000000000000
+      internalID: 6001310119742743955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_76
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 704
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffdd7a8ffe35a5a0800000000000000
+      internalID: -6510728419033096200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_77
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 706
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0429b9e0fef07c0800000000000000
+      internalID: -4102797889492598566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_78
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 705
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79974689b199e8b10800000000000000
+      internalID: 1985692829516855703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_79
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 705
+        width: 45
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eecf16d9b96c2560800000000000000
+      internalID: 7290318143688265449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_80
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 705
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1fbec14eed968d30800000000000000
+      internalID: 4433404529824677661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_81
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 705
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16362235c6ed19470800000000000000
+      internalID: 8399739336855282529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_82
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 705
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8864bd17dfc782f0800000000000000
+      internalID: -970578671851771763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_83
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 641
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8471f5a0c1c302c80800000000000000
+      internalID: -8349607618014144696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_84
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 641
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe331ebd56bab5440800000000000000
+      internalID: 4925719071428785135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_85
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 640
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed9d20d6fe261f30800000000000000
+      internalID: 4545872511466577386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_86
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 640
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d31b6eec6c962d00800000000000000
+      internalID: 947616763278463961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_87
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 640
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f422cddf486f76b0800000000000000
+      internalID: -5296399944532220679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_88
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 641
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759caca24103cd1c0800000000000000
+      internalID: -4477651066337703593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_89
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 640
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609b3e54b3e5da970800000000000000
+      internalID: 8767767658228857094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_90
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 640
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d90aec8b15815940800000000000000
+      internalID: 5283150191257061840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_91
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 640
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1517362a884047120800000000000000
+      internalID: 2410556685436547409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_92
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 576
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e74fec8f32fa2d0800000000000000
+      internalID: -3265351653289329116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_93
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 577
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88eb2cc496185fb70800000000000000
+      internalID: 8932187725218627208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_94
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 576
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466ef65ac7c246fe0800000000000000
+      internalID: -1196782687110568348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_95
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 578
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf48795036ad8c30800000000000000
+      internalID: 4363326340581576619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_96
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 577
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa3c4f7986c7af90800000000000000
+      internalID: -6942362006719808780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_97
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 577
+        width: 45
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81296895ec1dd0900800000000000000
+      internalID: 652408205234049560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_98
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 577
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f653b3aa13b5fa70800000000000000
+      internalID: 8860184768918279927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_99
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 577
+        width: 35
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308cab71f7fdb0cd0800000000000000
+      internalID: -2590731423669630973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_100
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 577
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01dfdffbf42324410800000000000000
+      internalID: 1459784547326360848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_101
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 513
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a16e866fb378ce00800000000000000
+      internalID: 1065228577769677222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_102
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 512
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c86239ab5b88610800000000000000
+      internalID: 1623747478604385282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_103
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 512
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038d5ad25f1546630800000000000000
+      internalID: 3919347689193855024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_104
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 512
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238a333228bb11e10800000000000000
+      internalID: 2166719063352649778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_105
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 512
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b3d45d6a6dec110800000000000000
+      internalID: 1283198955878693678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_106
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 512
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6055ff0f00731420800000000000000
+      internalID: 2599544619917463659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_107
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 514
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db82c8403ba90420800000000000000
+      internalID: 2596794884023290833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_108
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 512
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808169c6b15eed180800000000000000
+      internalID: -9088575092038428664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_109
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 512
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e18e7d733bf9a63f0800000000000000
+      internalID: -906736782876874722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_110
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 515
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3bb3010d50150e0800000000000000
+      internalID: -2283037144916446236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_111
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 515
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01511f42075c5b260800000000000000
+      internalID: 7112808271948354832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_112
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 515
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716452c2500edf110800000000000000
+      internalID: 1296438580572669463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_113
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 448
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a3fb9633e4f2460800000000000000
+      internalID: 7219074710422633002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_114
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 449
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1975baf3a5ed10970800000000000000
+      internalID: 8719494832762607505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_115
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 449
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b22a90b330f23d30800000000000000
+      internalID: 4409851089946026681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_116
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 449
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e472263476fb2b820800000000000000
+      internalID: 2932616757604656974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_117
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 449
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac118690a2bf18240800000000000000
+      internalID: 4792387636463931850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_118
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 449
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41368f4f434022a20800000000000000
+      internalID: 3035993724295865108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_119
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 385
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808f27af46fe66380800000000000000
+      internalID: -8978225590138898424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_120
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 385
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4b1d95bad9700d0800000000000000
+      internalID: -3456620829711682385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_121
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 385
+        width: 38
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9c45df48d54eb60800000000000000
+      internalID: 7774441682515577315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_122
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 385
+        width: 39
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa7ca3c3c5dfd750800000000000000
+      internalID: 6332014637884406513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_123
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 385
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4f826faafaee360800000000000000
+      internalID: 7200886003021182180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_124
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 385
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb056ae360253390800000000000000
+      internalID: -7839323962862138388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_125
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 320
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f15ac38712ad9e0800000000000000
+      internalID: -1595926317652172930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_126
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 321
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d1dfea8551584f0800000000000000
+      internalID: -827231485915488884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_127
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 321
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d584efc28cf1e4d0800000000000000
+      internalID: -3106924629145123372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_128
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 321
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ac68d3dc1098310800000000000000
+      internalID: 1407658339542157845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_129
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 321
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9bbe796e5b21010800000000000000
+      internalID: 1158188056183552501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_130
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 321
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7191f5011d40367a0800000000000000
+      internalID: -6385254550711887593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_131
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 257
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73ec985610999f00800000000000000
+      internalID: 1124088007656006527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_132
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 255
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0553ed19d029a65b0800000000000000
+      internalID: -5374322618333776560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_133
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 255
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f920da68784b25520800000000000000
+      internalID: 2689410421666677407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_134
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 255
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5cd4329c6c5b270800000000000000
+      internalID: 8265731258291439051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_135
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 255
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd8e8a09edd62b00800000000000000
+      internalID: 803573576506445279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_136
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 255
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b00f01d61091150800000000000000
+      internalID: 5843703559437159319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_137
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 255
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58586831a2ef1edd0800000000000000
+      internalID: -2458404464897915515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_138
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 255
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b345cf318276ae30800000000000000
+      internalID: 4514421575931741105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_139
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 255
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812e25be40d9c2dc0800000000000000
+      internalID: -3662379752505548264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_140
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 255
+        width: 35
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23f20d2168a51d30800000000000000
+      internalID: 4401609346144989996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_141
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 255
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51995f6a98a2aa80800000000000000
+      internalID: -8457011769001799329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_142
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 255
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444ba22f79fcba3d0800000000000000
+      internalID: -3194231259179338684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_143
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 255
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e753c2bc062cf50800000000000000
+      internalID: 6900184004821352018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_144
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 193
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d82d8c037eab3270800000000000000
+      internalID: 8231364553104763097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_145
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 193
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e614f70ad1e11b2e0800000000000000
+      internalID: -2111873637664472722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_146
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 193
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3325d8c21914c6980800000000000000
+      internalID: -8544382301255151053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_147
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 193
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5e86069e6058ff0800000000000000
+      internalID: -34613822720776732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_148
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 193
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef69ac109ae5ae630800000000000000
+      internalID: 3957079302570940158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_149
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 193
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb4144ff1fc6ac70800000000000000
+      internalID: 8982094242985888692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_150
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 193
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b4cc1eb0bc8f820800000000000000
+      internalID: 2952332807634701166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_151
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 193
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b060ab468591f6a80800000000000000
+      internalID: -8471524506622884341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_152
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 193
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82e61147b5577fe0800000000000000
+      internalID: -1191389330856811890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_153
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 193
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3256c5989e01490800000000000000
+      internalID: -7777459780298923060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_154
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 193
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25d4c56c43167210800000000000000
+      internalID: 1330271958780400940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_155
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 193
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d77311ab59060cb0800000000000000
+      internalID: -4898217255569754153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_156
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 193
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0367345474cbeb830800000000000000
+      internalID: 4088912525989738032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_157
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 129
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e70dc3314986000800000000000000
+      internalID: 29436207923494422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_158
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 130
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10b4e1b9e83f0dd0800000000000000
+      internalID: -2517731090313727971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_159
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 130
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c288bf4edaa7310800000000000000
+      internalID: 1403625432863485076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_160
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 129
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d716c85430a5b3610800000000000000
+      internalID: 1601973062558572925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_161
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 129
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6efcc72de1e09d90800000000000000
+      internalID: -7092921004417286547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_162
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 129
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fde6e28e489e190800000000000000
+      internalID: -7932663135890120904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_163
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 129
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a9ec1a0bebf68e0800000000000000
+      internalID: -1697928868657194428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_164
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 129
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478c6f41a09175fb0800000000000000
+      internalID: -4659227758399403916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_165
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 129
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bcc153432ec0630800000000000000
+      internalID: 3894736491625892742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_166
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 129
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5711f65b6424bef90800000000000000
+      internalID: -6923367130692906635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_167
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 129
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0cde987a8a7a39a0800000000000000
+      internalID: -6252550397502759925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_168
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 129
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d533291b9e7c8ebb0800000000000000
+      internalID: -4906451987499699363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_169
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 129
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a624668b1542c20800000000000000
+      internalID: 3180757089261873715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_170
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 65
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563c12ae6f7793200800000000000000
+      internalID: 160291164122104677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_171
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 65
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef98ea7f64d7e390800000000000000
+      internalID: -7789023455245459477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_172
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 65
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c84b2914528849e0800000000000000
+      internalID: -1636915166838044476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_173
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 65
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b65a9fb5bcb9510800000000000000
+      internalID: 1557061692077468470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_174
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 65
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4af4f79d51e8e30800000000000000
+      internalID: 4507564300932457638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_175
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 65
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e93f4e5bb26eec30800000000000000
+      internalID: 4390555243613469156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_176
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 65
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ed2ad309331bde0800000000000000
+      internalID: -1319216521240453609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_177
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 65
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7149844de20a4ecd0800000000000000
+      internalID: -2529720967684910057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_178
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 65
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb4ffbd6c74a6650800000000000000
+      internalID: 6226868354213170117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_179
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 65
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc972f7a235fe1d0800000000000000
+      internalID: -3319342958361731905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_180
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 65
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e831b485d3020fa0800000000000000
+      internalID: -5836097951529617182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_181
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 65
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736b73d907237e4f0800000000000000
+      internalID: -799614949579573705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_182
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 65
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118795835bbebbfc0800000000000000
+      internalID: -3477927123646580719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_183
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1
+        width: 34
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39bb972d83f944a0800000000000000
+      internalID: -6608483190609036998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_184
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1
+        width: 45
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96eab2d90d02d43e0800000000000000
+      internalID: -2067960573531017623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_185
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f02070ca1cef7440800000000000000
+      internalID: 4935923316263231736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_186
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4fec2cabec80920800000000000000
+      internalID: 2956840456896312558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_187
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7853397dba10f00800000000000000
+      internalID: 1081334327921706961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Download7076_188
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 51
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4e1cd8ae66833a0800000000000000
+      internalID: -6685480489244826447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
