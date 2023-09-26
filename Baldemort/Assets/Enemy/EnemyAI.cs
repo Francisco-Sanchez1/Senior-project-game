@@ -10,6 +10,8 @@ public class EnemyAI : MonoBehaviour
     public float speed = 100f;
     public float nextWaypointDistance = 3f;
 
+    public Transform graph;
+
     Path path;
     int currentWayPoint = 0;
     bool reachEndPath = false;

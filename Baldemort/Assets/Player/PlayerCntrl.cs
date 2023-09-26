@@ -2,7 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
+public enum PlayerState
+{
+    walk,
+    attack,
+    interact,
+    stagger,
+    idle
+}
 
 public class PlayerCntrl : MonoBehaviour
 {
@@ -38,7 +45,12 @@ public class PlayerCntrl : MonoBehaviour
 
     public Animator animator;
 
+    public float KnockbackForce = 500f;
 
+    public PlayerState currentState;
+
+    private float inv_frame;
+    private float total_frame = 2.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -53,8 +65,11 @@ public class PlayerCntrl : MonoBehaviour
         manaBar.SetMaxMana(maxMana);
 
         ManaRegenTimer = ManaUseTimer;
-
-
+        animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+        inv_frame = 0;
+        currentState = PlayerState.walk;
+        
 
     }
 
@@ -63,38 +78,36 @@ public class PlayerCntrl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float currentSpeed = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift) ? sprintSpeed : movSpeed;
-        
 
-
-        //Input from user
+        inv_frame =  inv_frame - Time.deltaTime;
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
-
-        // Store the input in a member variable to be used in FixedUpdate
+        float currentSpeed = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift) ? sprintSpeed : movSpeed;
         movement = new Vector2(horizontalInput, verticalInput).normalized * currentSpeed;
-
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-        animator.SetFloat("Horizontal", movement.x);
-        animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Speed", movement.sqrMagnitude);
         
-   
 
-
+        if (Input.GetKeyDown(KeyCode.Mouse0) && currentState != PlayerState.attack && currentState != PlayerState.stagger)
+        {
+            StartCoroutine(Attackco());
+        }
+        else if (currentState == PlayerState.walk || currentState == PlayerState.idle)
+        {
+            
+            UpdateAnimateAndMove();
+        }
 
         // TESTING PURPOSES REMOVE WHEN ENEMIES IN
         //For Testing Health
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            takeDamage(20f);
-        }
+        //if (Input.GetKeyDown(KeyCode.E))
+        //{
+        //    takeDamage(20f);
+        //}
 
         //For Testing Mana
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            useMana(20f);
-        }
+        //if (Input.GetKeyDown(KeyCode.F))
+        //{
+        //  useMana(20f);
+        //}
 
         //MANA_REGEN TESTING
         if (currentMana < maxMana)
@@ -116,42 +129,53 @@ public class PlayerCntrl : MonoBehaviour
     }
 
 
-
-    private Vector2 GetPointer()
+    void UpdateAnimateAndMove()
     {
-        Vector3 mousePos = Input.mousePosition;
-        return Camera.main.ScreenToWorldPoint(mousePos);
+        if (movement != Vector2.zero)
+        {
+
+
+            animator.SetFloat("Horizontal", movement.x);
+            animator.SetFloat("Vertical", movement.y);
+            animator.SetBool("Move", true);
+        }
+
+        else
+        {
+            animator.SetBool("Move", false);
+        }
     }
 
 
     public void FixedUpdate()
     {
         //movement
-        
 
-        rb.velocity = movement;
+        if(currentState != PlayerState.stagger)
+        {
+            rb.velocity = movement;
+        }
 
-
+        //rb.AddForce(movement * movSpeed * Time.deltaTime, ForceMode2D.Force);
 
 
         //Vector2 lookDir = mousePos - rb.position;
         //float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
-       //rb.rotation = angle;
+        //rb.rotation = angle;
 
     }
 
-
-    private void AnimateChar()
-    {
-        Vector2 lookDirection = mousePos - (Vector2)transform.position;
-        
-        
-    }
 
     public void takeDamage(float damage)
     {
-        currentHealth -= damage;
-        healthBar.SetHealth(currentHealth);
+
+        if(inv_frame <= 0)
+        {
+            currentHealth -= damage;
+            healthBar.SetHealth(currentHealth);
+            inv_frame = total_frame;
+        }
+
         if (currentHealth <= 0)
         {
             Destroy(gameObject);
@@ -168,4 +192,33 @@ public class PlayerCntrl : MonoBehaviour
     }
 
 
+    public void Knock(float KnockTime, float damage)
+    {
+        StartCoroutine(KnockCo(KnockTime));
+        takeDamage(damage);
+    }
+
+
+
+
+    private IEnumerator Attackco()
+    {
+        animator.SetBool("attacking", true);
+        currentState = PlayerState.attack;
+        yield return null;
+        animator.SetBool("attacking", false);
+        yield return new WaitForSeconds(.33f);
+        currentState = PlayerState.walk;
+    }
+
+    private IEnumerator KnockCo(float KnockTime)
+    {
+        if (rb != null)
+        {
+            yield return new WaitForSeconds(KnockTime);
+            rb.velocity = Vector2.zero;
+            currentState = PlayerState.idle;
+            rb.velocity = Vector2.zero;
+        }
+    }
 }
