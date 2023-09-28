@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: cc0d93d421fd6294abceed8e3fbd25ca
+guid: b77416586b9064ed7b528cb7a2f50347
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8020955900747958133
-    second: f6lpxmon_0
-  - first:
-      213: 4808847327911602147
-    second: f6lpxmon_1
-  - first:
-      213: -8910391193609851990
-    second: f6lpxmon_2
-  - first:
-      213: 3033855310106687976
-    second: f6lpxmon_3
+      213: 2610616701944661786
+    second: dimond shape(empty)_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -107,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: f6lpxmon_0
+      name: dimond shape(empty)_0
       rect:
         serializedVersion: 2
-        x: 114
-        y: 62
-        width: 32
-        height: 136
+        x: 71
+        y: 0
+        width: 370
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,71 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 577c72715e8205f60800000000000000
-      internalID: 8020955900747958133
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: f6lpxmon_1
-      rect:
-        serializedVersion: 2
-        x: 314
-        y: 114
-        width: 136
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3e7e1479a257cb240800000000000000
-      internalID: 4808847327911602147
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: f6lpxmon_2
-      rect:
-        serializedVersion: 2
-        x: 622
-        y: 58
-        width: 32
-        height: 136
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aabad1f2b6ee75480800000000000000
-      internalID: -8910391193609851990
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: f6lpxmon_3
-      rect:
-        serializedVersion: 2
-        x: 830
-        y: 114
-        width: 136
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8e977da945b6a1a20800000000000000
-      internalID: 3033855310106687976
+      spriteID: a170d1c0f06ca3420800000000000000
+      internalID: 2610616701944661786
       vertices: []
       indices: 
       edges: []
@@ -200,11 +128,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      f6lpxmon_0: 8020955900747958133
-      f6lpxmon_1: 4808847327911602147
-      f6lpxmon_2: -8910391193609851990
-      f6lpxmon_3: 3033855310106687976
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
