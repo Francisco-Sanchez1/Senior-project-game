@@ -46,6 +46,12 @@ public class PlayerCntrl : MonoBehaviour
     public Animator animator;
 
     public float KnockbackForce = 500f;
+    
+    //Inventory Stuff
+    private bool isOpen;
+    private Inventory myInventory = new Inventory(18);
+    public Item[] itemsToAdd;
+
 
     public PlayerState currentState;
 
@@ -71,6 +77,13 @@ public class PlayerCntrl : MonoBehaviour
         currentState = PlayerState.walk;
         
 
+        // Inventory
+        foreach(Item item in itemsToAdd)
+        {
+            myInventory.addItem(new ItemStack(item, 1));
+        }
+
+
     }
 
 
@@ -85,6 +98,22 @@ public class PlayerCntrl : MonoBehaviour
         float currentSpeed = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift) ? sprintSpeed : movSpeed;
         movement = new Vector2(horizontalInput, verticalInput).normalized * currentSpeed;
         
+        // INVENTORY
+         if(Input.GetKeyDown(KeyCode.I))
+        {
+            if(!isOpen)
+            {
+                InventoryManager.INSTANCE.openContainer(new ContainerPlayerInventory(null, myInventory));
+                isOpen = true;
+                Debug.Log("Inventory Opened");
+            }
+            else
+            {
+                InventoryManager.INSTANCE.closeContainer();
+                isOpen = false;
+                Debug.Log("Inventory Closed");
+            }
+        }
 
         if (Input.GetKeyDown(KeyCode.Mouse0) && currentState != PlayerState.attack && currentState != PlayerState.stagger)
         {
