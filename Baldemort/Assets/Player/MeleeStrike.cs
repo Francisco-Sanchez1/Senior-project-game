@@ -4,14 +4,19 @@ using UnityEngine;
 
 public class MeleeStrike : MonoBehaviour
 {
-    public float thrust;
-    public float KnockbackTime;
+    [SerializeField] private float thrust;
+    [SerializeField] private float KnockbackTime;
     public float damage;
+    [SerializeField] private string otherTag;
+
+    private PhysicsMaterial2D originalPhysicsMaterial;
+    private PhysicsMaterial2D temporaryPhysicsMaterial;
+
 
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag(otherTag))
         {
             Rigidbody2D hit = collision.GetComponent<Rigidbody2D>();
             if (hit != null)

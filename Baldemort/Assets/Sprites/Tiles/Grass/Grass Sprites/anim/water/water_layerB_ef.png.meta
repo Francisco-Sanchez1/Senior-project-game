@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      water_layerB_ef_0: -4711969609154277344
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
