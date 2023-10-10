@@ -368,7 +368,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tree1D_ss_0: 5423986261534462415
+      tree1D_ss_1: -5090480945073066279
+      tree1D_ss_2: -3455350762247263839
+      tree1D_ss_3: 4994489308401679191
+      tree1D_ss_4: 3731487568427197263
+      tree1D_ss_5: -2512832738832022172
+      tree1D_ss_6: 973610188892546097
+      tree1D_ss_7: -8722537295792206073
+      tree1D_ss_8: 5611688310749255522
+      tree1D_ss_9: -7117792898510847533
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

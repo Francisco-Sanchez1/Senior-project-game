@@ -300,21 +300,21 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.12101936, y: -0.029368043}
+  m_Offset: {x: -0.024988651, y: -0.4675722}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.6, y: 2.16}
+    oldSize: {x: 1.6, y: 1.6}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.1276045, y: 2.1014397}
+  m_Size: {x: 0.63043594, y: 0.41050386}
   m_EdgeRadius: 0
 --- !u!114 &2889845415451218823
 MonoBehaviour:
@@ -328,9 +328,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee1cc2f6b561a6740b66e76ec8c039de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  thrust: 6
+  thrust: 4
   KnockbackTime: 0.4
   damage: 5
+  otherTag: Player
 --- !u!50 &9031481670320475911
 Rigidbody2D:
   serializedVersion: 4
@@ -410,21 +411,21 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.12868786, y: 0.020521164}
+  m_Offset: {x: -0.032881737, y: -0.17781627}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.6, y: 2.16}
+    oldSize: {x: 1.6, y: 1.6}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.3943806, y: 2.4679947}
+  m_Size: {x: 0.7503824, y: 1.1885993}
   m_EdgeRadius: 0
 --- !u!114 &6414532135495382059
 MonoBehaviour:
@@ -502,7 +503,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.07, y: 1.21}
+  m_AnchoredPosition: {x: -0.033, y: 0.714}
   m_SizeDelta: {x: 166.8699, y: 38.6036}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &8712765023446397077

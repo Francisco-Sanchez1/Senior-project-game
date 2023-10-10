@@ -8,7 +8,8 @@ public enum PlayerState
     attack,
     interact,
     stagger,
-    idle
+    idle,
+    inv
 }
 
 public class PlayerCntrl : MonoBehaviour
@@ -55,8 +56,13 @@ public class PlayerCntrl : MonoBehaviour
 
     public PlayerState currentState;
 
-    private float inv_frame;
-    private float total_frame = 2.0f;
+
+    public Color FlashColor;
+    public Color regularColor;
+    public float flashDur;
+    public int numFlash;
+    public Collider2D triggerCol;
+    public SpriteRenderer mySprite;
 
     // Start is called before the first frame update
     void Start()
@@ -73,7 +79,6 @@ public class PlayerCntrl : MonoBehaviour
         ManaRegenTimer = ManaUseTimer;
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        inv_frame = 0;
         currentState = PlayerState.walk;
         
 
@@ -92,7 +97,6 @@ public class PlayerCntrl : MonoBehaviour
     void Update()
     {
 
-        inv_frame =  inv_frame - Time.deltaTime;
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
         float currentSpeed = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift) ? sprintSpeed : movSpeed;
@@ -198,12 +202,9 @@ public class PlayerCntrl : MonoBehaviour
     public void takeDamage(float damage)
     {
 
-        if(inv_frame <= 0)
-        {
             currentHealth -= damage;
             healthBar.SetHealth(currentHealth);
-            inv_frame = total_frame;
-        }
+            
 
         if (currentHealth <= 0)
         {
@@ -225,9 +226,8 @@ public class PlayerCntrl : MonoBehaviour
     {
         StartCoroutine(KnockCo(KnockTime));
         takeDamage(damage);
+        //ToggleInv();
     }
-
-
 
 
     private IEnumerator Attackco()
@@ -244,10 +244,30 @@ public class PlayerCntrl : MonoBehaviour
     {
         if (rb != null)
         {
+            StartCoroutine(ToggleInv());
             yield return new WaitForSeconds(KnockTime);
             rb.velocity = Vector2.zero;
             currentState = PlayerState.idle;
             rb.velocity = Vector2.zero;
         }
     }
+
+    private IEnumerator ToggleInv()
+    {
+        int temp = 0;
+        //triggerCol.enabled = false;
+        //gameObject.layer = LayerMask.NameToLayer("INVINS");
+        while (temp < numFlash)
+        {
+            mySprite.color = FlashColor;
+            yield return new WaitForSeconds(flashDur);
+            mySprite.color = regularColor;
+            yield return new WaitForSeconds(flashDur);
+            temp++;
+        }
+
+        //gameObject.layer = LayerMask.NameToLayer("Player");
+        //triggerCol.enabled = true;
+    }
+
 }

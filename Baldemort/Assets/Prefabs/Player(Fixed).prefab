@@ -224,7 +224,14 @@ MonoBehaviour:
   cam: {fileID: 0}
   animator: {fileID: 195770139271856309}
   KnockbackForce: 100
+  itemsToAdd: []
   currentState: 0
+  FlashColor: {r: 1, g: 0, b: 0, a: 0.6117647}
+  regularColor: {r: 1, g: 1, b: 1, a: 1}
+  flashDur: 0.1
+  numFlash: 10
+  triggerCol: {fileID: 8136030098257630576}
+  mySprite: {fileID: 3707646645383469837}
 --- !u!50 &4282931317375138631
 Rigidbody2D:
   serializedVersion: 4
@@ -248,9 +255,9 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &1872570740189323575
 MonoBehaviour:
@@ -326,17 +333,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.013200134, y: -0.25080228}
+  m_Offset: {x: -0.025387704, y: -0.39062998}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.36, y: 2.36}
+    oldSize: {x: 0.85, y: 1.475}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.928796, y: 1.2423892}
+  m_Size: {x: 0.5695549, y: 0.49804956}
   m_EdgeRadius: 0
 --- !u!61 &8136030098257630576
 BoxCollider2D:
@@ -372,17 +379,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.030837476, y: -0.26725894}
+  m_Offset: {x: -0.026934803, y: -0.23082978}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.36, y: 2.36}
+    oldSize: {x: 0.85, y: 1.475}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.2983251, y: 1.681573}
+  m_Size: {x: 0.7499635, y: 0.95047104}
   m_EdgeRadius: 0
 --- !u!1 &1929431574262686128
 GameObject:
@@ -487,6 +494,7 @@ MonoBehaviour:
   thrust: 3
   KnockbackTime: 0.4
   damage: 10
+  otherTag: 
 --- !u!1 &1945165538866231817
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,6 +747,7 @@ MonoBehaviour:
   thrust: 3
   KnockbackTime: 0.4
   damage: 10
+  otherTag: 
 --- !u!1 &3113973028912468834
 GameObject:
   m_ObjectHideFlags: 0
@@ -1053,6 +1062,7 @@ MonoBehaviour:
   thrust: 3
   KnockbackTime: 0.4
   damage: 10
+  otherTag: 
 --- !u!1 &8009004957559103950
 GameObject:
   m_ObjectHideFlags: 0
@@ -1157,6 +1167,7 @@ MonoBehaviour:
   thrust: 3
   KnockbackTime: 0.4
   damage: 10
+  otherTag: 
 --- !u!1 &8294478192745225196
 GameObject:
   m_ObjectHideFlags: 0

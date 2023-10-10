@@ -7,7 +7,9 @@ public enum EnemyState
     idle,
     walk,
     attack,
-    stagger
+    stagger,
+    summon,
+    attackRange
 }
 
 public class Enemy : MonoBehaviour
@@ -16,8 +18,10 @@ public class Enemy : MonoBehaviour
     public float maxHealth;
     public float currentHealth;
     public HealthBar healthBar;
-    public const float Between_Hit = 2.0f;
+
     public int baseAttack;
+
+
 
     private void Awake()
     {
@@ -31,7 +35,6 @@ public class Enemy : MonoBehaviour
         
         currentHealth -= damage;
         healthBar.SetHealth(currentHealth);
-        Inv_Frame();
         if (currentHealth <= 0)
         {
             Die();
@@ -44,11 +47,7 @@ public class Enemy : MonoBehaviour
     }
 
 
-    IEnumerator Inv_Frame()
-    {
-        float timeBetweenDamage = 2f;
-        yield return new WaitForSeconds(timeBetweenDamage);
-    }
+
 
     public void Knock(Rigidbody2D myrigidbod, float KnockTime, float damage)
     {

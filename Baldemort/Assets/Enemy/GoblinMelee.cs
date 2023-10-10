@@ -41,15 +41,23 @@ public class GoblinMelee : Enemy
                 rigidbody.MovePosition(temp);
                 ChangeState(EnemyState.walk);
                 anim.SetBool("idle", false);
+                //anim.SetBool("attack", false);
             }
 
         }
-        else if(Vector2.Distance(target.position,
+        else if (Vector2.Distance(target.position,
             transform.position) > chaseRadius)
         {
             ChangeState(EnemyState.idle);
             anim.SetBool("idle", true);
             rigidbody.velocity = Vector2.zero;
+        }
+        else if (Vector2.Distance(target.position,
+            transform.position) < attackRadius)
+        {
+            ChangeState(EnemyState.attack);
+            //anim.SetBool("attack", true);
+
         }
     }
 
