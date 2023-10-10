@@ -204,7 +204,7 @@ public class PlayerCntrl : MonoBehaviour
 
             currentHealth -= damage;
             healthBar.SetHealth(currentHealth);
-            
+        StartCoroutine(ToggleInv());
 
         if (currentHealth <= 0)
         {
@@ -244,7 +244,7 @@ public class PlayerCntrl : MonoBehaviour
     {
         if (rb != null)
         {
-            StartCoroutine(ToggleInv());
+            //StartCoroutine(ToggleInv());
             yield return new WaitForSeconds(KnockTime);
             rb.velocity = Vector2.zero;
             currentState = PlayerState.idle;

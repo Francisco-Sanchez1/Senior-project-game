@@ -42,7 +42,7 @@ public class PumpkinMelee : Enemy
     void CheckDistance()
     {
         float distanceToPlayer = Vector2.Distance(target.position, transform.position);
-        if (distanceToPlayer <= chaseRadius && distanceToPlayer > attackRadius)
+        if (distanceToPlayer <= chaseRadius && distanceToPlayer > attackRadius && (distanceToPlayer > detectionRadius || distanceToPlayer < Rechaseradius))
         {
                 if (currentState != EnemyState.stagger)
                 {
@@ -52,7 +52,8 @@ public class PumpkinMelee : Enemy
                     ChangeState(EnemyState.walk);
                     anim.SetBool("idle", false);
                     anim.SetBool("attack", false);
-                }
+                    anim.SetBool("attackRange", false);
+            }
 
         }
         else if (distanceToPlayer > chaseRadius)
@@ -60,15 +61,33 @@ public class PumpkinMelee : Enemy
             ChangeState(EnemyState.idle);
             anim.SetBool("idle", true);
             anim.SetBool("attack", false);
+            anim.SetBool("attackRange", false);
             rigidbody.velocity = Vector2.zero;
         }
         else if (distanceToPlayer < attackRadius)
         {
             ChangeState(EnemyState.attack);
             anim.SetBool("attack", true);
-            anim.SetBool("idle", false);
+            anim.SetBool("attackRange", false);
+            anim.SetBool("idle", true);
 
         }
+        else if (distanceToPlayer <= detectionRadius && distanceToPlayer > Rechaseradius)
+        {
+            rigidbody.velocity = Vector2.zero;
+            ChangeState(EnemyState.attackRange);
+            anim.SetBool("attackRange", true);
+            anim.SetBool("attack", false);
+            anim.SetBool("idle", true);
+        }
+        else if (distanceToPlayer < Rechaseradius)
+        {
+            ChangeState(EnemyState.walk);
+            anim.SetBool("idle", false);
+            anim.SetBool("attack", false);
+            anim.SetBool("attackRange", false);
+        }
+
     }
 
     private void setAnimFloat(Vector2 setVec)
