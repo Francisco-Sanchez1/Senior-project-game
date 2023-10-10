@@ -223,13 +223,13 @@ MonoBehaviour:
   manaBar: {fileID: 8165165406883336271}
   cam: {fileID: 0}
   animator: {fileID: 195770139271856309}
-  KnockbackForce: 100
+  KnockbackForce: 0
   itemsToAdd: []
   currentState: 0
   FlashColor: {r: 1, g: 0, b: 0, a: 0.6117647}
   regularColor: {r: 1, g: 1, b: 1, a: 1}
   flashDur: 0.1
-  numFlash: 10
+  numFlash: 5
   triggerCol: {fileID: 8136030098257630576}
   mySprite: {fileID: 3707646645383469837}
 --- !u!50 &4282931317375138631
@@ -256,7 +256,7 @@ Rigidbody2D:
     serializedVersion: 2
     m_Bits: 0
   m_Interpolate: 1
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &1872570740189323575
@@ -493,8 +493,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 3
   KnockbackTime: 0.4
-  damage: 10
-  otherTag: 
+  damage: 4
+  otherTag: Enemy
 --- !u!1 &1945165538866231817
 GameObject:
   m_ObjectHideFlags: 0
@@ -746,8 +746,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 3
   KnockbackTime: 0.4
-  damage: 10
-  otherTag: 
+  damage: 4
+  otherTag: Enemy
 --- !u!1 &3113973028912468834
 GameObject:
   m_ObjectHideFlags: 0
@@ -1061,8 +1061,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 3
   KnockbackTime: 0.4
-  damage: 10
-  otherTag: 
+  damage: 4
+  otherTag: Enemy
 --- !u!1 &8009004957559103950
 GameObject:
   m_ObjectHideFlags: 0
@@ -1166,8 +1166,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 3
   KnockbackTime: 0.4
-  damage: 10
-  otherTag: 
+  damage: 4
+  otherTag: Enemy
 --- !u!1 &8294478192745225196
 GameObject:
   m_ObjectHideFlags: 0
