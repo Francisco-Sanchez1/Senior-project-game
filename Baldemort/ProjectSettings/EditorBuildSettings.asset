@@ -6,7 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Town.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/town_map.unity
+    guid: e663a1f30c33a814ab35425317356dcc
+  - enabled: 1
+    path: Assets/Scenes/Castle.unity
+    guid: 03cc152235641c044bf33b6a2b76878a
+  - enabled: 1
+    path: Assets/Scenes/CastleInside1.unity
+    guid: abed5b3d0b7961245816ba54eead45e2
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
