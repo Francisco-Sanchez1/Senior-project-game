@@ -119,10 +119,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ea7b2b32bcb58b458cf2ff0ed5d8f4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
   swarmerPrefab: {fileID: 7614282412117228158, guid: 0654a2264962944498fcbb55f36762c0, type: 3}
   archerSwarmPrefab: {fileID: 7614282412117228158, guid: 947cc39264053464f9a7cac4bc917ace, type: 3}
   swarmInterval: 100
   archerSwarm: 100
+  detectionRadius: 0
+  spawn: 0
+  spawnTimer: 0
+  spawnTimeFull: 5
 --- !u!1 &2663718182007916135
 GameObject:
   m_ObjectHideFlags: 0

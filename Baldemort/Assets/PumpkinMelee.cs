@@ -44,15 +44,15 @@ public class PumpkinMelee : Enemy
         float distanceToPlayer = Vector2.Distance(target.position, transform.position);
         if (distanceToPlayer <= chaseRadius && distanceToPlayer > attackRadius && (distanceToPlayer > detectionRadius || distanceToPlayer < Rechaseradius))
         {
-                if (currentState != EnemyState.stagger)
-                {
-                    Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
-                    ChangeAnim(temp - transform.position);
-                    rigidbody.MovePosition(temp);
-                    ChangeState(EnemyState.walk);
-                    anim.SetBool("idle", false);
-                    anim.SetBool("attack", false);
-                    anim.SetBool("attackRange", false);
+            if (currentState != EnemyState.stagger)
+            {
+                Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+                ChangeAnim(temp - transform.position);
+                rigidbody.MovePosition(temp);
+                ChangeState(EnemyState.walk);
+                anim.SetBool("idle", false);
+                anim.SetBool("attack", false);
+                anim.SetBool("attackRange", false);
             }
 
         }

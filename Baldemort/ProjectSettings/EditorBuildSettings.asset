@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Title_Screen.unity
+    guid: a574114615c44e240bf71365dfcce660
+  - enabled: 1
     path: Assets/Scenes/town_map.unity
     guid: e663a1f30c33a814ab35425317356dcc
   - enabled: 1
@@ -14,5 +17,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CastleInside1.unity
     guid: abed5b3d0b7961245816ba54eead45e2
+  - enabled: 1
+    path: Assets/Scenes/Death_Screen.unity
+    guid: 1805d8ec0e47bc54191a7656d46c262d
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

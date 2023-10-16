@@ -1,0 +1,6469 @@
+fileFormatVersion: 2
+guid: 0dd44ffec8967944ea109b454a5c5e20
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4327919572443512443
+    second: Download82047_0
+  - first:
+      213: 2998438455075559913
+    second: Download82047_1
+  - first:
+      213: 3141592399890235224
+    second: Download82047_2
+  - first:
+      213: -5708976267548762381
+    second: Download82047_3
+  - first:
+      213: -3745910960949237326
+    second: Download82047_4
+  - first:
+      213: 3244010771296816025
+    second: Download82047_5
+  - first:
+      213: -3787128881283968838
+    second: Download82047_6
+  - first:
+      213: 4600345940154715556
+    second: Download82047_7
+  - first:
+      213: -5016664479262581703
+    second: Download82047_8
+  - first:
+      213: 5018148163422908030
+    second: Download82047_9
+  - first:
+      213: -4816944764360061406
+    second: Download82047_10
+  - first:
+      213: 886094285476853351
+    second: Download82047_11
+  - first:
+      213: -3487208002010345577
+    second: Download82047_12
+  - first:
+      213: 5634035691208352703
+    second: Download82047_13
+  - first:
+      213: -3798780377551768549
+    second: Download82047_14
+  - first:
+      213: -1848445395917128724
+    second: Download82047_15
+  - first:
+      213: 542838196647993955
+    second: Download82047_16
+  - first:
+      213: -6850864676675734974
+    second: Download82047_17
+  - first:
+      213: -7781986925817631932
+    second: Download82047_18
+  - first:
+      213: 3526607451158259189
+    second: Download82047_19
+  - first:
+      213: -9090911926668197077
+    second: Download82047_20
+  - first:
+      213: 2742269777947239162
+    second: Download82047_21
+  - first:
+      213: -5728623226157667185
+    second: Download82047_22
+  - first:
+      213: 152795791033844892
+    second: Download82047_23
+  - first:
+      213: -2453529537358615046
+    second: Download82047_24
+  - first:
+      213: 8802156535739544188
+    second: Download82047_25
+  - first:
+      213: -3387249632001324354
+    second: Download82047_26
+  - first:
+      213: 3235596771847241399
+    second: Download82047_27
+  - first:
+      213: -1302570920357809942
+    second: Download82047_28
+  - first:
+      213: -4479232535680701450
+    second: Download82047_29
+  - first:
+      213: 2984219805680080288
+    second: Download82047_30
+  - first:
+      213: 4335985227883790138
+    second: Download82047_31
+  - first:
+      213: -6636451627881343984
+    second: Download82047_32
+  - first:
+      213: -1961943758342039610
+    second: Download82047_33
+  - first:
+      213: -2986528384920820638
+    second: Download82047_34
+  - first:
+      213: -2059487937236057817
+    second: Download82047_35
+  - first:
+      213: 2228410674973050717
+    second: Download82047_36
+  - first:
+      213: -2950937808195003301
+    second: Download82047_37
+  - first:
+      213: -4266651419221745986
+    second: Download82047_38
+  - first:
+      213: -4856689493779660582
+    second: Download82047_39
+  - first:
+      213: -6071130744223865268
+    second: Download82047_40
+  - first:
+      213: -9113154250948528888
+    second: Download82047_41
+  - first:
+      213: 8654484523296001999
+    second: Download82047_42
+  - first:
+      213: -587704168219574049
+    second: Download82047_43
+  - first:
+      213: 425625541805134534
+    second: Download82047_44
+  - first:
+      213: -685181776996876741
+    second: Download82047_45
+  - first:
+      213: 8484631043159201258
+    second: Download82047_46
+  - first:
+      213: -2422511446368908712
+    second: Download82047_47
+  - first:
+      213: -7763680659644998458
+    second: Download82047_48
+  - first:
+      213: -6089047584346776056
+    second: Download82047_49
+  - first:
+      213: -131266688376322535
+    second: Download82047_50
+  - first:
+      213: 489631719149515382
+    second: Download82047_51
+  - first:
+      213: -8096678932503799797
+    second: Download82047_52
+  - first:
+      213: 5144177495435994622
+    second: Download82047_53
+  - first:
+      213: -367171334781352843
+    second: Download82047_54
+  - first:
+      213: 8691856157447176614
+    second: Download82047_55
+  - first:
+      213: 4804880952596776065
+    second: Download82047_56
+  - first:
+      213: 911040890120157438
+    second: Download82047_57
+  - first:
+      213: 771929525295118158
+    second: Download82047_58
+  - first:
+      213: -7215326620354114583
+    second: Download82047_59
+  - first:
+      213: 3443318449037990684
+    second: Download82047_60
+  - first:
+      213: 845676130815364674
+    second: Download82047_61
+  - first:
+      213: 710623225841400487
+    second: Download82047_62
+  - first:
+      213: 3084801188634422704
+    second: Download82047_63
+  - first:
+      213: -7971610044696746823
+    second: Download82047_64
+  - first:
+      213: -2686153500333607783
+    second: Download82047_65
+  - first:
+      213: -1974441654051846893
+    second: Download82047_66
+  - first:
+      213: -731398248588669075
+    second: Download82047_67
+  - first:
+      213: -3788047693849525544
+    second: Download82047_68
+  - first:
+      213: -4944635801709068658
+    second: Download82047_69
+  - first:
+      213: 2168892842605040233
+    second: Download82047_70
+  - first:
+      213: 6738548032082408472
+    second: Download82047_71
+  - first:
+      213: -1888722094267437172
+    second: Download82047_72
+  - first:
+      213: 4466382812277331462
+    second: Download82047_73
+  - first:
+      213: -7258865069875457952
+    second: Download82047_74
+  - first:
+      213: -8279181303151146196
+    second: Download82047_75
+  - first:
+      213: -1958385209793262204
+    second: Download82047_76
+  - first:
+      213: 1860998417096985077
+    second: Download82047_77
+  - first:
+      213: 3747894547006874871
+    second: Download82047_78
+  - first:
+      213: -145501047557836689
+    second: Download82047_79
+  - first:
+      213: -4073312606182075813
+    second: Download82047_80
+  - first:
+      213: 7994134500476399498
+    second: Download82047_81
+  - first:
+      213: 445294009164486174
+    second: Download82047_82
+  - first:
+      213: -5555222765237913937
+    second: Download82047_83
+  - first:
+      213: -9119688174876079575
+    second: Download82047_84
+  - first:
+      213: 8363263622856846819
+    second: Download82047_85
+  - first:
+      213: 5795283292589436102
+    second: Download82047_86
+  - first:
+      213: 3202195039045082663
+    second: Download82047_87
+  - first:
+      213: 6155557086203883417
+    second: Download82047_88
+  - first:
+      213: -5559333495396653807
+    second: Download82047_89
+  - first:
+      213: -8219916663914990360
+    second: Download82047_90
+  - first:
+      213: -8305784128775755560
+    second: Download82047_91
+  - first:
+      213: 5625577765982321353
+    second: Download82047_92
+  - first:
+      213: 7340011398489651563
+    second: Download82047_93
+  - first:
+      213: 8516311924351699011
+    second: Download82047_94
+  - first:
+      213: 1016107402520294874
+    second: Download82047_95
+  - first:
+      213: -7495527302150731226
+    second: Download82047_96
+  - first:
+      213: -304756181760971530
+    second: Download82047_97
+  - first:
+      213: -3268098480796323075
+    second: Download82047_98
+  - first:
+      213: 607303961697665357
+    second: Download82047_99
+  - first:
+      213: -4955203655736245149
+    second: Download82047_100
+  - first:
+      213: -1209111631167497327
+    second: Download82047_101
+  - first:
+      213: 4277507817424798313
+    second: Download82047_102
+  - first:
+      213: -8853146614662510459
+    second: Download82047_103
+  - first:
+      213: -8338909091079377543
+    second: Download82047_104
+  - first:
+      213: -984323043724577406
+    second: Download82047_105
+  - first:
+      213: -9110803463284972895
+    second: Download82047_106
+  - first:
+      213: -2957941651856242199
+    second: Download82047_107
+  - first:
+      213: -6324710049434737173
+    second: Download82047_108
+  - first:
+      213: 797696161559253534
+    second: Download82047_109
+  - first:
+      213: -5109671568818269475
+    second: Download82047_110
+  - first:
+      213: -5348470135452728932
+    second: Download82047_111
+  - first:
+      213: 7318815920390138541
+    second: Download82047_112
+  - first:
+      213: 8112762636852666526
+    second: Download82047_113
+  - first:
+      213: -1157728176833366819
+    second: Download82047_114
+  - first:
+      213: 2818752479882344328
+    second: Download82047_115
+  - first:
+      213: 5833758803097663721
+    second: Download82047_116
+  - first:
+      213: -3484705375037348445
+    second: Download82047_117
+  - first:
+      213: 7391763077352894903
+    second: Download82047_118
+  - first:
+      213: 5525529177366087008
+    second: Download82047_119
+  - first:
+      213: 1742095242220725650
+    second: Download82047_120
+  - first:
+      213: -6318779950986158923
+    second: Download82047_121
+  - first:
+      213: 3330532388200019395
+    second: Download82047_122
+  - first:
+      213: -3649184970866280347
+    second: Download82047_123
+  - first:
+      213: 5640802480497490180
+    second: Download82047_124
+  - first:
+      213: 7447165272974417627
+    second: Download82047_125
+  - first:
+      213: -7257203489768895064
+    second: Download82047_126
+  - first:
+      213: 2147148112272197475
+    second: Download82047_127
+  - first:
+      213: 5125315261362116259
+    second: Download82047_128
+  - first:
+      213: -7993955867819589456
+    second: Download82047_129
+  - first:
+      213: -7279858718005806753
+    second: Download82047_130
+  - first:
+      213: 2365042390390328436
+    second: Download82047_131
+  - first:
+      213: 4807663456729194100
+    second: Download82047_132
+  - first:
+      213: 8248787627291166865
+    second: Download82047_133
+  - first:
+      213: -7355825494971132622
+    second: Download82047_134
+  - first:
+      213: -5592672353650090625
+    second: Download82047_135
+  - first:
+      213: -5634098938197398788
+    second: Download82047_136
+  - first:
+      213: 8942645657038651321
+    second: Download82047_137
+  - first:
+      213: 5197490418266006629
+    second: Download82047_138
+  - first:
+      213: -7003635315920313952
+    second: Download82047_139
+  - first:
+      213: -2993494026481108498
+    second: Download82047_140
+  - first:
+      213: 6890534506784580330
+    second: Download82047_141
+  - first:
+      213: -8131438868046809769
+    second: Download82047_142
+  - first:
+      213: -9203324261539402476
+    second: Download82047_143
+  - first:
+      213: 5899056154998374572
+    second: Download82047_144
+  - first:
+      213: -74097817612659267
+    second: Download82047_145
+  - first:
+      213: 7670972376071875050
+    second: Download82047_146
+  - first:
+      213: -1710625366645569059
+    second: Download82047_147
+  - first:
+      213: -5838744115188037991
+    second: Download82047_148
+  - first:
+      213: -512586274876071210
+    second: Download82047_149
+  - first:
+      213: -2999988859627495264
+    second: Download82047_150
+  - first:
+      213: 7164010330938254350
+    second: Download82047_151
+  - first:
+      213: 5863085560337497802
+    second: Download82047_152
+  - first:
+      213: -4134877183697941296
+    second: Download82047_153
+  - first:
+      213: -2621305146607362861
+    second: Download82047_154
+  - first:
+      213: 620810909123054839
+    second: Download82047_155
+  - first:
+      213: 6256573813894573758
+    second: Download82047_156
+  - first:
+      213: 7189952021296591611
+    second: Download82047_157
+  - first:
+      213: 7210789198862702147
+    second: Download82047_158
+  - first:
+      213: 2663503563552736157
+    second: Download82047_159
+  - first:
+      213: -7369687184657336332
+    second: Download82047_160
+  - first:
+      213: 7036684991427219704
+    second: Download82047_161
+  - first:
+      213: 4698559250710744146
+    second: Download82047_162
+  - first:
+      213: -1509952421713746336
+    second: Download82047_163
+  - first:
+      213: 8662561240286399546
+    second: Download82047_164
+  - first:
+      213: 7539891883327633805
+    second: Download82047_165
+  - first:
+      213: 6199102398925640479
+    second: Download82047_166
+  - first:
+      213: -4310036238362912449
+    second: Download82047_167
+  - first:
+      213: -5605396155535647046
+    second: Download82047_168
+  - first:
+      213: -5590235652968090709
+    second: Download82047_169
+  - first:
+      213: 3840093754159474934
+    second: Download82047_170
+  - first:
+      213: 8454470596972527389
+    second: Download82047_171
+  - first:
+      213: -5948922525008186068
+    second: Download82047_172
+  - first:
+      213: -2601351201776825686
+    second: Download82047_173
+  - first:
+      213: -4190354477379126948
+    second: Download82047_174
+  - first:
+      213: -1829150981205300362
+    second: Download82047_175
+  - first:
+      213: -7299641389216622084
+    second: Download82047_176
+  - first:
+      213: -2257249535689745961
+    second: Download82047_177
+  - first:
+      213: -1001541356980323594
+    second: Download82047_178
+  - first:
+      213: -7448181692391244521
+    second: Download82047_179
+  - first:
+      213: -2124377504762123578
+    second: Download82047_180
+  - first:
+      213: 1779173131598667544
+    second: Download82047_181
+  - first:
+      213: -1883763900317043326
+    second: Download82047_182
+  - first:
+      213: -370058207995618996
+    second: Download82047_183
+  - first:
+      213: -4863163350041498118
+    second: Download82047_184
+  - first:
+      213: 4879726679988399281
+    second: Download82047_185
+  - first:
+      213: 8869072412477715367
+    second: Download82047_186
+  - first:
+      213: 7730114700576673344
+    second: Download82047_187
+  - first:
+      213: -1126179944323318231
+    second: Download82047_188
+  - first:
+      213: -8045103267642587808
+    second: Download82047_189
+  - first:
+      213: 963322232013400686
+    second: Download82047_190
+  - first:
+      213: 8838497324883816219
+    second: Download82047_191
+  - first:
+      213: -3918050569088674511
+    second: Download82047_192
+  - first:
+      213: 1870879081962619984
+    second: Download82047_193
+  - first:
+      213: 5605405338452948260
+    second: Download82047_194
+  - first:
+      213: -2199234482148169042
+    second: Download82047_195
+  - first:
+      213: -6184781905223504508
+    second: Download82047_196
+  - first:
+      213: 3755879175359679015
+    second: Download82047_197
+  - first:
+      213: 1746811414095612370
+    second: Download82047_198
+  - first:
+      213: 7937132366542720068
+    second: Download82047_199
+  - first:
+      213: 4696123772179979566
+    second: Download82047_200
+  - first:
+      213: 4694464360612490240
+    second: Download82047_201
+  - first:
+      213: 8038107721905053822
+    second: Download82047_202
+  - first:
+      213: 6049751562364002362
+    second: Download82047_203
+  - first:
+      213: -6375596015909883837
+    second: Download82047_204
+  - first:
+      213: 5310081325610065643
+    second: Download82047_205
+  - first:
+      213: -8657425401932593251
+    second: Download82047_206
+  - first:
+      213: -5352226799677292030
+    second: Download82047_207
+  - first:
+      213: -4080032702868626100
+    second: Download82047_208
+  - first:
+      213: 7404304324088111551
+    second: Download82047_209
+  - first:
+      213: 1372869692101823749
+    second: Download82047_210
+  - first:
+      213: -3408686923017132189
+    second: Download82047_211
+  - first:
+      213: 6728765025174538949
+    second: Download82047_212
+  - first:
+      213: 7760032366413801848
+    second: Download82047_213
+  - first:
+      213: -8887381781069785958
+    second: Download82047_214
+  - first:
+      213: 2533767983217774033
+    second: Download82047_215
+  - first:
+      213: -5429342027905193060
+    second: Download82047_216
+  - first:
+      213: -4700199523583887673
+    second: Download82047_217
+  - first:
+      213: -2206436901142700093
+    second: Download82047_218
+  - first:
+      213: -4537148516960780994
+    second: Download82047_219
+  - first:
+      213: -8604295904864715287
+    second: Download82047_220
+  - first:
+      213: 6944331026402808287
+    second: Download82047_221
+  - first:
+      213: -694250080484216054
+    second: Download82047_222
+  - first:
+      213: -7761916799206489923
+    second: Download82047_223
+  - first:
+      213: 770380868203513308
+    second: Download82047_224
+  - first:
+      213: -4953189404088026358
+    second: Download82047_225
+  - first:
+      213: -3695077171780251245
+    second: Download82047_226
+  - first:
+      213: -6728974201713670730
+    second: Download82047_227
+  - first:
+      213: 6550081647065935095
+    second: Download82047_228
+  - first:
+      213: -6122396743619428390
+    second: Download82047_229
+  - first:
+      213: 1458758832088168851
+    second: Download82047_230
+  - first:
+      213: -5212541081426146412
+    second: Download82047_231
+  - first:
+      213: -1985158712997302431
+    second: Download82047_232
+  - first:
+      213: -1692816406805160757
+    second: Download82047_233
+  - first:
+      213: -8251327250826989264
+    second: Download82047_234
+  - first:
+      213: -8028113091600550487
+    second: Download82047_235
+  - first:
+      213: -686546984875449605
+    second: Download82047_236
+  - first:
+      213: -3583854236796237022
+    second: Download82047_237
+  - first:
+      213: -2667258712245077237
+    second: Download82047_238
+  - first:
+      213: 8889607229129822402
+    second: Download82047_239
+  - first:
+      213: -9087426530070249106
+    second: Download82047_240
+  - first:
+      213: -8195133223781093617
+    second: Download82047_241
+  - first:
+      213: 6223590383966839909
+    second: Download82047_242
+  - first:
+      213: -8231542783944913034
+    second: Download82047_243
+  - first:
+      213: -2686940581080847264
+    second: Download82047_244
+  - first:
+      213: -5203564661389022921
+    second: Download82047_245
+  - first:
+      213: -2832971083705481858
+    second: Download82047_246
+  - first:
+      213: 7274005837916588057
+    second: Download82047_247
+  - first:
+      213: 5512332295240537165
+    second: Download82047_248
+  - first:
+      213: -1765488342934825955
+    second: Download82047_249
+  - first:
+      213: 8397412886047124304
+    second: Download82047_250
+  - first:
+      213: -4337076628715682696
+    second: Download82047_251
+  - first:
+      213: 4929587473207562707
+    second: Download82047_252
+  - first:
+      213: 7554107596902313573
+    second: Download82047_253
+  - first:
+      213: -4719562744624905335
+    second: Download82047_254
+  - first:
+      213: -5933297805222304139
+    second: Download82047_255
+  - first:
+      213: -1742481022012457350
+    second: Download82047_256
+  - first:
+      213: -8323034720093399598
+    second: Download82047_257
+  - first:
+      213: 238517583891805209
+    second: Download82047_258
+  - first:
+      213: -1881051219203627217
+    second: Download82047_259
+  - first:
+      213: -7027045678794575691
+    second: Download82047_260
+  - first:
+      213: 8280808773939993407
+    second: Download82047_261
+  - first:
+      213: -1632092992949851348
+    second: Download82047_262
+  - first:
+      213: -4349045816012015214
+    second: Download82047_263
+  - first:
+      213: -8365292933755382676
+    second: Download82047_264
+  - first:
+      213: 3224898704778504611
+    second: Download82047_265
+  - first:
+      213: 7685662722354141144
+    second: Download82047_266
+  - first:
+      213: 1262240163912571056
+    second: Download82047_267
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MeleeKnight_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21c460d935cb874eaabab9c9d33ecbb
+      internalID: -215209559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6455a7fafd28034f8ba870d773c2472
+      internalID: 211598351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1e9d5e3dbf32b42abf6c196df05ee4
+      internalID: -632601841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49595343e29aff94fae25e4a1a6f9db5
+      internalID: -1844703608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40bc4c5f85c814478d97b0c32bb18d1
+      internalID: -324991432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b2e14fb3f5f7a46b76902398228d55
+      internalID: 1528344998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fb9e18e91b46543aa8feb97c250881
+      internalID: -1048513246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3584
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 991134b8215340145ba1b2b0279c99e0
+      internalID: 820761012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3520
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2329dfa2620a8458b257e850511983
+      internalID: -2957947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3520
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b578f6c407fa940997f7c4f52f9abc
+      internalID: -1214172092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3520
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509a8f58242fe41419c42dc802e7a9bf
+      internalID: 2027822366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3520
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f8e4388b0d67b4c9ec9e6f0b5a19b2
+      internalID: 146301691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3520
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d63902c8dcb98f4ea8541fe0157c706
+      internalID: 1311551803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3520
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4508241a81829244981e226e41a92562
+      internalID: -1403106187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3520
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f1367ad74f5ee42825a61c21565f53
+      internalID: -270943993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3456
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec985b66006dccd4a9b2b9037a92645e
+      internalID: 1216074675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3456
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb15d8c8a4319434dbd6e689f12aa9ed
+      internalID: -161411965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3456
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9749782fa348ea241b16686737ed9d9f
+      internalID: 303392457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3456
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f9cc369f0fc63409cdc4638e652edd
+      internalID: 992653293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3456
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6370a8f4ea477a4d9b57043342ae637
+      internalID: 126174249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3456
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbee838252d196541b374592a7b484c7
+      internalID: -1904363933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3456
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fe15e2695d604488bbf71de1ef4522
+      internalID: 1541307117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc20224b12e20a34a9d0a14ea9b7f227
+      internalID: 485773437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fd4054c405a3b44bdaf480986201c6
+      internalID: 31996381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2fad43bc8586c4fa20aa23c8c25dd0
+      internalID: -684646156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_25
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa9d87043445064b838ef34d97ac442
+      internalID: -1845270714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad8e143ef20d594a82d11fcc98a35ee
+      internalID: 1714891384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_27
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efc75943852a394e95bf05fdbebcb8f
+      internalID: -116935102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3392
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d58d332bb25e3546ae55389f36a70f6
+      internalID: -270319541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a05db3b76bdd64eb2624bf8e42d9b7
+      internalID: -768545863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d5a4b55f3fa2d342b2c72afc0291845
+      internalID: -2029395356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810ab1c5d7b4c1441aa086391dd5ee89
+      internalID: -1123878159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a459298bcaef2409877cc7b5898a5b
+      internalID: 2072199790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b3db5a63b3f884ea3ac77dec85850d
+      internalID: -1599492828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a16238c0dd5d9147bab48bcce4fd527
+      internalID: 403997105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e255e76bb1186a3478f2002be37f9b28
+      internalID: -1339842776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_36
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3328
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2cdbcd4e73335b45ba2e8bfcf3f5349
+      internalID: 1733287519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723861638f7ec214b8cb8714c23b345f
+      internalID: -1347501424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714a700b4688fcd4c9b65f0d68e29e3a
+      internalID: -1304107243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_39
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba7b5510e879de46957f4c4bb8b2495
+      internalID: -1116171431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_40
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b42612b645a04c4c9955d1e5a8148f0
+      internalID: 1629977227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_41
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744b717685e12064e954fe425290d936
+      internalID: 1689043072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_42
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3ee0ca830fa0f47bf9f98fb01de64c
+      internalID: -1471362877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ef8139473d22941b75a3b39f43e8dc
+      internalID: 1777899488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_44
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3264
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef77a44054c051c4c82875de7da16b10
+      internalID: -698308456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099b339ebcfb56e4a9d95bc056d5569b
+      internalID: 1137764068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031015097451a424a9d0229175f27ddb
+      internalID: 1706807626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_47
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82db9a42e276ba44a42895f41d63981
+      internalID: -272150048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_48
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b0b2ee6f0e4c543bd5c85ff33d2776
+      internalID: 1489545684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_49
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92daec699acadbc42b90b313e49b2404
+      internalID: -1264236568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_50
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109f6051faa092c40bbd99c1841ab990
+      internalID: 1000513482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64623f0c150eda45bc46909941bdf9f
+      internalID: -602263400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_52
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3200
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64a6868940e0724faef5b09b9fc6337
+      internalID: -1349464874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd7cb5ee58130645ad63e0b1695bfad
+      internalID: 1695125334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_54
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c4badd91c34bb4ba9d8b48510b3ca5
+      internalID: 1216548811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a75a7e24e7cce47ad7f6ed9c1cac5b
+      internalID: -1262625614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_56
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054be421272c19c46a070d43dfe45dbe
+      internalID: 309605713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_57
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbb9509cfbdd9247afe1ea29a95bb87
+      internalID: -1965929684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab0677ab956c3d43bc39515229a880f
+      internalID: 2010143230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_59
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06aafbdfbc0aad648864cc814b56ff5f
+      internalID: -1455829041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_60
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3136
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c5a8086dc858043ba040e46abafdd5
+      internalID: 287913772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c2f9493a268874592b19bf65360248
+      internalID: 1775242855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_62
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af37906697a60df4a8f019102bce852c
+      internalID: 1533026483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_63
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b807afdc565d47c4ba4be06c5814a4ca
+      internalID: 1954435248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_64
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391038472bbeaaf4dad9414ad8f1efb8
+      internalID: 1724967473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_65
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa34c6c32a8e6114988379e01912ab41
+      internalID: 1615955301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_66
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61e9def2510a3d419118bf3b5ffd162
+      internalID: 326760423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_67
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813f6f196df4888438e679f3bb361aad
+      internalID: 1159755434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_68
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b623f33c4ae898a4d9f12ace05c54791
+      internalID: -1730856966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_69
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3072
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcfaa8856ffdf349b41f283b25df97a
+      internalID: 905861701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3008
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afe1fb030b5b7c4689d7731e2778e9e
+      internalID: 1030165988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_71
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 3008
+        width: 61
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03be393d4cac8994fac6063217a4136a
+      internalID: -178471938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_72
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3008
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f440fd311873a46bda26689645bc64
+      internalID: -1616846545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_73
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3009
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6985f985cb0eea240a95d5acb8490f52
+      internalID: -1561844263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_74
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 3008
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c819ac19efdc244c83e205ab9fa0cbb
+      internalID: -2067671594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_75
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 3008
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c48a71cbb77114f9409d198d8f7fed
+      internalID: 1295291690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 3008
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375291b4c7ceba846a2847833d7c45e2
+      internalID: -671047898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_77
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 3009
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6161cb2836a4e4d9cd4979d036a30e
+      internalID: 386197964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_78
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3008
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0078e5249d3d1a24885767cfeca2dfe8
+      internalID: -822716441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b002034d7ea6274f9f403b04701d317
+      internalID: -530924071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_80
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d41b3a57d1caf41ae3675f954a41d2
+      internalID: 1058597573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_81
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25bdb7c2e0a94c47a3ceafd4b01fca4
+      internalID: -378095725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_82
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d330bbc66de396d4abcff4d370224d14
+      internalID: -1167901854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_83
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea3dd686f5fc9d4dab48bf2c3a0b9eb
+      internalID: -316971664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_84
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd2488f4fe72084ab2a682a44113db6
+      internalID: -1696410104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_85
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82cdc14288d0fe4da2213262a167f9c
+      internalID: -1831733545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_86
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413e2b74dbdc6b54886dd8dd0ffe8ab2
+      internalID: 1513695225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_87
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2944
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cb1e01feae9074e8c9a9c73ba55c22
+      internalID: 1031136680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327a73f0d0919ba4e8b1a897496c4eb2
+      internalID: 437855304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_89
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b1e721d0cb77340a5dec8939f29c75
+      internalID: -727579232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_90
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7538d59da5848c4e959ac167e29621b
+      internalID: -434204240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_91
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2880
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749496a7bf121e646859992a6be4bfb2
+      internalID: 750324248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf04c3b397f9b94b903fe80fac4e8dd
+      internalID: -1176479540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_93
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c56c232f40f7bb4da539ec80ad3c225
+      internalID: -1311010241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_94
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb13eccef767d74f95b9c3e80ca7c9c
+      internalID: -1214981540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_95
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8831aebfc4e4a74d92c64a72ba0a2a9
+      internalID: 325189695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_96
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c382bf9b38d29041996cd7ea3532130
+      internalID: 1173707969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_97
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2880
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e8008daeea04741acc4ddf53854438
+      internalID: 1032870067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47586e658d1c0614389e99ce67753701
+      internalID: -1033318475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_99
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f8f66ce8e1c1d4197a3f7614c7bb25
+      internalID: -1258233211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_100
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a15379e14d1464592ed81933dad691
+      internalID: 1667042884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_101
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6af4ce428aebd4d8092117b1346b15
+      internalID: 274463335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_102
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f72771cbefb9a4e9befedcb05a64f5
+      internalID: 1624405425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_103
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27b1fb11df1bc14ca13f00407b093f9
+      internalID: 1377778078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_104
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d43c48b835bae468c1791777736793
+      internalID: 1412442373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_105
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca02150b9a7311842ada006d1e2c76d3
+      internalID: -372100618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_106
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d078a3422935e954c8d58c120d7feac4
+      internalID: 380605831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_107
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f943e82c387744794f12cf9b159553
+      internalID: -1315057537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_108
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa033e24bf4cabc499486d1115cd2eeb
+      internalID: -699132548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_109
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 033f1db364d43f646bc26c319e483589
+      internalID: 700815233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_110
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2816
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbf1bd68a2ce9b479629ab850176fa8
+      internalID: 495362882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84451fff722aaf844a29b734950317d4
+      internalID: -1389291550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_112
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfe95d39d51caa4ab8cf50535040b60
+      internalID: -1625144383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_113
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d42ce9d8a69d04fa8a489f36f448bb
+      internalID: -1398202712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_114
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1030c774969aace4ba11a2dea2ac6265
+      internalID: 592912025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_115
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d7ccb56a3c57d499a7bc4dcec48af9
+      internalID: 80872510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_116
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9885196fe830d054eb93c50bc49f5d03
+      internalID: -851297215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_117
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ec4c812ee3eaa4bb953261e2526a1f
+      internalID: 1160791669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_118
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2752
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06627e2cc2946f141b30683de48cb1fa
+      internalID: 467935175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f3b4dd0fcc13e45944b2d92c65a3bb
+      internalID: 526488340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_120
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb2986adaeac714781d9d66b0f72826
+      internalID: 1605257105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_121
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98620ac3bac9b804b89d7456fccf1bcb
+      internalID: -84401114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_122
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6280d215097a1b448b93e64112f93d7a
+      internalID: 220458599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_123
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d2838bb59a1ac41be2ab5e9a20751f
+      internalID: 870395608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_124
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2688
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876ec90c43844694fa79f645def015c4
+      internalID: 1754084634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2624
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eca26bdb53292449a32927a69b0e966
+      internalID: 779778949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_126
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2624
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5d6a6d003d2c944ad1ddb7c11af70f
+      internalID: -1785003541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_127
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2624
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727f3bb1fbd87aa4dbdb8470dbd56bec
+      internalID: -1978036088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_128
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2624
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f7da0650ad1d24fa063254c3253f04
+      internalID: -323484998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_129
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2624
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ba621e34f890f478cfb2ede45300f4
+      internalID: -2011216139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_130
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2624
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2f6e18ec82ee242940bef6acb9f4a3
+      internalID: -479938271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_131
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f2f60ac39d4394e9706869cb4f3953
+      internalID: -1467187498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_132
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f098e36492d300488885708cdac57b7
+      internalID: 1195453955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_133
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bed3b40fff06944bd0b6fefaad2c9f
+      internalID: -741854026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_134
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7e96f396081684594581f7575cb29e
+      internalID: 2114270753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_135
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3c381a63c18394bbba4292eccbcf4a
+      internalID: 1548385662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_136
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd292798dc0610047972ffb1ed175f8d
+      internalID: 1138248135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_137
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c05fa8595bf9f340bba58197e9fcece
+      internalID: 1318848504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_138
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e356e03a358243438441f62d10fb228
+      internalID: -896642648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_139
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0268693cc8fcb034a820d8eaea47542c
+      internalID: -1102500720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_140
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c3e77dea84fe14a8bb98115f6bf6bd
+      internalID: -226761650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_141
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b00d5edc14664846b7aff45e39a1a03
+      internalID: 1530693032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_142
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc251999e63ec2a419d0e8a12f67f7ce
+      internalID: 1634936365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_143
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2560
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300a0a30f1b0bfb4b9ed5dab2c58714b
+      internalID: -1961168475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2630da85a99efc4e88d5642524e94c4
+      internalID: 1898105529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_145
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7524d98337e15ba4ea9c89820381ba30
+      internalID: -2052963794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_146
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f5fd11596313b4ba763eeece8b8715
+      internalID: 1665035903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_147
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6263d1782cb234488c7095b9e8fa8b1
+      internalID: 1115685022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_148
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4500aab10e3e60345b10faf071208ba2
+      internalID: -794706694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_149
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39484b7d51cb5c49aa6c2e01c531a96
+      internalID: 795595762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_150
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd1657d2cdcb4a49afd7ce71ad47ace
+      internalID: -452274167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_151
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1560fce1366830e4cac2764ff60d218b
+      internalID: -694785875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_152
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec5c8952bd8a114b82d755823fb5b59
+      internalID: -2081096929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_153
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c08b4b30318afb43aee1370f1debfe3
+      internalID: 384102238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_154
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e10603480d0c34fa48470014bef9f4
+      internalID: -1303822223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_155
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6b462349b7b084b8092f5e16870ba8
+      internalID: -1094391503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_156
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2496
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd178137000d15f4489827c80074e7d2
+      internalID: -493095571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_157
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e4be74cc0992b419ca49c237abc45a
+      internalID: -1012461720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_158
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f2a30eb3c753f49af7ded65500dc7a
+      internalID: -588389068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_159
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90cdc8e3235ade4188a921ce9e884d9
+      internalID: 436274578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_160
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679ed15cc6c6fa9458dd3b4c66e23dcd
+      internalID: 204774597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_161
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5ad4f5a4f8b9e4397bbb181799ee49
+      internalID: 1678819484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_162
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff156ec84077004a8dd563e9fc41d4e
+      internalID: 848210525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_163
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76cc61bb90fbb5540890a0f9a4d9b2e8
+      internalID: 1577745992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_164
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd1339bb61060746af94531f8f96261
+      internalID: 206996873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_165
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd1f782253cc9448884cb1ecdd07b95
+      internalID: 2066619414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_166
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08faf7518937f064dbd4d0c87bd8ee58
+      internalID: -1958212106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_167
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8def1eb062ab55749ba1eb8b251c9b61
+      internalID: -1599680991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_168
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ef1c720c76c8b4789babe5d2b47db8
+      internalID: 775894032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_169
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2432
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ded0f59ad92f2459580215e82a38ee
+      internalID: -1918836260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_170
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557740f2c1497394db6de433eb8592b9
+      internalID: 738484218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_171
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c97aec36f343d344b4022643d7efdea
+      internalID: -1753741412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_172
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53295f46ace087d40b09c8f1965b59d1
+      internalID: 2144159146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_173
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c51a58e5f49821488b712a8a6de315d
+      internalID: -281821013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_174
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec09820015df624a82327bb7800012d
+      internalID: -2144455254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_175
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1d1b1145feebe488c41a75e7cb8ad7
+      internalID: -2142916409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_176
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59bd69e43e248247ba9814ebfb69a56
+      internalID: 541516414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_177
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c05fd2bf82ce7d046a3b2cd85efe222f
+      internalID: -1912385153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_178
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e318a2ee979e23d43bdd9d4e55a25b86
+      internalID: 1172899637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_179
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08002e5d8ed4084ca557200872f4201
+      internalID: -984253472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_180
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a614318083e79a748b4fddbd66336f40
+      internalID: -857931708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_181
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2189053fb3be88c4cb0bd816fcfd37ed
+      internalID: 1471572578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_182
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2368
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c845881ee4dbe8b4cb04ca66b7f00e76
+      internalID: 1290515685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_183
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b3a7c772cad0e4fa64fb073eef0a37
+      internalID: -2119397088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_184
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75cd142fc7e52848b89dc8db183432e
+      internalID: 1568954485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_185
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad12cefca36946a4ebff418293daa093
+      internalID: 2022128391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_186
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd455cb26fa55a4d9986524eae1a3b5
+      internalID: 513727738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_187
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb35c7540089ca4fb1a29b8544f06bb
+      internalID: -1097820436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_188
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2304
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e4af408f1815149a73e6cd11e56f0f
+      internalID: 1180245559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_205
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b335fd5b18ebc74ba03ce6af8a2b5a7
+      internalID: 128390739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_207
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ff27e39ec5baa4dae7cba384834c27
+      internalID: 50014688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_209
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2176
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444eb5f5bf36ca047aef581a7cfca907
+      internalID: -1093968941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_211
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 2177
+        width: 101
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b239e838acb5443bff413fe01cbd0f
+      internalID: 1872266762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_213
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 2174
+        width: 78
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f956025255f73439da65e783ee6550
+      internalID: 685328831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_215
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 2176
+        width: 131
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596a8ff746a36704fa02a73b95f33827
+      internalID: -2035757281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_223
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1984
+        width: 91
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cf563f536e738499f96d95804f0d42
+      internalID: 674846294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_224
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1983
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5458de8d1206679438551ebf51807bb9
+      internalID: 1031808594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_225
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f713679a7201ed749bee1d40283463fe
+      internalID: -1943661733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_226
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1984
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59961fc60394a5b47beaee7726e84844
+      internalID: 1456635568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_229
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1984
+        width: 158
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe98e3d7a772d549821755757e3bb39
+      internalID: 1795101320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_231
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1984
+        width: 146
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f1ed573b67fc24f9f833d66c89a4b6
+      internalID: -1624030422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_239
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cbdb5e787bd214aa949f1f95e136e8
+      internalID: 305251201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_241
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf53c57cb013064c962794414f5c2f3
+      internalID: 389021256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_243
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1792
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be24cacb67600e04db4c6ba70beee3d6
+      internalID: -165832024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_245
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1792
+        width: 87
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b41292ffef2ff48a69c47667eb6600
+      internalID: -1061965166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_247
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1775
+        width: 81
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9318bf861e85e0a48a2520214cc2e9c9
+      internalID: -1993516376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_249
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1775
+        width: 139
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fad19904bbd1874a8e4430e3a3656bf
+      internalID: 768027720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_260
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1600
+        width: 91
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fb4e1d06f5e5a4686948fb5f7f5593
+      internalID: -2028525884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_262
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1599
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ba164eaeb24ed4dbb67501c4c6617b
+      internalID: -139823304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_263
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a958851562f2c5469aeafbc2581107e
+      internalID: 1126275095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_265
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1600
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737743e402358344d90843e055ddefa3
+      internalID: -1571495521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_266
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1600
+        width: 162
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfde497d17b11f54693252f527bf7633
+      internalID: -1289050959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_268
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1601
+        width: 145
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613bbe91a45cd464aa552b1f6a787526
+      internalID: -589604944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_338
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d73bd3a2ba43454f8c2217b349482b8
+      internalID: -206236802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_339
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9727bf65187b23b4f8acf45ad6da6157
+      internalID: 72298866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_340
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b10655e3d819a45b2120ad448ff766
+      internalID: 1277006231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_341
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b36863f85ae214ba44450d782022dc
+      internalID: -969267060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_342
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd237c64ff268a48bcd2d57eb8c7d2d
+      internalID: 249140595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_343
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9767d63a514adb44bc8c3a1f4d44315
+      internalID: 94903102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_344
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb52c754771e510499015404e00671df
+      internalID: 992117811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_345
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fdb74043c97e0242a6cf2a4bb3b8eb8
+      internalID: -1313950518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_354
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 448
+        width: 98
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86d44c5f920d27439dc4a257ebfb55a
+      internalID: -1032956370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_356
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 448
+        width: 81
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d738075602577d7469dc310a6c1d0f10
+      internalID: 904594001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_358
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 449
+        width: 76
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e5f1249ac2cb3499cac6916e85fd1b
+      internalID: 1344310209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_360
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 448
+        width: 81
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c83ad2ba92d49f48aee31cf76b073de
+      internalID: -795678464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_362
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 448
+        width: 105
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8139728b4c9edca46b707c2ff9786bfc
+      internalID: 1777920685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_364
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 448
+        width: 108
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4f77527ac756e4eb0749f02fccc12c
+      internalID: 754667723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_366
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 449
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0340e57a8ddbac468428278c4873e2f
+      internalID: 9098318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_368
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 448
+        width: 91
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fb10decc5a9664fbca2fafc480a5d2
+      internalID: -1027911981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_370
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2d0e4d10f4e0648b3358674e980be4
+      internalID: 1837623991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_371
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e996f00b2b0718d43b13382cbca11929
+      internalID: 652237024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_372
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a4b652559a77749874dc63439a92a8
+      internalID: 1837763017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_373
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd37a7566a992c342afb2f934a136c8a
+      internalID: 1573531865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_374
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 241
+        width: 64
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2003aa70ce65f7a47b454da74099ae5a
+      internalID: 605200561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_375
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 234
+        width: 64
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f627c14c8824d546a935f4bceb598a5
+      internalID: 337454294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_376
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 244
+        width: 64
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeddec473a2813444aedf1fca146bcc5
+      internalID: 633389519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_377
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a776e695827b8064bb020b8662548d88
+      internalID: -1868219021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_383
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 64
+        width: 84
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fd99730ff0bd34fa8e5973bddf3a55
+      internalID: 118470769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_385
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 64
+        width: 77
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5e38d2b4ee2cf4fa1e1063f9ad0ead
+      internalID: -957325275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_387
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 64
+        width: 77
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953cb718fabb6ba47bd5694d3d979c3c
+      internalID: 164683074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_389
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 64
+        width: 92
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06467c1ef71ecc458cea5ef3b74b469
+      internalID: 1268225131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_391
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 64
+        width: 102
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1d765c6df94af4a8eec78988ded377
+      internalID: -1266549165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_393
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 64
+        width: 118
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51d14186bef6f242bc24583812db080
+      internalID: 229134646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_395
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 64
+        width: 105
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecc16d561db9f446a22493f9c25b4fc
+      internalID: 788188932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeKnight_397
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 64
+        width: 99
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d3de1d38a85674ea5396d22b7e3583
+      internalID: 1143264342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6a0e88b80b9cd0d47afcff3793ab0983
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MeleeKnight_0: -215209559
+      MeleeKnight_1: 211598351
+      MeleeKnight_10: 2027822366
+      MeleeKnight_100: 1667042884
+      MeleeKnight_101: 274463335
+      MeleeKnight_102: 1624405425
+      MeleeKnight_103: 1377778078
+      MeleeKnight_104: 1412442373
+      MeleeKnight_105: -372100618
+      MeleeKnight_106: 380605831
+      MeleeKnight_107: -1315057537
+      MeleeKnight_108: -699132548
+      MeleeKnight_109: 700815233
+      MeleeKnight_11: 146301691
+      MeleeKnight_110: 495362882
+      MeleeKnight_111: -1389291550
+      MeleeKnight_112: -1625144383
+      MeleeKnight_113: -1398202712
+      MeleeKnight_114: 592912025
+      MeleeKnight_115: 80872510
+      MeleeKnight_116: -851297215
+      MeleeKnight_117: 1160791669
+      MeleeKnight_118: 467935175
+      MeleeKnight_119: 526488340
+      MeleeKnight_12: 1311551803
+      MeleeKnight_120: 1605257105
+      MeleeKnight_121: -84401114
+      MeleeKnight_122: 220458599
+      MeleeKnight_123: 870395608
+      MeleeKnight_124: 1754084634
+      MeleeKnight_125: 779778949
+      MeleeKnight_126: -1785003541
+      MeleeKnight_127: -1978036088
+      MeleeKnight_128: -323484998
+      MeleeKnight_129: -2011216139
+      MeleeKnight_13: -1403106187
+      MeleeKnight_130: -479938271
+      MeleeKnight_131: -1467187498
+      MeleeKnight_132: 1195453955
+      MeleeKnight_133: -741854026
+      MeleeKnight_134: 2114270753
+      MeleeKnight_135: 1548385662
+      MeleeKnight_136: 1138248135
+      MeleeKnight_137: 1318848504
+      MeleeKnight_138: -896642648
+      MeleeKnight_139: -1102500720
+      MeleeKnight_14: -270943993
+      MeleeKnight_140: -226761650
+      MeleeKnight_141: 1530693032
+      MeleeKnight_142: 1634936365
+      MeleeKnight_143: -1961168475
+      MeleeKnight_144: 1898105529
+      MeleeKnight_145: -2052963794
+      MeleeKnight_146: 1665035903
+      MeleeKnight_147: 1115685022
+      MeleeKnight_148: -794706694
+      MeleeKnight_149: 795595762
+      MeleeKnight_15: 1216074675
+      MeleeKnight_150: -452274167
+      MeleeKnight_151: -694785875
+      MeleeKnight_152: -2081096929
+      MeleeKnight_153: 384102238
+      MeleeKnight_154: -1303822223
+      MeleeKnight_155: -1094391503
+      MeleeKnight_156: -493095571
+      MeleeKnight_157: -1012461720
+      MeleeKnight_158: -588389068
+      MeleeKnight_159: 436274578
+      MeleeKnight_16: -161411965
+      MeleeKnight_160: 204774597
+      MeleeKnight_161: 1678819484
+      MeleeKnight_162: 848210525
+      MeleeKnight_163: 1577745992
+      MeleeKnight_164: 206996873
+      MeleeKnight_165: 2066619414
+      MeleeKnight_166: -1958212106
+      MeleeKnight_167: -1599680991
+      MeleeKnight_168: 775894032
+      MeleeKnight_169: -1918836260
+      MeleeKnight_17: 303392457
+      MeleeKnight_170: 738484218
+      MeleeKnight_171: -1753741412
+      MeleeKnight_172: 2144159146
+      MeleeKnight_173: -281821013
+      MeleeKnight_174: -2144455254
+      MeleeKnight_175: -2142916409
+      MeleeKnight_176: 541516414
+      MeleeKnight_177: -1912385153
+      MeleeKnight_178: 1172899637
+      MeleeKnight_179: -984253472
+      MeleeKnight_18: 992653293
+      MeleeKnight_180: -857931708
+      MeleeKnight_181: 1471572578
+      MeleeKnight_182: 1290515685
+      MeleeKnight_183: -2119397088
+      MeleeKnight_184: 1568954485
+      MeleeKnight_185: 2022128391
+      MeleeKnight_186: 513727738
+      MeleeKnight_187: -1097820436
+      MeleeKnight_188: 1180245559
+      MeleeKnight_189: -1707759632
+      MeleeKnight_19: 126174249
+      MeleeKnight_190: 1480590528
+      MeleeKnight_191: 51242772
+      MeleeKnight_192: -1204696677
+      MeleeKnight_193: -1074654859
+      MeleeKnight_194: -561280833
+      MeleeKnight_195: -582452292
+      MeleeKnight_196: -1698694344
+      MeleeKnight_197: -1687678795
+      MeleeKnight_198: -784166986
+      MeleeKnight_199: -52604163
+      MeleeKnight_2: -632601841
+      MeleeKnight_20: -1904363933
+      MeleeKnight_200: -1778442332
+      MeleeKnight_201: 521582482
+      MeleeKnight_202: 794672733
+      MeleeKnight_203: 507727005
+      MeleeKnight_204: -1528237341
+      MeleeKnight_205: 128390739
+      MeleeKnight_206: -543515829
+      MeleeKnight_207: 50014688
+      MeleeKnight_208: 1088470228
+      MeleeKnight_209: -1093968941
+      MeleeKnight_21: 1541307117
+      MeleeKnight_210: 705600082
+      MeleeKnight_211: 1872266762
+      MeleeKnight_212: -927658816
+      MeleeKnight_213: 685328831
+      MeleeKnight_214: 1755624168
+      MeleeKnight_215: -2035757281
+      MeleeKnight_216: -2043346016
+      MeleeKnight_217: -1579574152
+      MeleeKnight_218: -1608510400
+      MeleeKnight_219: -282826809
+      MeleeKnight_22: 485773437
+      MeleeKnight_220: -1077793177
+      MeleeKnight_221: -1071043606
+      MeleeKnight_222: 956885646
+      MeleeKnight_223: 674846294
+      MeleeKnight_224: 1031808594
+      MeleeKnight_225: -1943661733
+      MeleeKnight_226: 1456635568
+      MeleeKnight_227: -1903739899
+      MeleeKnight_228: 638514887
+      MeleeKnight_229: 1795101320
+      MeleeKnight_23: 31996381
+      MeleeKnight_230: 803055943
+      MeleeKnight_231: -1624030422
+      MeleeKnight_232: -121675426
+      MeleeKnight_233: 76459077
+      MeleeKnight_234: 807072940
+      MeleeKnight_235: 841317518
+      MeleeKnight_236: -705180212
+      MeleeKnight_237: 583700141
+      MeleeKnight_238: 1613972737
+      MeleeKnight_239: 305251201
+      MeleeKnight_24: -684646156
+      MeleeKnight_240: 55998095
+      MeleeKnight_241: 389021256
+      MeleeKnight_242: -742649423
+      MeleeKnight_243: -165832024
+      MeleeKnight_244: 2128493513
+      MeleeKnight_245: -1061965166
+      MeleeKnight_246: 940348793
+      MeleeKnight_247: -1993516376
+      MeleeKnight_248: 1471356129
+      MeleeKnight_249: 768027720
+      MeleeKnight_25: -1845270714
+      MeleeKnight_250: 1665315064
+      MeleeKnight_251: -2090560395
+      MeleeKnight_252: -1898060968
+      MeleeKnight_253: 642845814
+      MeleeKnight_254: -1419395214
+      MeleeKnight_255: 1376939716
+      MeleeKnight_256: -1812280432
+      MeleeKnight_257: 2001324007
+      MeleeKnight_258: 1573700465
+      MeleeKnight_259: 1091402665
+      MeleeKnight_26: 1714891384
+      MeleeKnight_260: -2028525884
+      MeleeKnight_261: -379100455
+      MeleeKnight_262: -139823304
+      MeleeKnight_263: 1126275095
+      MeleeKnight_264: 2022396091
+      MeleeKnight_265: -1571495521
+      MeleeKnight_266: -1289050959
+      MeleeKnight_267: -1150317416
+      MeleeKnight_268: -589604944
+      MeleeKnight_269: 1891116547
+      MeleeKnight_27: -116935102
+      MeleeKnight_270: -949959469
+      MeleeKnight_271: -779460235
+      MeleeKnight_272: -1034213331
+      MeleeKnight_273: 342117915
+      MeleeKnight_274: 1414333664
+      MeleeKnight_275: -231163340
+      MeleeKnight_276: -1998609639
+      MeleeKnight_277: 705622353
+      MeleeKnight_278: 1328686477
+      MeleeKnight_279: -1514655286
+      MeleeKnight_28: -270319541
+      MeleeKnight_280: 602624572
+      MeleeKnight_281: -1793171079
+      MeleeKnight_282: 1685865646
+      MeleeKnight_283: -1151492547
+      MeleeKnight_284: 785407259
+      MeleeKnight_285: -1996871993
+      MeleeKnight_286: 679888738
+      MeleeKnight_287: 132582426
+      MeleeKnight_288: -1484212831
+      MeleeKnight_289: 506851688
+      MeleeKnight_29: -768545863
+      MeleeKnight_290: 2092437761
+      MeleeKnight_291: -1285332528
+      MeleeKnight_292: 525957048
+      MeleeKnight_293: 1933885109
+      MeleeKnight_294: -1503239861
+      MeleeKnight_295: 1270085252
+      MeleeKnight_296: 1963317046
+      MeleeKnight_297: -411002958
+      MeleeKnight_298: -1801313328
+      MeleeKnight_299: 885312605
+      MeleeKnight_3: -1844703608
+      MeleeKnight_30: -2029395356
+      MeleeKnight_300: 1575141432
+      MeleeKnight_301: 400612931
+      MeleeKnight_302: -1093426084
+      MeleeKnight_303: 1869026671
+      MeleeKnight_304: 1267645914
+      MeleeKnight_305: -1326257947
+      MeleeKnight_306: 1564011793
+      MeleeKnight_307: 2122706091
+      MeleeKnight_308: 1065471612
+      MeleeKnight_309: -219280950
+      MeleeKnight_31: -1123878159
+      MeleeKnight_310: 1166277687
+      MeleeKnight_311: -147436249
+      MeleeKnight_312: 1051735036
+      MeleeKnight_313: 1112455317
+      MeleeKnight_314: 2005278534
+      MeleeKnight_315: -317133100
+      MeleeKnight_316: -1907092451
+      MeleeKnight_317: -865290836
+      MeleeKnight_318: -1258274430
+      MeleeKnight_319: -1530782839
+      MeleeKnight_32: 2072199790
+      MeleeKnight_320: 982019231
+      MeleeKnight_321: 430039122
+      MeleeKnight_322: 1201606555
+      MeleeKnight_323: -1540668675
+      MeleeKnight_324: -273602290
+      MeleeKnight_325: 2116262009
+      MeleeKnight_326: -611383753
+      MeleeKnight_327: -1249909934
+      MeleeKnight_328: 358130773
+      MeleeKnight_329: -1960281805
+      MeleeKnight_33: -1599492828
+      MeleeKnight_330: 1643759805
+      MeleeKnight_331: -877982568
+      MeleeKnight_332: -1316887154
+      MeleeKnight_333: 88320472
+      MeleeKnight_334: -934438053
+      MeleeKnight_335: 638323376
+      MeleeKnight_336: 1744591411
+      MeleeKnight_337: -2136104886
+      MeleeKnight_338: -206236802
+      MeleeKnight_339: 72298866
+      MeleeKnight_34: 403997105
+      MeleeKnight_340: 1277006231
+      MeleeKnight_341: -969267060
+      MeleeKnight_342: 249140595
+      MeleeKnight_343: 94903102
+      MeleeKnight_344: 992117811
+      MeleeKnight_345: -1313950518
+      MeleeKnight_346: 666604738
+      MeleeKnight_347: -1465764938
+      MeleeKnight_348: -117998610
+      MeleeKnight_349: -776756966
+      MeleeKnight_35: -1339842776
+      MeleeKnight_350: -1642642329
+      MeleeKnight_351: 1063064745
+      MeleeKnight_352: 722390402
+      MeleeKnight_353: -16211798
+      MeleeKnight_354: -1032956370
+      MeleeKnight_355: 727186144
+      MeleeKnight_356: 904594001
+      MeleeKnight_357: 1585163304
+      MeleeKnight_358: 1344310209
+      MeleeKnight_359: -2114125700
+      MeleeKnight_36: 1733287519
+      MeleeKnight_360: -795678464
+      MeleeKnight_361: 28667055
+      MeleeKnight_362: 1777920685
+      MeleeKnight_363: 1653065970
+      MeleeKnight_364: 754667723
+      MeleeKnight_365: -1963354371
+      MeleeKnight_366: 9098318
+      MeleeKnight_367: -1150809026
+      MeleeKnight_368: -1027911981
+      MeleeKnight_369: -2045773409
+      MeleeKnight_37: -1347501424
+      MeleeKnight_370: 1837623991
+      MeleeKnight_371: 652237024
+      MeleeKnight_372: 1837763017
+      MeleeKnight_373: 1573531865
+      MeleeKnight_374: 605200561
+      MeleeKnight_375: 337454294
+      MeleeKnight_376: 633389519
+      MeleeKnight_377: -1868219021
+      MeleeKnight_378: 272479386
+      MeleeKnight_379: -1857688062
+      MeleeKnight_38: -1304107243
+      MeleeKnight_380: 281217652
+      MeleeKnight_381: 268370739
+      MeleeKnight_382: -884377483
+      MeleeKnight_383: 118470769
+      MeleeKnight_384: -1066076779
+      MeleeKnight_385: -957325275
+      MeleeKnight_386: -1296968149
+      MeleeKnight_387: 164683074
+      MeleeKnight_388: 56793000
+      MeleeKnight_389: 1268225131
+      MeleeKnight_39: -1116171431
+      MeleeKnight_390: -804810353
+      MeleeKnight_391: -1266549165
+      MeleeKnight_392: -1300909709
+      MeleeKnight_393: 229134646
+      MeleeKnight_394: -2040160775
+      MeleeKnight_395: 788188932
+      MeleeKnight_396: 382009138
+      MeleeKnight_397: 1143264342
+      MeleeKnight_398: -864746630
+      MeleeKnight_399: -84396181
+      MeleeKnight_4: -324991432
+      MeleeKnight_40: 1629977227
+      MeleeKnight_400: -1433916931
+      MeleeKnight_401: 920403377
+      MeleeKnight_402: -835728530
+      MeleeKnight_403: -2036388795
+      MeleeKnight_404: -701165793
+      MeleeKnight_405: -1821264827
+      MeleeKnight_406: -800249583
+      MeleeKnight_407: -262187158
+      MeleeKnight_41: 1689043072
+      MeleeKnight_42: -1471362877
+      MeleeKnight_43: 1777899488
+      MeleeKnight_44: -698308456
+      MeleeKnight_45: 1137764068
+      MeleeKnight_46: 1706807626
+      MeleeKnight_47: -272150048
+      MeleeKnight_48: 1489545684
+      MeleeKnight_49: -1264236568
+      MeleeKnight_5: 1528344998
+      MeleeKnight_50: 1000513482
+      MeleeKnight_51: -602263400
+      MeleeKnight_52: -1349464874
+      MeleeKnight_53: 1695125334
+      MeleeKnight_54: 1216548811
+      MeleeKnight_55: -1262625614
+      MeleeKnight_56: 309605713
+      MeleeKnight_57: -1965929684
+      MeleeKnight_58: 2010143230
+      MeleeKnight_59: -1455829041
+      MeleeKnight_6: -1048513246
+      MeleeKnight_60: 287913772
+      MeleeKnight_61: 1775242855
+      MeleeKnight_62: 1533026483
+      MeleeKnight_63: 1954435248
+      MeleeKnight_64: 1724967473
+      MeleeKnight_65: 1615955301
+      MeleeKnight_66: 326760423
+      MeleeKnight_67: 1159755434
+      MeleeKnight_68: -1730856966
+      MeleeKnight_69: 905861701
+      MeleeKnight_7: 820761012
+      MeleeKnight_70: 1030165988
+      MeleeKnight_71: -178471938
+      MeleeKnight_72: -1616846545
+      MeleeKnight_73: -1561844263
+      MeleeKnight_74: -2067671594
+      MeleeKnight_75: 1295291690
+      MeleeKnight_76: -671047898
+      MeleeKnight_77: 386197964
+      MeleeKnight_78: -822716441
+      MeleeKnight_79: -530924071
+      MeleeKnight_8: -2957947
+      MeleeKnight_80: 1058597573
+      MeleeKnight_81: -378095725
+      MeleeKnight_82: -1167901854
+      MeleeKnight_83: -316971664
+      MeleeKnight_84: -1696410104
+      MeleeKnight_85: -1831733545
+      MeleeKnight_86: 1513695225
+      MeleeKnight_87: 1031136680
+      MeleeKnight_88: 437855304
+      MeleeKnight_89: -727579232
+      MeleeKnight_9: -1214172092
+      MeleeKnight_90: -434204240
+      MeleeKnight_91: 750324248
+      MeleeKnight_92: -1176479540
+      MeleeKnight_93: -1311010241
+      MeleeKnight_94: -1214981540
+      MeleeKnight_95: 325189695
+      MeleeKnight_96: 1173707969
+      MeleeKnight_97: 1032870067
+      MeleeKnight_98: -1033318475
+      MeleeKnight_99: -1258233211
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
