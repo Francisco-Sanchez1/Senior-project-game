@@ -230,8 +230,11 @@ MonoBehaviour:
   regularColor: {r: 1, g: 1, b: 1, a: 1}
   flashDur: 0.1
   numFlash: 5
+  invTimer: 0
+  invTimerFull: 0.5
   triggerCol: {fileID: 8136030098257630576}
   mySprite: {fileID: 3707646645383469837}
+  currentSceneIndex: 0
 --- !u!50 &4282931317375138631
 Rigidbody2D:
   serializedVersion: 4

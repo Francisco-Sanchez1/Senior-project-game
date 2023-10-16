@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public enum PlayerState
 {
     walk,
@@ -61,8 +61,13 @@ public class PlayerCntrl : MonoBehaviour
     public Color regularColor;
     public float flashDur;
     public int numFlash;
+    public float invTimer;
+    public float invTimerFull = 0.50f;
+
     public Collider2D triggerCol;
     public SpriteRenderer mySprite;
+    public int currentSceneIndex;
+    public bool isDead = false;
 
     // Start is called before the first frame update
     void Start()
@@ -91,7 +96,10 @@ public class PlayerCntrl : MonoBehaviour
 
     }
 
-
+    void Awake()
+    {
+        currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+    }
 
     // Update is called once per frame
     void Update()
@@ -101,9 +109,9 @@ public class PlayerCntrl : MonoBehaviour
         float verticalInput = Input.GetAxis("Vertical");
         float currentSpeed = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift) ? sprintSpeed : movSpeed;
         movement = new Vector2(horizontalInput, verticalInput).normalized * currentSpeed;
-        
+        invTimer = invTimer - Time.deltaTime;
         // INVENTORY
-         if(Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.I))
         {
             if(!isOpen)
             {
@@ -201,16 +209,44 @@ public class PlayerCntrl : MonoBehaviour
 
     public void takeDamage(float damage)
     {
-
+        if (invTimer <= 0)
+        {
             currentHealth -= damage;
             healthBar.SetHealth(currentHealth);
-        StartCoroutine(ToggleInv());
+            invTimer = invTimerFull;
+            StartCoroutine(ToggleInv());
+        }
 
         if (currentHealth <= 0)
         {
-            Destroy(gameObject);
+            // Start the death animation coroutine
+            StartCoroutine(Death_Anim());
+        }
+    }
+
+    private IEnumerator Death_Anim()
+    {
+        // Play the death animation
+        animator.SetBool("isDead", true);
+        animator.SetBool("attacking", false);
+        animator.SetBool("idle", true);
+
+        //set  to kinematic to prevent movement
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        rb.isKinematic = true;
+
+        // Optionally, you can disable player controls here
+        PlayerCntrl playerController = GetComponent<PlayerCntrl>();
+        if (playerController != null)
+        {
+            playerController.enabled = false;
         }
 
+        // Wait for the animation to finish (adjust the duration as needed)
+        yield return new WaitForSeconds(4);
+
+        // Transition to the game over screen
+        SceneManager.LoadScene("Death_Screen");
     }
 
     public void useMana(float manaUse)
@@ -224,6 +260,7 @@ public class PlayerCntrl : MonoBehaviour
 
     public void Knock(float KnockTime, float damage)
     {
+
         StartCoroutine(KnockCo(KnockTime));
         takeDamage(damage);
         //ToggleInv();
@@ -251,7 +288,7 @@ public class PlayerCntrl : MonoBehaviour
             rb.velocity = Vector2.zero;
         }
     }
-
+ 
     private IEnumerator ToggleInv()
     {
         int temp = 0;

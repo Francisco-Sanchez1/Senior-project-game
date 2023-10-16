@@ -26,13 +26,10 @@ public class GoblinMelee : Enemy
     {
         CheckDistance();
     }
-
     void CheckDistance()
     {
-        if (Vector2.Distance(target.position, 
-            transform.position) <= chaseRadius 
-            && Vector2.Distance(target.position, 
-            transform.position) > attackRadius)
+        float distanceToPlayer = Vector2.Distance(target.position, transform.position);
+        if (distanceToPlayer <= chaseRadius && distanceToPlayer > attackRadius)
         {
             if (currentState != EnemyState.stagger)
             {
@@ -41,25 +38,26 @@ public class GoblinMelee : Enemy
                 rigidbody.MovePosition(temp);
                 ChangeState(EnemyState.walk);
                 anim.SetBool("idle", false);
-                //anim.SetBool("attack", false);
+                anim.SetBool("attack", false);
             }
 
         }
-        else if (Vector2.Distance(target.position,
-            transform.position) > chaseRadius)
+        else if (distanceToPlayer > chaseRadius)
         {
             ChangeState(EnemyState.idle);
             anim.SetBool("idle", true);
+            anim.SetBool("attack", false);
             rigidbody.velocity = Vector2.zero;
         }
-        else if (Vector2.Distance(target.position,
-            transform.position) < attackRadius)
+        else if (distanceToPlayer < attackRadius)
         {
             ChangeState(EnemyState.attack);
-            //anim.SetBool("attack", true);
+            anim.SetBool("attack", true);
+            anim.SetBool("idle", true);
 
         }
     }
+
 
     private void setAnimFloat(Vector2 setVec)
     {
