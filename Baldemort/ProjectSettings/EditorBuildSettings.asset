@@ -20,5 +20,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Death_Screen.unity
     guid: 1805d8ec0e47bc54191a7656d46c262d
+  - enabled: 1
+    path: Assets/Scenes/CaveSpawn.unity
+    guid: d3c26887ae9f0443f8ee893797243cc4
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
