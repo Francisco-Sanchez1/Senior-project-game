@@ -263,7 +263,7 @@ public class PlayerCntrl : MonoBehaviour
 
         StartCoroutine(KnockCo(KnockTime));
         takeDamage(damage);
-        //ToggleInv();
+        
     }
 
 
@@ -281,7 +281,6 @@ public class PlayerCntrl : MonoBehaviour
     {
         if (rb != null)
         {
-            //StartCoroutine(ToggleInv());
             yield return new WaitForSeconds(KnockTime);
             rb.velocity = Vector2.zero;
             currentState = PlayerState.idle;
