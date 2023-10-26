@@ -21,6 +21,14 @@ public class Enemy : MonoBehaviour
 
     public int baseAttack;
 
+    public GameObject itemToDropPrefab;
+
+
+    public GameObject itemToDropPrefab1;
+    public GameObject itemToDropPrefab2;
+    public GameObject itemToDropPrefab3;
+
+    public float itemDropSuccessChance = 0.2f;
 
 
     private void Awake()
@@ -41,8 +49,41 @@ public class Enemy : MonoBehaviour
         }
     }
 
+
     void Die()
     {
+        bool itemDropSuccess = Random.Range(0f, 1f) <= itemDropSuccessChance;
+        if (itemDropSuccess)
+        {
+           float randomChance = Random.Range(0f, 1f);
+            if (randomChance < 0.5f)
+            {
+                Debug.Log("Item drop successful, dropping item 1");
+                Instantiate(itemToDropPrefab1, transform.position, Quaternion.identity);
+            }
+            else if (randomChance < 0.8f)
+            {
+                Debug.Log("Item drop successful, dropping item 2");
+                Instantiate(itemToDropPrefab2, transform.position, Quaternion.identity);
+            }
+            else
+            {
+                Debug.Log("Item drop successful, dropping item 3");
+                Instantiate(itemToDropPrefab3, transform.position, Quaternion.identity);
+            }
+        }
+        else
+        {
+            Debug.Log("Item drop failed.");
+        }
+        // Check if this enemy is the PumpkinKing by comparing its name
+        if (gameObject.name == "PumpkinKing")
+        {
+            if (itemToDropPrefab != null)
+            {
+                Instantiate(itemToDropPrefab, transform.position, Quaternion.identity);
+            }
+        }
         Destroy(gameObject);
     }
 

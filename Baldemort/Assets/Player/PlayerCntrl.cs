@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 public enum PlayerState
 {
     walk,
@@ -26,7 +27,7 @@ public class PlayerCntrl : MonoBehaviour
 
     Vector2 mousePos;
 
-    //HealthStuff
+    [SerializeField]
     public float maxHealth = 100f;
     public float currentHealth;
     public HealthBar healthBar;
@@ -36,6 +37,8 @@ public class PlayerCntrl : MonoBehaviour
     public float currentMana;
     public ManaBar manaBar;
 
+    public Slider healthSlider;
+    public Slider manaSlider;
     //MANA REGEN STUFF
     private float ManaRegenTimer;
     public const float ManaUseTimer = 5.0f;
@@ -47,7 +50,7 @@ public class PlayerCntrl : MonoBehaviour
     public Animator animator;
 
     public float KnockbackForce = 500f;
-    
+
     //Inventory Stuff
     private bool isOpen;
     private Inventory myInventory = new Inventory(18);
@@ -69,10 +72,14 @@ public class PlayerCntrl : MonoBehaviour
     public int currentSceneIndex;
     public bool isDead = false;
 
+
+    //MONEY
+    public int coins;
+    public int numCoins = 20;
     // Start is called before the first frame update
     void Start()
     {
-
+        coins = numCoins;
         //HealthStuff
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
@@ -85,10 +92,10 @@ public class PlayerCntrl : MonoBehaviour
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         currentState = PlayerState.walk;
-        
+
 
         // Inventory
-        foreach(Item item in itemsToAdd)
+        foreach (Item item in itemsToAdd)
         {
             myInventory.addItem(new ItemStack(item, 1));
         }
@@ -104,7 +111,14 @@ public class PlayerCntrl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (DialogManager.isActive == true || ShopKeeperNPC.ShopActive == true)
+        {
+            rb.velocity = Vector2.zero;
+            currentState = PlayerState.idle;
+            animator.SetBool("Move", false);
+            return;
+            
+        }
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
         float currentSpeed = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift) ? sprintSpeed : movSpeed;
@@ -191,8 +205,15 @@ public class PlayerCntrl : MonoBehaviour
     public void FixedUpdate()
     {
         //movement
+        if (DialogManager.isActive == true || ShopKeeperNPC.ShopActive == true)
+        {
+            rb.velocity = Vector2.zero;
+            currentState = PlayerState.idle;
+            animator.SetBool("Move", false);
+            return;
 
-        if(currentState != PlayerState.stagger)
+        }
+        if (currentState != PlayerState.stagger)
         {
             rb.velocity = movement;
         }
@@ -221,6 +242,73 @@ public class PlayerCntrl : MonoBehaviour
         {
             // Start the death animation coroutine
             StartCoroutine(Death_Anim());
+        }
+    }
+
+
+    public void IncreaseHealth(float amount)
+    {
+        maxHealth += amount;
+
+        if (currentHealth <= maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
+
+        healthBar.SetMaxHealth(maxHealth);
+        healthBar.SetHealth(currentHealth);
+
+        healthSlider.maxValue = maxHealth;
+        healthSlider.value = currentHealth;
+    }
+
+    public void Heart_Pick(float amount)
+    {
+        currentHealth += amount;
+
+        if (currentHealth >= maxHealth)
+        {
+            currentHealth = maxHealth;
+        }
+        healthBar.SetHealth(currentHealth);
+
+        healthSlider.value = currentHealth;
+    }
+
+    public void IncreaseMana(float amount)
+    {
+        maxMana += amount;
+
+        if (currentMana <= maxMana)
+        {
+            currentMana = maxMana;
+        }
+
+        manaBar.SetMaxMana(maxMana);
+        manaBar.SetMana(currentMana);
+
+        // Update the mana slider's max value and current value
+        manaSlider.maxValue = maxMana;
+        manaSlider.value = currentMana;
+    }
+
+
+    //COIN STUFF
+    public void Coin_Pick(int amount)
+    {
+        coins += amount;
+    }
+
+    public void SpendCoin(int amount)
+    {
+        if (coins >= amount)
+        {
+            coins -= amount;
+
+        }
+        else
+        {
+            Debug.Log("Not enough coins to deduct!");
         }
     }
 
@@ -267,6 +355,8 @@ public class PlayerCntrl : MonoBehaviour
     }
 
 
+
+
     private IEnumerator Attackco()
     {
         animator.SetBool("attacking", true);
@@ -288,6 +378,7 @@ public class PlayerCntrl : MonoBehaviour
         }
     }
  
+    
     private IEnumerator ToggleInv()
     {
         int temp = 0;

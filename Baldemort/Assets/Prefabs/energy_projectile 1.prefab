@@ -188,4 +188,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0687562a4e71f41a7019942e282bbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  manaCost: 5
+  minDam: 18
+  maxDam: 24
+  mult1: 1
+  player: {fileID: 0}
+  upgradeCost: 20

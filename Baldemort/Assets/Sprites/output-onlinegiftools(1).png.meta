@@ -1,0 +1,682 @@
+fileFormatVersion: 2
+guid: e0b6c1af18043e14f80f638989765fe4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8607458076373837439
+    second: output-onlinegiftools(1)_0
+  - first:
+      213: 2612568324239530931
+    second: output-onlinegiftools(1)_1
+  - first:
+      213: 7839623340071031575
+    second: output-onlinegiftools(1)_2
+  - first:
+      213: -2896487022148997070
+    second: output-onlinegiftools(1)_3
+  - first:
+      213: 183478329971134008
+    second: output-onlinegiftools(1)_4
+  - first:
+      213: 2997037510153821924
+    second: output-onlinegiftools(1)_5
+  - first:
+      213: -8698193959039368562
+    second: output-onlinegiftools(1)_6
+  - first:
+      213: -4759624431722444853
+    second: output-onlinegiftools(1)_7
+  - first:
+      213: -575737522822451832
+    second: output-onlinegiftools(1)_8
+  - first:
+      213: 4883054227647286213
+    second: output-onlinegiftools(1)_9
+  - first:
+      213: 1599016142387656868
+    second: output-onlinegiftools(1)_10
+  - first:
+      213: -4084614366153274187
+    second: output-onlinegiftools(1)_11
+  - first:
+      213: 6781572559059799848
+    second: output-onlinegiftools(1)_12
+  - first:
+      213: -3301803734458925623
+    second: output-onlinegiftools(1)_13
+  - first:
+      213: -7640970319956103870
+    second: output-onlinegiftools(1)_14
+  - first:
+      213: 5392232574642577263
+    second: output-onlinegiftools(1)_15
+  - first:
+      213: -3185881456790890252
+    second: output-onlinegiftools(1)_16
+  - first:
+      213: 8056264829877074440
+    second: output-onlinegiftools(1)_17
+  - first:
+      213: -744893427563069882
+    second: output-onlinegiftools(1)_18
+  - first:
+      213: 6119276500625614984
+    second: output-onlinegiftools(1)_19
+  - first:
+      213: 8641564171177445976
+    second: output-onlinegiftools(1)_20
+  - first:
+      213: -2796495888747603558
+    second: output-onlinegiftools(1)_21
+  - first:
+      213: 6579953143644566982
+    second: output-onlinegiftools(1)_22
+  - first:
+      213: 4567917967414780330
+    second: output-onlinegiftools(1)_23
+  - first:
+      213: -7069928401637097063
+    second: output-onlinegiftools(1)_24
+  - first:
+      213: -3266678149689935595
+    second: output-onlinegiftools(1)_25
+  - first:
+      213: -7389818236225143521
+    second: output-onlinegiftools(1)_26
+  - first:
+      213: -6470729516339292000
+    second: output-onlinegiftools(1)_27
+  - first:
+      213: 7519687698447120793
+    second: output-onlinegiftools(1)_28
+  - first:
+      213: -7283705125211695758
+    second: output-onlinegiftools(1)_29
+  - first:
+      213: -7233002588375537551
+    second: output-onlinegiftools(1)_30
+  - first:
+      213: 1876046295237617257
+    second: output-onlinegiftools(1)_31
+  - first:
+      213: -9140151889993687936
+    second: output-onlinegiftools(1)_32
+  - first:
+      213: -5374656196339053530
+    second: output-onlinegiftools(1)_33
+  - first:
+      213: -190889481092831531
+    second: output-onlinegiftools(1)_34
+  - first:
+      213: -1222233722642686439
+    second: output-onlinegiftools(1)_35
+  - first:
+      213: 5115303097219736892
+    second: output-onlinegiftools(1)_36
+  - first:
+      213: -2804152863383845402
+    second: output-onlinegiftools(1)_37
+  - first:
+      213: 5738086002770171284
+    second: output-onlinegiftools(1)_38
+  - first:
+      213: 2067566966633216596
+    second: output-onlinegiftools(1)_39
+  - first:
+      213: -2407118423665564029
+    second: output-onlinegiftools(1)_40
+  - first:
+      213: -9047982884177394797
+    second: output-onlinegiftools(1)_41
+  - first:
+      213: -2199646425667775501
+    second: output-onlinegiftools(1)_42
+  - first:
+      213: 2188400979437639038
+    second: output-onlinegiftools(1)_43
+  - first:
+      213: -8329847957490729010
+    second: output-onlinegiftools(1)_44
+  - first:
+      213: -2111941181592548606
+    second: output-onlinegiftools(1)_45
+  - first:
+      213: -3285057961375844973
+    second: output-onlinegiftools(1)_46
+  - first:
+      213: 8243994080758878345
+    second: output-onlinegiftools(1)_47
+  - first:
+      213: -263763713761096788
+    second: output-onlinegiftools(1)_48
+  - first:
+      213: 3525146371103028430
+    second: output-onlinegiftools(1)_49
+  - first:
+      213: 1814138158203500650
+    second: output-onlinegiftools(1)_50
+  - first:
+      213: 167728024809989771
+    second: output-onlinegiftools(1)_51
+  - first:
+      213: -4986812666328298744
+    second: output-onlinegiftools(1)_52
+  - first:
+      213: -744488119723263991
+    second: output-onlinegiftools(1)_53
+  - first:
+      213: -3270836519466851278
+    second: output-onlinegiftools(1)_54
+  - first:
+      213: -4342646270563539422
+    second: output-onlinegiftools(1)_55
+  - first:
+      213: 7327765001658199073
+    second: output-onlinegiftools(1)_56
+  - first:
+      213: 784740509118517657
+    second: output-onlinegiftools(1)_57
+  - first:
+      213: 8309611464099398237
+    second: output-onlinegiftools(1)_58
+  - first:
+      213: 3633309897718208224
+    second: output-onlinegiftools(1)_59
+  - first:
+      213: -1437304906422226720
+    second: output-onlinegiftools(1)_60
+  - first:
+      213: -1610082863485135331
+    second: output-onlinegiftools(1)_61
+  - first:
+      213: 7619773066253684041
+    second: output-onlinegiftools(1)_62
+  - first:
+      213: 2243632379109499297
+    second: output-onlinegiftools(1)_63
+  - first:
+      213: 4230088723845793063
+    second: output-onlinegiftools(1)_64
+  - first:
+      213: 9000572157271787798
+    second: output-onlinegiftools(1)_65
+  - first:
+      213: 4577766023763612163
+    second: output-onlinegiftools(1)_66
+  - first:
+      213: -5668640596488874890
+    second: output-onlinegiftools(1)_67
+  - first:
+      213: 992665267791521930
+    second: output-onlinegiftools(1)_68
+  - first:
+      213: -3291208081897881317
+    second: output-onlinegiftools(1)_69
+  - first:
+      213: -6569737265534400822
+    second: output-onlinegiftools(1)_70
+  - first:
+      213: 2819167590750440310
+    second: output-onlinegiftools(1)_71
+  - first:
+      213: 625369016511515420
+    second: output-onlinegiftools(1)_72
+  - first:
+      213: -6163728501375622394
+    second: output-onlinegiftools(1)_73
+  - first:
+      213: 6877943026063263951
+    second: output-onlinegiftools(1)_74
+  - first:
+      213: -1081742498804684305
+    second: output-onlinegiftools(1)_75
+  - first:
+      213: 7673591463492928106
+    second: output-onlinegiftools(1)_76
+  - first:
+      213: 7657950531952143075
+    second: output-onlinegiftools(1)_77
+  - first:
+      213: -680269613492599433
+    second: output-onlinegiftools(1)_78
+  - first:
+      213: -7425927002128010759
+    second: output-onlinegiftools(1)_79
+  - first:
+      213: 5070896189622340080
+    second: output-onlinegiftools(1)_80
+  - first:
+      213: 1680678284788992189
+    second: output-onlinegiftools(1)_81
+  - first:
+      213: 8400574745885186591
+    second: output-onlinegiftools(1)_82
+  - first:
+      213: 539184562482468470
+    second: output-onlinegiftools(1)_83
+  - first:
+      213: -4741338304107761535
+    second: output-onlinegiftools(1)_84
+  - first:
+      213: 2411315987456237157
+    second: output-onlinegiftools(1)_85
+  - first:
+      213: 7301382163268063092
+    second: output-onlinegiftools(1)_86
+  - first:
+      213: -3531509943335081912
+    second: output-onlinegiftools(1)_87
+  - first:
+      213: 8018489219772089242
+    second: output-onlinegiftools(1)_88
+  - first:
+      213: -5093781519534445777
+    second: output-onlinegiftools(1)_89
+  - first:
+      213: -6777532869587721142
+    second: output-onlinegiftools(1)_90
+  - first:
+      213: -3274139146098237971
+    second: output-onlinegiftools(1)_91
+  - first:
+      213: -7934409374854425139
+    second: output-onlinegiftools(1)_92
+  - first:
+      213: 796272715791242326
+    second: output-onlinegiftools(1)_93
+  - first:
+      213: 2938955803367677516
+    second: output-onlinegiftools(1)_94
+  - first:
+      213: -7168317064140161678
+    second: output-onlinegiftools(1)_95
+  - first:
+      213: 2566212611480662343
+    second: output-onlinegiftools(1)_96
+  - first:
+      213: -2193962143434846328
+    second: output-onlinegiftools(1)_97
+  - first:
+      213: -5325215926593211829
+    second: output-onlinegiftools(1)_98
+  - first:
+      213: 1081557689755940286
+    second: output-onlinegiftools(1)_99
+  - first:
+      213: -9147321676333903867
+    second: output-onlinegiftools(1)_100
+  - first:
+      213: 6529707307692004120
+    second: output-onlinegiftools(1)_101
+  - first:
+      213: 707474682206048732
+    second: output-onlinegiftools(1)_102
+  - first:
+      213: -4304430910476951829
+    second: output-onlinegiftools(1)_103
+  - first:
+      213: 1296024368783353601
+    second: output-onlinegiftools(1)_104
+  - first:
+      213: -4158584286701016494
+    second: output-onlinegiftools(1)_105
+  - first:
+      213: 1701489874107194609
+    second: output-onlinegiftools(1)_106
+  - first:
+      213: 3314853283249253861
+    second: output-onlinegiftools(1)_107
+  - first:
+      213: 1270326073533259997
+    second: output-onlinegiftools(1)_108
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 500
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: output-onlinegiftools(1)_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 450
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7510a98bd7f0a47844482e951b8e0b
+      internalID: 2097640630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools(1)_1
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 0
+        width: 450
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bc04f5f0539a14d8224ff929f7ec13
+      internalID: -1228036994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools(1)_2
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 0
+        width: 450
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307ff360a68385a4c943f4ce97f8eaf9
+      internalID: 1552010760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools(1)_3
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 0
+        width: 450
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12766fa9f82cc3d4f98a4d4c65056af9
+      internalID: 1438892727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools(1)_4
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 0
+        width: 450
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b33f6c582b32ec4487d6d8aef91818e
+      internalID: -419459368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools(1)_5
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 0
+        width: 450
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02574ae9c687dcf40b525239754a72db
+      internalID: -981010261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools(1)_6
+      rect:
+        serializedVersion: 2
+        x: 3032
+        y: 0
+        width: 450
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f517dd964255df468039418ec391995
+      internalID: 96077735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools(1)_7
+      rect:
+        serializedVersion: 2
+        x: 3536
+        y: 0
+        width: 450
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3059dc3f4b1f22a448d83b5f227867cf
+      internalID: -1210055691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools(1)_8
+      rect:
+        serializedVersion: 2
+        x: 4026
+        y: 0
+        width: 450
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d518cd399ea1f4394c82a7fde2c53e
+      internalID: 658155307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools(1)_9
+      rect:
+        serializedVersion: 2
+        x: 5032
+        y: 0
+        width: 450
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcaa82ee008e5f4db4e7ddbb094cf7d
+      internalID: 443558808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: output-onlinegiftools(1)_10
+      rect:
+        serializedVersion: 2
+        x: 4534
+        y: 0
+        width: 450
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31096569b115a874686211906a14bf59
+      internalID: 1857475860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b59eb0b0695581f4097ea1143f1dc42c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      output-onlinegiftools(1)_0: 2097640630
+      output-onlinegiftools(1)_1: -1228036994
+      output-onlinegiftools(1)_10: 1857475860
+      output-onlinegiftools(1)_11: -402485544
+      output-onlinegiftools(1)_2: 1552010760
+      output-onlinegiftools(1)_3: 1438892727
+      output-onlinegiftools(1)_4: -419459368
+      output-onlinegiftools(1)_5: -981010261
+      output-onlinegiftools(1)_6: 96077735
+      output-onlinegiftools(1)_7: -1210055691
+      output-onlinegiftools(1)_8: 658155307
+      output-onlinegiftools(1)_9: 443558808
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

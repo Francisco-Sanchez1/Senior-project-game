@@ -519,9 +519,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 100
+  m_MaxValue: 200
   m_WholeNumbers: 0
-  m_Value: 100
+  m_Value: 200
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -555,6 +555,7 @@ GameObject:
   - component: {fileID: 6383251063654387715}
   - component: {fileID: 61660905217619401}
   - component: {fileID: 3895038882185820915}
+  - component: {fileID: 3917429199432785642}
   m_Layer: 8
   m_Name: PumpkinKing
   m_TagString: Enemy
@@ -809,6 +810,11 @@ MonoBehaviour:
   currentHealth: 0
   healthBar: {fileID: 6316101631331956278}
   baseAttack: 0
+  itemToDropPrefab: {fileID: 670818523711551255, guid: 8af99e57ffabe7e4aa0580c3a486d639, type: 3}
+  itemToDropPrefab1: {fileID: 0}
+  itemToDropPrefab2: {fileID: 0}
+  itemToDropPrefab3: {fileID: 0}
+  itemDropSuccessChance: 0.2
   target: {fileID: 1755490314798967455, guid: f1e103621049a1f44beb860ad709badb, type: 3}
   chaseRadius: 15
   attackRadius: 1.5
@@ -833,11 +839,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb2c561660983af47921a8326b9827bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 670818523711551255, guid: 8af99e57ffabe7e4aa0580c3a486d639, type: 3}
+  projectilePrefab: {fileID: 670818523711551255, guid: ecbcb2126217adb4eb13d2ac5e0b4143, type: 3}
   attackSpeed: 6
-  target: {fileID: 1755490314798967455, guid: f1e103621049a1f44beb860ad709badb, type: 3}
+  target: {fileID: 5064391792514179472, guid: 4606aa45b9916894088f7bdb2f3c32b3, type: 3}
   cooldownTime: 0.75
   useCooldown: 1
+--- !u!114 &3917429199432785642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5578002796022141100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c0011e29141da4db28daf6a8d18026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8275344042621089372
 GameObject:
   m_ObjectHideFlags: 0
