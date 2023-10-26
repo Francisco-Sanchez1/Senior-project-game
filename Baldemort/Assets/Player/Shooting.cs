@@ -1,34 +1,50 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
-    //public GameObject hitEffect;
-    private PlayerCntrl player;
-    public float damage = 10f;
-    // Start is called before the first frame update
-    void Start()
+    // Flag to prevent multiple damage applications in a single frame
+    private bool hasDealtDamage = false;
+    public float manaCost = 5f;
+
+    // Reference to the PlayerDamageStats script on the player
+    private DamageUpgrade damageUpgrade;
+
+    private void Start()
     {
+        damageUpgrade = GameObject.FindGameObjectWithTag("Player").GetComponent<DamageUpgrade>();
     }
+
+    public void SetManaCost(float cost)
+    {
+        manaCost = cost;
+    }
+
 
 
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        //GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
-        Enemy enemy = hitInfo.GetComponent<Enemy>();
-        if (enemy != null)
-        {
-            enemy.TakeDamage(damage);
-        }
-        if (hitInfo.gameObject.CompareTag("Player") || (hitInfo.gameObject.CompareTag("Attack")))
+        // Check if damage has already been applied in this frame
+        if (hasDealtDamage)
         {
             return;
         }
-        //Destroy(effect, 5f);
+
+        Enemy enemy = hitInfo.GetComponent<Enemy>();
+        if (enemy != null)
+        {
+            int randomDamage = Random.Range(damageUpgrade.currentMinDamage, damageUpgrade.currentMaxDamage);
+            Debug.Log("Random damage applied: " + randomDamage);
+            enemy.TakeDamage(randomDamage);
+
+            // Set the flag to true to prevent further damage applications in this frame
+            hasDealtDamage = true;
+        }
+
+        if (hitInfo.gameObject.CompareTag("Player") || (hitInfo.gameObject.CompareTag("Attack") || hitInfo.gameObject.CompareTag("Collectable")))
+        {
+            return;
+        }
+
         Destroy(gameObject);
     }
-
-
-
 }

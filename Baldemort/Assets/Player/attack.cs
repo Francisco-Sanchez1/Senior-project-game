@@ -6,8 +6,6 @@ public class attack : MonoBehaviour
 {
     public GameObject projectilePrefab;
     public float attackSpeed = 20f;
-    public float manaCost = 5f;
-    public float damage = 10f;
     
 
     public float cooldownTime = 2f; // Time in seconds for the attack cooldown
@@ -38,6 +36,8 @@ public class attack : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Mouse1))
         {
+            Shooting currentProjectile = projectilePrefab.GetComponent<Shooting>();
+            float manaCost = currentProjectile.manaCost;
             // Check if cooldown has elapsed (or if we're not using cooldown) and player has enough mana
             if ((!useCooldown || Time.time >= nextAttackTime) && player.currentMana >= manaCost)
             {
@@ -48,7 +48,7 @@ public class attack : MonoBehaviour
                 GameObject projectile = Instantiate(projectilePrefab, transform.position, projectileRotation);
                 Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
                 rb.velocity = attackDirection * attackSpeed;
-                Destroy(projectile, 2f);
+                Destroy(projectile, 1.5f);
 
                 player.useMana(manaCost);
 

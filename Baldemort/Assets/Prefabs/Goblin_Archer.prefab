@@ -444,6 +444,11 @@ MonoBehaviour:
   currentHealth: 0
   healthBar: {fileID: 3653279070070313470}
   baseAttack: 10
+  itemToDropPrefab: {fileID: 0}
+  itemToDropPrefab1: {fileID: 670818523711551255, guid: 49a5ce4780000424b8446f949f68339f, type: 3}
+  itemToDropPrefab2: {fileID: 670818523711551255, guid: 545b2206ba628d4448adbaaf50702248, type: 3}
+  itemToDropPrefab3: {fileID: 670818523711551255, guid: 80d7fe6c4873e864fba745c5c8468d5e, type: 3}
+  itemDropSuccessChance: 0.2
   target: {fileID: 0}
   chaseRadius: 8
   attackRadius: 5

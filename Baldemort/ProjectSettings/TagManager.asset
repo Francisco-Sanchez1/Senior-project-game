@@ -7,11 +7,13 @@ TagManager:
   - Enemy
   - Attack
   - knockback
+  - Boss
+  - Collectable
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - interactableLayer
   - Water
   - UI
   - Parent
