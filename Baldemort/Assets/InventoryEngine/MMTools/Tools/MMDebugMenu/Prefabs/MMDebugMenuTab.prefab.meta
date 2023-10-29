@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a8296d633c27f554a99bbbf94958722e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95550
+  packageName: Inventory Engine
+  packageVersion: 3.6
+  assetPath: Assets/InventoryEngine/MMTools/Tools/MMDebugMenu/Prefabs/MMDebugMenuTab.prefab
+  uploadId: 614518

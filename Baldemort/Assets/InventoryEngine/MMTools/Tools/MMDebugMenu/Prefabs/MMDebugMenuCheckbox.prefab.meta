@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e48b9501c5356cf4e9c390d40d81438c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95550
+  packageName: Inventory Engine
+  packageVersion: 3.6
+  assetPath: Assets/InventoryEngine/MMTools/Tools/MMDebugMenu/Prefabs/MMDebugMenuCheckbox.prefab
+  uploadId: 614518

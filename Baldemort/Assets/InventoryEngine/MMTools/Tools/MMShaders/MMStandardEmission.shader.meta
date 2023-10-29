@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 43ed279757cf2ba4c9c277fff3220421
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95550
+  packageName: Inventory Engine
+  packageVersion: 3.6
+  assetPath: Assets/InventoryEngine/MMTools/Tools/MMShaders/MMStandardEmission.shader
+  uploadId: 614518

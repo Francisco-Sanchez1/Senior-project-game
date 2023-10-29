@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 02fadec34ca113040bfb587f3f848c1a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95550
+  packageName: Inventory Engine
+  packageVersion: 3.6
+  assetPath: Assets/InventoryEngine/InventoryEngine/Demos/PixelRogue/Prefabs/ItemsPickers/Shotgun.prefab
+  uploadId: 614518

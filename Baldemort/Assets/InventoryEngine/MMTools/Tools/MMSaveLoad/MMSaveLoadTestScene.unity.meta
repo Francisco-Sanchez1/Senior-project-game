@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a74b1b5d357902346825fdfd125ea399
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95550
+  packageName: Inventory Engine
+  packageVersion: 3.6
+  assetPath: Assets/InventoryEngine/MMTools/Tools/MMSaveLoad/MMSaveLoadTestScene.unity
+  uploadId: 614518

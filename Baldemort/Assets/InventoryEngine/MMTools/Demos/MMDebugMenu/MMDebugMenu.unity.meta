@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4edfcb4bd71ee754eb5f904db75d5758
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95550
+  packageName: Inventory Engine
+  packageVersion: 3.6
+  assetPath: Assets/InventoryEngine/MMTools/Demos/MMDebugMenu/MMDebugMenu.unity
+  uploadId: 614518

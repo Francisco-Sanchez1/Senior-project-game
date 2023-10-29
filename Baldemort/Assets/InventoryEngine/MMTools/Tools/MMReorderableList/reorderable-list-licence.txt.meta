@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5202bb69e6dc1a44cacdac58197df245
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95550
+  packageName: Inventory Engine
+  packageVersion: 3.6
+  assetPath: Assets/InventoryEngine/MMTools/Tools/MMReorderableList/reorderable-list-licence.txt
+  uploadId: 614518

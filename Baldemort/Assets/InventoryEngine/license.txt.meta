@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e0e168337b7b7d942970bd320be4f41d
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95550
+  packageName: Inventory Engine
+  packageVersion: 3.6
+  assetPath: Assets/InventoryEngine/license.txt
+  uploadId: 614518

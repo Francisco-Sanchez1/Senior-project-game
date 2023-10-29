@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2cdbdb3e4380b5d4b849d9dddd7a7d00
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95550
+  packageName: Inventory Engine
+  packageVersion: 3.6
+  assetPath: Assets/InventoryEngine/MMTools/Demos/MMSceneLoading/LoadingTester.prefab
+  uploadId: 614518

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 82c42a0b06f4f684db1ee2c535fb985c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95550
+  packageName: Inventory Engine
+  packageVersion: 3.6
+  assetPath: Assets/InventoryEngine/MMTools/Tools/MMShaders/MMAdvancedToon.shader
+  uploadId: 614518
