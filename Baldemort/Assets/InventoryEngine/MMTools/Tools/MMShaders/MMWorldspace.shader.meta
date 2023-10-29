@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 93b39336c7407ba4cb17a6d77dfa9605
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95550
+  packageName: Inventory Engine
+  packageVersion: 3.6
+  assetPath: Assets/InventoryEngine/MMTools/Tools/MMShaders/MMWorldspace.shader
+  uploadId: 614518

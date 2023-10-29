@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0e9c3056cd0243f40bce0e8e2636b8ce
+timeCreated: 1463387723
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95550
+  packageName: Inventory Engine
+  packageVersion: 3.6
+  assetPath: Assets/InventoryEngine/InventoryEngine/Demos/PixelRogue/Resources/Items/ArmorGreen.asset
+  uploadId: 614518

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 11d35e4d501d61847816407653283e26
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95550
+  packageName: Inventory Engine
+  packageVersion: 3.6
+  assetPath: Assets/InventoryEngine/InventoryEngine/Demos/PixelRogue/Prefabs/ItemsPickers/Rifle.prefab
+  uploadId: 614518

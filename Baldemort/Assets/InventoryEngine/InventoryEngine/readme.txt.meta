@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e5578e73df3cae34ea0e7a51e48a4ef0
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95550
+  packageName: Inventory Engine
+  packageVersion: 3.6
+  assetPath: Assets/InventoryEngine/InventoryEngine/readme.txt
+  uploadId: 614518

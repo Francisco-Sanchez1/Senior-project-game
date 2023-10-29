@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3e3d0c73adf7bbc4095df3d981dec1bf
+timeCreated: 1461577831
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95550
+  packageName: Inventory Engine
+  packageVersion: 3.6
+  assetPath: Assets/InventoryEngine/InventoryEngine/Demos/PixelRogue/Animations/AdventurerGreenWalk.anim
+  uploadId: 614518

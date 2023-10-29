@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a30b9d15855238143959d0e48191c151
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95550
+  packageName: Inventory Engine
+  packageVersion: 3.6
+  assetPath: Assets/InventoryEngine/MMTools/Demos/MMFollowTarget/MMFollowTargetDemo.unity
+  uploadId: 614518

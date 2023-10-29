@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using MoreMountains.Tools;
+using MoreMountains.InventoryEngine;
 public enum PlayerState
 {
     walk,
@@ -13,8 +15,10 @@ public enum PlayerState
     inv
 }
 
+
 public class PlayerCntrl : MonoBehaviour
 {
+    public string PlayerID = "Player1";
 
     //MVMT stuff
     public float movSpeed;
@@ -51,10 +55,18 @@ public class PlayerCntrl : MonoBehaviour
 
     public float KnockbackForce = 500f;
 
-    //Inventory Stuff
-    private bool isOpen;
-    private Inventory myInventory = new Inventory(18);
-    public Item[] itemsToAdd;
+    // //Inventory Stuff
+    // private bool isOpen;
+    // private Inventory myInventory = new Inventory(18);
+    // public Item[] itemsToAdd;
+    
+    // //Inventory Stuff
+    // the sprite used to show the current weapon
+		public SpriteRenderer WeaponSprite;
+		/// the armor inventory
+		public Inventory ArmorInventory;
+		/// the weapon inventory
+		public Inventory WeaponInventory;
 
 
     public PlayerState currentState;
@@ -94,11 +106,11 @@ public class PlayerCntrl : MonoBehaviour
         currentState = PlayerState.walk;
 
 
-        // Inventory
-        foreach (Item item in itemsToAdd)
-        {
-            myInventory.addItem(new ItemStack(item, 1));
-        }
+        // // Inventory
+        // foreach (Item item in itemsToAdd)
+        // {
+        //     myInventory.addItem(new ItemStack(item, 1));
+        // }
 
 
     }
@@ -124,22 +136,6 @@ public class PlayerCntrl : MonoBehaviour
         float currentSpeed = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift) ? sprintSpeed : movSpeed;
         movement = new Vector2(horizontalInput, verticalInput).normalized * currentSpeed;
         invTimer = invTimer - Time.deltaTime;
-        // INVENTORY
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            if(!isOpen)
-            {
-                InventoryManager.INSTANCE.openContainer(new ContainerPlayerInventory(null, myInventory));
-                isOpen = true;
-                Debug.Log("Inventory Opened");
-            }
-            else
-            {
-                InventoryManager.INSTANCE.closeContainer();
-                isOpen = false;
-                Debug.Log("Inventory Closed");
-            }
-        }
 
         if (Input.GetKeyDown(KeyCode.Mouse0) && currentState != PlayerState.attack && currentState != PlayerState.stagger)
         {
@@ -397,4 +393,64 @@ public class PlayerCntrl : MonoBehaviour
         //triggerCol.enabled = true;
     }
 
-}
+        // //INVENTOPRY STUFF
+		// public virtual void SetArmor(int index)
+		// {
+		// 	_currentArmor = index;
+		// }
+
+		// /// <summary>
+		// /// Sets the current weapon sprite
+		// /// </summary>
+		// /// <param name="newSprite">New sprite.</param>
+		// /// <param name="item">Item.</param>
+		public virtual void SetWeapon(Sprite newSprite, InventoryItem item)
+		{
+			WeaponSprite.sprite = newSprite;
+            // debug log weapon name 
+            Debug.Log(item.name);
+
+		}
+
+        public void RegainMana(float amount)
+        {
+            currentMana += amount;
+            if(currentMana > maxMana)
+            {
+                currentMana = maxMana; // Ensure mana doesn't exceed max value
+            }
+            manaBar.SetMana(currentMana);
+        }
+
+        /// <summary>
+		/// Catches MMInventoryEvents and if it's an "inventory loaded" one, equips the first armor and weapon stored in the corresponding inventories
+		/// </summary>
+		/// <param name="inventoryEvent">Inventory event.</param>
+		// public virtual void OnMMEvent(MMInventoryEvent inventoryEvent)
+		// {
+		// 	if (inventoryEvent.InventoryEventType == MMInventoryEventType.InventoryLoaded)
+		// 	{
+		// 		// if (inventoryEvent.TargetInventoryName == "RogueArmorInventory")
+		// 		// {
+		// 		// 	if (ArmorInventory != null)
+		// 		// 	{
+		// 		// 		if (!InventoryItem.IsNull(ArmorInventory.Content [0]))
+		// 		// 		{
+		// 		// 			ArmorInventory.Content [0].Equip (PlayerID);	
+		// 		// 		}
+		// 		// 	}
+		// 		// }
+		// 		if (inventoryEvent.TargetInventoryName == "RogueWeaponInventory")
+		// 		{
+		// 			if (WeaponInventory != null)
+		// 			{
+		// 				if (!InventoryItem.IsNull (WeaponInventory.Content [0]))
+		// 				{
+		// 					WeaponInventory.Content [0].Equip (PlayerID);
+		// 				}
+		// 			}
+		// 		}
+		// 	}
+		// }
+
+	}

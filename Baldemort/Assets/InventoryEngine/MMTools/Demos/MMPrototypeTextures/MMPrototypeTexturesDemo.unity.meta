@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 79c422b0924ecaa40b379d2fc48acf82
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95550
+  packageName: Inventory Engine
+  packageVersion: 3.6
+  assetPath: Assets/InventoryEngine/MMTools/Demos/MMPrototypeTextures/MMPrototypeTexturesDemo.unity
+  uploadId: 614518

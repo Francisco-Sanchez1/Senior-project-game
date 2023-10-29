@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b10fa324c4770c94487f925443368d5c
+timeCreated: 1457787477
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95550
+  packageName: Inventory Engine
+  packageVersion: 3.6
+  assetPath: Assets/InventoryEngine/MMTools/Tools/MMSceneLoading/Sprites/LoadingAnimation.controller
+  uploadId: 614518
