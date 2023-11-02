@@ -17,8 +17,6 @@ public class allSpellSlot : MonoBehaviour
     [SerializeField]
     private GameObject spellSlotD;
 
-    // Your script logic here
-
     public Image uiImageA; // Reference to the UI Image component you want to change.
     public Image uiImageB;
     public Image uiImageC;
@@ -29,41 +27,60 @@ public class allSpellSlot : MonoBehaviour
     public Sprite spellSlotCImage;
     public Sprite spellSlotDImage;
 
-    public Sprite emptySpell;
+    public Sprite emptySpellA;
+    public Sprite emptySpellB;
+    public Sprite emptySpellC;
+    public Sprite emptySpellD;
+
+    // Boolean flags to check if spells are unlocked
+    public bool isSpellAUnlocked = false;
+    public bool isSpellBUnlocked = false;
+    public bool isSpellCUnlocked = false;
+    public bool isSpellDUnlocked = false;
+
+    // selected spell
+    public enum SpellType { A, B, C, D };
+    public SpellType selectedSpell;
+
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            // Assign the sprite to the UI Image component.
-            uiImageA.sprite = spellSlotAImage;
-            uiImageB.sprite = emptySpell;
-            uiImageC.sprite = emptySpell;
-            uiImageD.sprite = emptySpell;
-        }
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-            // Assign the sprite to the UI Image component.
-            uiImageA.sprite = emptySpell;
-            uiImageB.sprite = spellSlotBImage;
-            uiImageC.sprite = emptySpell;
-            uiImageD.sprite = emptySpell;
-        }
-        if (Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            // Assign the sprite to the UI Image component.
-            uiImageA.sprite = emptySpell;
-            uiImageB.sprite = emptySpell;
-            uiImageC.sprite = spellSlotCImage;
-            uiImageD.sprite = emptySpell;
-        }
-        if (Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            // Assign the sprite to the UI Image component.
-            uiImageA.sprite = emptySpell;
-            uiImageB.sprite = emptySpell;
-            uiImageC.sprite = emptySpell;
-            uiImageD.sprite = spellSlotDImage;
-        }
+        if (Input.GetKeyDown(KeyCode.UpArrow) && isSpellAUnlocked)
+    {
+        // Only assign the sprite to the UI Image component if the spell is unlocked.
+        selectedSpell = SpellType.A;
+        uiImageA.sprite = spellSlotAImage;
+        uiImageB.sprite = emptySpellB;
+        uiImageC.sprite = emptySpellC;
+        uiImageD.sprite = emptySpellD;
+        Debug.Log(selectedSpell);
+    }
+    if (Input.GetKeyDown(KeyCode.LeftArrow) && isSpellBUnlocked)
+    {
+        selectedSpell = SpellType.B;
+        uiImageA.sprite = emptySpellA;
+        uiImageB.sprite = spellSlotBImage;
+        uiImageC.sprite = emptySpellC;
+        uiImageD.sprite = emptySpellD;
+        Debug.Log(selectedSpell);
+    }
+    if (Input.GetKeyDown(KeyCode.RightArrow) && isSpellCUnlocked)
+    {
+        selectedSpell = SpellType.C;
+        uiImageA.sprite = emptySpellA;
+        uiImageB.sprite = emptySpellB;
+        uiImageC.sprite = spellSlotCImage;
+        uiImageD.sprite = emptySpellD;
+        Debug.Log(selectedSpell);
+    }
+    if (Input.GetKeyDown(KeyCode.DownArrow) && isSpellDUnlocked)
+    {
+        selectedSpell = SpellType.D;
+        uiImageA.sprite = emptySpellA;
+        uiImageB.sprite = emptySpellB;
+        uiImageC.sprite = emptySpellC;
+        uiImageD.sprite = spellSlotDImage;
+        Debug.Log(selectedSpell);
+    }
     }
 }

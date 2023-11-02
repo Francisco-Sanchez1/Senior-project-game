@@ -1,23 +1,29 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class attack : MonoBehaviour
 {
-    public GameObject projectilePrefab;
-    public float attackSpeed = 20f;
+    public GameObject projectilePrefabA;
+    public GameObject projectilePrefabB;
+    public GameObject projectilePrefabC;
+    public GameObject projectilePrefabD;
     
-
-    public float cooldownTime = 2f; // Time in seconds for the attack cooldown
-    public bool useCooldown = true; // If true, the cooldown system is used
-
+    public float attackSpeed = 20f;
+    public float cooldownTime = 2f;
+    private float nextAttackTime = 0f;
     private Vector2 attackDirection;
     private PlayerCntrl player;
-    private float nextAttackTime = 0f; // Used to keep track of when the player can attack again
+
+    private allSpellSlot spellSlot;
 
     private void Start()
     {
         player = GetComponent<PlayerCntrl>();
+        spellSlot = FindObjectOfType<allSpellSlot>(); // Change this line
+
+        if (spellSlot == null)
+        {
+            Debug.LogError("allSpellSlot component not found in the scene!");
+        }
     }
 
     void Update()
@@ -36,39 +42,52 @@ public class attack : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Mouse1))
         {
-            Shooting currentProjectile = projectilePrefab.GetComponent<Shooting>();
-            float manaCost = currentProjectile.manaCost;
-            // Check if cooldown has elapsed (or if we're not using cooldown) and player has enough mana
-            if ((!useCooldown || Time.time >= nextAttackTime) && player.currentMana >= manaCost)
+            if (Time.time >= nextAttackTime)
             {
-                // Calculate the rotation angle for the projectile based on the attack direction
-                float angle = Mathf.Atan2(attackDirection.y, attackDirection.x) * Mathf.Rad2Deg;
-                Quaternion projectileRotation = Quaternion.Euler(0, 0, angle);
-
-                GameObject projectile = Instantiate(projectilePrefab, transform.position, projectileRotation);
-                Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
-                rb.velocity = attackDirection * attackSpeed;
-                Destroy(projectile, 1.5f);
-
-                player.useMana(manaCost);
-
-                if (useCooldown)
+                switch (spellSlot.selectedSpell)
                 {
-                    nextAttackTime = Time.time + cooldownTime;
+                    case allSpellSlot.SpellType.A:
+                        PerformAttack(projectilePrefabA);
+                        break;
+                    case allSpellSlot.SpellType.B:
+                        PerformAttack(projectilePrefabB);
+                        break;
+                    case allSpellSlot.SpellType.C:
+                        PerformAttack(projectilePrefabC);
+                        break;
+                    case allSpellSlot.SpellType.D:
+                        PerformAttack(projectilePrefabD);
+                        break;
                 }
-            }
-            else if (Time.time < nextAttackTime)
-            {
-                Debug.Log("Attack is on cooldown.");
+                nextAttackTime = Time.time + cooldownTime;
             }
             else
             {
-                Debug.Log("Not enough mana to attack.");
+                Debug.Log("Attack is on cooldown.");
             }
         }
     }
 
+    void PerformAttack(GameObject projectilePrefab)
+    {
+        Shooting currentProjectile = projectilePrefab.GetComponent<Shooting>();
+        float manaCost = currentProjectile.manaCost;
 
+        if (player.currentMana >= manaCost)
+        {
+            float angle = Mathf.Atan2(attackDirection.y, attackDirection.x) * Mathf.Rad2Deg;
+            Quaternion projectileRotation = Quaternion.Euler(0, 0, angle);
 
+            GameObject projectile = Instantiate(projectilePrefab, transform.position, projectileRotation);
+            Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
+            rb.velocity = attackDirection * attackSpeed;
+            Destroy(projectile, 1.5f); // Adjust as needed
 
+            player.useMana(manaCost);
+        }
+        else
+        {
+            Debug.Log("Not enough mana to attack.");
+        }
+    }
 }

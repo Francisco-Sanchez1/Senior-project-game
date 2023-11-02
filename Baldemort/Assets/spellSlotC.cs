@@ -6,7 +6,7 @@ using UnityEngine.UI; // Add this line to access the UI components.
 public class SpellSlotC : MonoBehaviour
 {
     public Image uiImage; // Reference to the UI Image component you want to change.
-    public Sprite spellSlotAImage; // Reference to the sprite you want to assign.
+    public Sprite spellSlotCImage; // Reference to the sprite you want to assign.
 
     // Update is called once per frame
     void Update()
@@ -14,7 +14,7 @@ public class SpellSlotC : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             // Assign the sprite to the UI Image component.
-            uiImage.sprite = spellSlotAImage;
+            uiImage.sprite = spellSlotCImage;
         }
     }
 }
