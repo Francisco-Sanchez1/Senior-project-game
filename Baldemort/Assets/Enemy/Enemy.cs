@@ -9,7 +9,8 @@ public enum EnemyState
     attack,
     stagger,
     summon,
-    attackRange
+    attackRange,
+    Slowed
 }
 
 public class Enemy : MonoBehaviour

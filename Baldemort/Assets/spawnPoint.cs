@@ -1,12 +1,8 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class spawnPoint : MonoBehaviour
+public class SpawnPoint : MonoBehaviour
 {
-    public static Vector3 playerSpawnPoint;
-
-    private void Start()
-    {
-        // Store the spawn point when the scene loads
-        playerSpawnPoint = transform.position;
-    }
+    public int entranceID; // The entrance ID associated with this spawn point
 }

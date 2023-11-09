@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dimond_darkmagic_0: -8886188467395763317
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
