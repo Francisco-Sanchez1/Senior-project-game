@@ -32,12 +32,11 @@ public class PlayerCntrl : MonoBehaviour
     Vector2 mousePos;
 
     [SerializeField]
-    public float maxHealth = 100f;
-    public float currentHealth;
     public HealthBar healthBar;
-
+    public float maxHealth;
+    public float currentHealth;
     //ManaStuff
-    public float maxMana = 100f;
+    public float maxMana;
     public float currentMana;
     public ManaBar manaBar;
 
@@ -83,22 +82,26 @@ public class PlayerCntrl : MonoBehaviour
     public SpriteRenderer mySprite;
     public int currentSceneIndex;
     public bool isDead = false;
-
+    private PlayerDataInitializer playerDataInitializer;
 
     //MONEY
     public int coins;
-    public int numCoins = 20;
     // Start is called before the first frame update
     void Start()
     {
-        coins = numCoins;
-        //HealthStuff
-        currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
+        playerDataInitializer = FindObjectOfType<PlayerDataInitializer>();
 
-        //ManaStuff
-        currentMana = maxMana;
-        manaBar.SetMaxMana(maxMana);
+        maxHealth = playerDataInitializer.maxHealth;
+        currentHealth = playerDataInitializer.currentHealth;
+        healthBar.SetMaxHealth(playerDataInitializer.maxHealth);
+        healthBar.SetHealth(playerDataInitializer.currentHealth);
+
+        maxMana = playerDataInitializer.maxMana;
+        currentMana = playerDataInitializer.currentMana;
+        manaBar.SetMaxMana(playerDataInitializer.maxMana);
+        manaBar.SetMana(playerDataInitializer.currentMana);
+
+        coins = playerDataInitializer.coins;
 
         ManaRegenTimer = ManaUseTimer;
         animator = GetComponent<Animator>();
@@ -123,6 +126,8 @@ public class PlayerCntrl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Dealing with health,Mana, and coins
+
         if (DialogManager.isActive == true || ShopKeeperNPC.ShopActive == true)
         {
             rb.velocity = Vector2.zero;
@@ -161,15 +166,16 @@ public class PlayerCntrl : MonoBehaviour
         //}
 
         //MANA_REGEN TESTING
-        if (currentMana < maxMana)
+        if (playerDataInitializer.currentMana < playerDataInitializer.maxMana)
         {
 
             ManaRegenTimer = ManaRegenTimer - Time.deltaTime;
             SlowRegen = SlowRegen - Time.deltaTime;
             if (ManaRegenTimer <= 0.0f && SlowRegen <= 0.0f)
             {
-                currentMana += 10f;
-                manaBar.SetMana(currentMana);
+                playerDataInitializer.currentMana += 10f;
+                currentMana = playerDataInitializer.currentMana;
+                manaBar.SetMana(playerDataInitializer.currentMana);
                 SlowRegen = SlowRegenTimer;
 
             }
@@ -200,6 +206,7 @@ public class PlayerCntrl : MonoBehaviour
 
     public void FixedUpdate()
     {
+
         //movement
         if (DialogManager.isActive == true || ShopKeeperNPC.ShopActive == true)
         {
@@ -228,8 +235,10 @@ public class PlayerCntrl : MonoBehaviour
     {
         if (invTimer <= 0)
         {
-            currentHealth -= damage;
-            healthBar.SetHealth(currentHealth);
+
+            playerDataInitializer.currentHealth -= damage;
+            currentHealth = playerDataInitializer.currentHealth;
+            healthBar.SetHealth(playerDataInitializer.currentHealth);
             invTimer = invTimerFull;
             StartCoroutine(ToggleInv());
         }
@@ -244,62 +253,71 @@ public class PlayerCntrl : MonoBehaviour
 
     public void IncreaseHealth(float amount)
     {
-        maxHealth += amount;
+        playerDataInitializer.maxHealth += amount;
+        maxHealth = playerDataInitializer.maxHealth;
 
-        if (currentHealth <= maxHealth)
+        if (playerDataInitializer.currentHealth <= playerDataInitializer.maxHealth)
         {
-            currentHealth = maxHealth;
+            currentHealth = playerDataInitializer.maxHealth;
+            playerDataInitializer.currentHealth = playerDataInitializer.maxHealth;
+            
         }
 
-        healthBar.SetMaxHealth(maxHealth);
-        healthBar.SetHealth(currentHealth);
+        healthBar.SetMaxHealth(playerDataInitializer.maxHealth);
+        healthBar.SetHealth(playerDataInitializer.currentHealth);
 
-        healthSlider.maxValue = maxHealth;
-        healthSlider.value = currentHealth;
+        healthSlider.maxValue = playerDataInitializer.maxHealth;
+        healthSlider.value = playerDataInitializer.currentHealth;
     }
 
     public void Heart_Pick(float amount)
     {
-        currentHealth += amount;
+        playerDataInitializer.currentHealth += amount;
+        currentHealth = playerDataInitializer.currentHealth;
 
-        if (currentHealth >= maxHealth)
+        if (playerDataInitializer.currentHealth >= playerDataInitializer.maxHealth)
         {
-            currentHealth = maxHealth;
+            playerDataInitializer.currentHealth = playerDataInitializer.maxHealth;
+            currentHealth = playerDataInitializer.currentHealth;
         }
-        healthBar.SetHealth(currentHealth);
+        healthBar.SetHealth(playerDataInitializer.currentHealth);
 
-        healthSlider.value = currentHealth;
+        healthSlider.value = playerDataInitializer.currentHealth;
     }
 
     public void IncreaseMana(float amount)
     {
-        maxMana += amount;
-
-        if (currentMana <= maxMana)
+        playerDataInitializer.maxMana += amount;
+        maxMana = playerDataInitializer.maxMana;
+        if (playerDataInitializer.currentMana <= playerDataInitializer.maxMana)
         {
-            currentMana = maxMana;
+            currentMana = playerDataInitializer.maxMana;
+            playerDataInitializer.currentMana = playerDataInitializer.maxMana;
         }
 
-        manaBar.SetMaxMana(maxMana);
-        manaBar.SetMana(currentMana);
+        manaBar.SetMaxMana(playerDataInitializer.maxMana);
+        manaBar.SetMana(playerDataInitializer.currentMana);
 
         // Update the mana slider's max value and current value
-        manaSlider.maxValue = maxMana;
-        manaSlider.value = currentMana;
+        manaSlider.maxValue = playerDataInitializer.maxMana;
+        manaSlider.value = playerDataInitializer.currentMana;
     }
 
 
     //COIN STUFF
     public void Coin_Pick(int amount)
     {
-        coins += amount;
+        playerDataInitializer.coins += amount;
+        coins = playerDataInitializer.coins;
+
     }
 
     public void SpendCoin(int amount)
     {
-        if (coins >= amount)
+        if (playerDataInitializer.coins >= amount)
         {
-            coins -= amount;
+            playerDataInitializer.coins -= amount;
+            coins = playerDataInitializer.coins;
 
         }
         else
@@ -335,8 +353,9 @@ public class PlayerCntrl : MonoBehaviour
 
     public void useMana(float manaUse)
     {
-        currentMana -= manaUse;
-        manaBar.SetMana(currentMana);
+        playerDataInitializer.currentMana -= manaUse;
+        currentMana = playerDataInitializer.currentMana;
+        manaBar.SetMana(playerDataInitializer.currentMana);
         ManaRegenTimer = ManaUseTimer;
 
     }
@@ -414,12 +433,12 @@ public class PlayerCntrl : MonoBehaviour
 
         public void RegainMana(float amount)
         {
-            currentMana += amount;
-            if(currentMana > maxMana)
+        playerDataInitializer.currentMana += amount;
+            if(playerDataInitializer.currentMana > playerDataInitializer.maxMana)
             {
-                currentMana = maxMana; // Ensure mana doesn't exceed max value
+            playerDataInitializer.currentMana = playerDataInitializer.maxMana; // Ensure mana doesn't exceed max value
             }
-            manaBar.SetMana(currentMana);
+            manaBar.SetMana(playerDataInitializer.currentMana);
         }
 
         /// <summary>

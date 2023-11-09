@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dimond_holyempty_0: 1286089427702351712
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

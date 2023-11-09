@@ -110,37 +110,37 @@ MonoBehaviour:
   m_GameObject: {fileID: 726865916405667932}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab4b01ade76874876926731b4363d984, type: 3}
+  m_Script: {fileID: 11500000, guid: d20956b7706d01044a676029bf0d04b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movSpeed: 5
-  sprintSpeed: 10
-  rb: {fileID: 2640619777471781265}
+  PlayerID: Player1
+  movSpeed: 0
+  sprintSpeed: 0
+  rb: {fileID: 0}
   maxHealth: 100
   currentHealth: 0
-  healthBar: {fileID: 4657421342759717793}
+  healthBar: {fileID: 0}
   maxMana: 100
   currentMana: 0
-  manaBar: {fileID: 1725406938887304408}
-  healthSlider: {fileID: 1732952345768605401}
-  manaSlider: {fileID: 1400199887752024450}
+  manaBar: {fileID: 0}
+  healthSlider: {fileID: 0}
+  manaSlider: {fileID: 0}
   cam: {fileID: 0}
-  animator: {fileID: 7497983895974114081}
-  KnockbackForce: 0
-  itemsToAdd: []
+  animator: {fileID: 0}
+  KnockbackForce: 500
+  WeaponSprite: {fileID: 0}
   currentState: 0
-  FlashColor: {r: 1, g: 0, b: 0, a: 0.6117647}
-  regularColor: {r: 1, g: 1, b: 1, a: 1}
-  flashDur: 0.1
-  numFlash: 5
+  FlashColor: {r: 0, g: 0, b: 0, a: 0}
+  regularColor: {r: 0, g: 0, b: 0, a: 0}
+  flashDur: 0
+  numFlash: 0
   invTimer: 0
   invTimerFull: 0.5
-  triggerCol: {fileID: 6283502069987156459}
-  mySprite: {fileID: 8961365450047974794}
+  triggerCol: {fileID: 0}
+  mySprite: {fileID: 0}
   currentSceneIndex: 0
   isDead: 0
   coins: 0
-  numCoins: 20
 --- !u!50 &2640619777471781265
 Rigidbody2D:
   serializedVersion: 4
@@ -180,10 +180,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2184ebcf52b29694fbb0858ffda54c9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 670818523711551255, guid: 3660aa2a4ecd2504ca84dfdda54935be, type: 3}
+  projectilePrefabA: {fileID: 0}
+  projectilePrefabB: {fileID: 0}
+  projectilePrefabC: {fileID: 0}
+  projectilePrefabD: {fileID: 0}
   attackSpeed: 20
   cooldownTime: 2
-  useCooldown: 1
 --- !u!95 &7497983895974114081
 Animator:
   serializedVersion: 7

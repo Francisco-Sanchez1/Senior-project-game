@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DoorTrigger : MonoBehaviour
 {
+    public int entranceID; // The entrance ID associated with this door trigger
     public string sceneToLoad; // The name of the scene to load when the player walks through the door
 
     public void OnTriggerEnter2D(Collider2D other)
@@ -12,8 +13,10 @@ public class DoorTrigger : MonoBehaviour
         if (other.CompareTag("Player") && !other.isTrigger)
         {
             // Perform any actions you want when the player enters the door trigger zone
-            // For example, load a new scene
-            SceneManager.LoadScene(sceneToLoad);
+
+            // Load the destination scene and pass the entrance ID as a parameter
+            SceneManager.LoadScene(sceneToLoad, LoadSceneMode.Single);
+            PlayerPrefs.SetInt("EntranceID", entranceID);
         }
     }
 }
