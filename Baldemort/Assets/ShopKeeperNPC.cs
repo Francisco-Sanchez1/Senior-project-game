@@ -11,17 +11,39 @@ public class ShopKeeperNPC : MonoBehaviour
 {
     private DamageUpgrade damageUpgrade;
     public GameObject ShopMenu;
-    public GameObject DamageupTier1;
+    public GameObject DamageupZap;
+    public GameObject DamageupFire;
+    public GameObject DamageupIce;
+    public GameObject DamageupDark;
     public GameObject OutOfStock;
     public GameObject DialogueBox;
     public GameObject SoldOut1;
+    public GameObject SoldOut2;
+    public GameObject SoldOut3;
+    public GameObject SoldOut4;
     public static bool ShopActive = false;
     public bool playerClose = false;
+    private PlayerDataInitializer playerDataInitializer;
 
 
+
+
+    public DamageUpgradeIce damageUpgradeIce;
+    public DamageUpgradeDark damageUpgradeDark;
+    public DamageUpgradeZap damageUpgradeZap;
+    public DamageUpgradeFire damageUpgradeFire;
+
+    void Start()
+    {
+        playerDataInitializer = FindObjectOfType<PlayerDataInitializer>();
+        damageUpgradeIce = GameObject.FindGameObjectWithTag("Player").GetComponent<DamageUpgradeIce>();
+        damageUpgradeDark = GameObject.FindGameObjectWithTag("Player").GetComponent<DamageUpgradeDark>();
+        damageUpgradeZap = GameObject.FindGameObjectWithTag("Player").GetComponent<DamageUpgradeZap>();
+        damageUpgradeFire = GameObject.FindGameObjectWithTag("Player").GetComponent<DamageUpgradeFire>();
+
+    }
     void Update()
     {
-        damageUpgrade = GameObject.FindGameObjectWithTag("Player").GetComponent<DamageUpgrade>();
         if (playerClose == true && Input.GetKeyDown(KeyCode.E))
         {
             ShopActive = true;
@@ -36,16 +58,59 @@ public class ShopKeeperNPC : MonoBehaviour
             ShopMenu.SetActive(false);
             DialogueBox.SetActive(false);
         }
-        if (damageUpgrade.damageUpgraded == true)
+        //ZAP
+        if (playerDataInitializer.zap1Up == true)
         {
+
             SoldOut1.SetActive(true);
-            DamageupTier1.SetActive(false);
+            DamageupZap.SetActive(false);
 
         }
-        else if(damageUpgrade.damageUpgraded == false)
+        else if (playerDataInitializer.zap1Up == false)
         {
             SoldOut1.SetActive(false);
-            DamageupTier1.SetActive(true);
+            DamageupZap.SetActive(true);
+        }
+        //ICE
+        if (playerDataInitializer.ice1Up == true)
+        {
+            SoldOut2.SetActive(true);
+            DamageupIce.SetActive(false);
+
+        }
+        else if (playerDataInitializer.ice1Up == false)
+        {
+            SoldOut2.SetActive(false);
+            DamageupZap.SetActive(true);
+        }
+        //FIRE
+        if (playerDataInitializer.fire1Up == true)
+        {
+            SoldOut3.SetActive(true);
+            DamageupFire.SetActive(false);
+
+        }
+
+
+        else if (playerDataInitializer.fire1Up == false)
+        {
+            SoldOut3.SetActive(false);
+            DamageupFire.SetActive(true);
+        }
+
+        //DARK
+        if (playerDataInitializer.dark1Up == true)
+        {
+            SoldOut4.SetActive(true);
+            DamageupDark.SetActive(false);
+
+        }
+
+
+        else if (playerDataInitializer.dark1Up == false)
+        {
+            SoldOut4.SetActive(false);
+            DamageupDark.SetActive(true);
         }
 
     }

@@ -4,11 +4,11 @@ public class Shooting : MonoBehaviour
 {
     // Flag to prevent multiple damage applications in a single frame
     private bool hasDealtDamage = false;
-    public float manaCost = 5f;
+    public float manaCostIce = 5f;
 
     // Reference to the PlayerDamageStats script on the player
     private DamageUpgrade damageUpgrade;
-
+    private attack Attack;
     private void Start()
     {
         damageUpgrade = GameObject.FindGameObjectWithTag("Player").GetComponent<DamageUpgrade>();
@@ -16,7 +16,7 @@ public class Shooting : MonoBehaviour
 
     public void SetManaCost(float cost)
     {
-        manaCost = cost;
+        manaCostIce = cost;
     }
 
 

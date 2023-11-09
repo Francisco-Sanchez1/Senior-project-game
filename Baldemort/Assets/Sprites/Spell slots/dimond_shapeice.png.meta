@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dimond_shapeice_0: 7376008085641514546
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

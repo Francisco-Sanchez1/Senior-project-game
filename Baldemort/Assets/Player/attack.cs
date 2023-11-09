@@ -70,7 +70,7 @@ public class attack : MonoBehaviour
 
     void PerformAttack(GameObject projectilePrefab)
     {
-        Shooting currentProjectile = projectilePrefab.GetComponent<Shooting>();
+        BaseProjectile currentProjectile = projectilePrefab.GetComponent<BaseProjectile>();
         float manaCost = currentProjectile.manaCost;
 
         if (player.currentMana >= manaCost)

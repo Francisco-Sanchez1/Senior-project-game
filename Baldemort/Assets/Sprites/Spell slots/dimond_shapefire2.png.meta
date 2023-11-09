@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dimond_shapefire2_0: -6970165962630624812
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
