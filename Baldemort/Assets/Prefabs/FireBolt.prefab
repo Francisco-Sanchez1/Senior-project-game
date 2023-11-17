@@ -189,3 +189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manaCost: 20
+  minDamage: 0
+  maxDamage: 0
+  manaCost: 20
+  flamesPrefab: {fileID: 5891580752870079740, guid: 04fdee2fa62bfae42975d9747f2d43b5, type: 3}

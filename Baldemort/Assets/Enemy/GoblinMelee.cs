@@ -11,6 +11,14 @@ public class GoblinMelee : Enemy
     public float moveSpeed = 5f;
     private Rigidbody2D rigidbody;
     public Animator anim;
+
+    private Coroutine freezeCoroutine;
+    public Color FrozeColor;
+    public Color regularColor;
+    public SpriteRenderer mySprite;
+    public float frozenTimeFull = 4f;
+    private bool isFrozen = false;
+
     // Start is called before the first frame update
     void Start()
 
@@ -25,13 +33,44 @@ public class GoblinMelee : Enemy
     void FixedUpdate()
     {
         CheckDistance();
+
+        if (poisoned == true)
+        {
+            mySprite.color = new Color(0.5f, 0f, 1f);
+        }
+
+        if (currentState == EnemyState.Freeze)
+        {
+            mySprite.color = FrozeColor;
+        }
     }
     void CheckDistance()
     {
         float distanceToPlayer = Vector2.Distance(target.position, transform.position);
-        if (distanceToPlayer <= chaseRadius && distanceToPlayer > attackRadius)
+        if (currentState == EnemyState.Freeze && !isFrozen)
         {
-            if (currentState != EnemyState.stagger)
+            anim.SetBool("attack", false);
+            anim.SetBool("idle", true);
+            isFrozen = true;
+            freezeCoroutine = StartCoroutine(IamFrozen());
+            rigidbody.velocity = Vector2.zero;
+
+
+        }
+        else if (currentState == EnemyState.stagger)
+        {
+            mySprite.color = regularColor;
+            if (freezeCoroutine != null) 
+            {
+                StopCoroutine(freezeCoroutine);
+                isFrozen = false;
+                freezeCoroutine = null; 
+            }
+        }
+
+        else if (distanceToPlayer <= chaseRadius && distanceToPlayer > attackRadius && currentState != EnemyState.Freeze)
+        {
+            if (currentState != EnemyState.stagger && currentState != EnemyState.Freeze)
             {
                 Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
                 ChangeAnim(temp - transform.position);
@@ -42,6 +81,7 @@ public class GoblinMelee : Enemy
             }
 
         }
+
         else if (distanceToPlayer > chaseRadius)
         {
             ChangeState(EnemyState.idle);
@@ -49,7 +89,7 @@ public class GoblinMelee : Enemy
             anim.SetBool("attack", false);
             rigidbody.velocity = Vector2.zero;
         }
-        else if (distanceToPlayer < attackRadius)
+        else if (distanceToPlayer < attackRadius && currentState != EnemyState.Freeze)
         {
             ChangeState(EnemyState.attack);
             anim.SetBool("attack", true);
@@ -58,6 +98,15 @@ public class GoblinMelee : Enemy
         }
     }
 
+    IEnumerator IamFrozen()
+    {
+        // Wait for the next frame to reset the flag
+        yield return new WaitForSeconds(frozenTimeFull);
+        anim.SetBool("idle", false);
+        mySprite.color = regularColor;
+        isFrozen = false;
+        ChangeState(EnemyState.walk);
+    }
 
     private void setAnimFloat(Vector2 setVec)
     {

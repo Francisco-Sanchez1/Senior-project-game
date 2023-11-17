@@ -5,7 +5,7 @@ public class FireShoot : BaseProjectile
     // Flag to prevent multiple damage applications in a single frame
     private bool hasDealtDamage = false;
     public float manaCost = 20f;
-
+    public GameObject flamesPrefab;
     // Reference to the PlayerDamageStats script on the player
     private DamageUpgradeFire damageUpgradefire;
 
@@ -36,6 +36,7 @@ public class FireShoot : BaseProjectile
             Debug.Log("Random damage applied Fire: " + randomDamage);
             enemy.TakeDamage(randomDamage);
 
+            Instantiate(flamesPrefab, hitInfo.transform.position, Quaternion.identity);
             // Set the flag to true to prevent further damage applications in this frame
             hasDealtDamage = true;
         }

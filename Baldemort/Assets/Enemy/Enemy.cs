@@ -10,7 +10,7 @@ public enum EnemyState
     stagger,
     summon,
     attackRange,
-    Slowed
+    Freeze,
 }
 
 public class Enemy : MonoBehaviour
@@ -19,7 +19,6 @@ public class Enemy : MonoBehaviour
     public float maxHealth;
     public float currentHealth;
     public HealthBar healthBar;
-
     public int baseAttack;
 
     public GameObject itemToDropPrefab;
@@ -31,6 +30,18 @@ public class Enemy : MonoBehaviour
 
     public float itemDropSuccessChance = 0.2f;
 
+    private bool isInvincible = false;
+
+    public bool poisoned = false;
+    public float poisonTimerfull = 1f;
+    public float PoisonTick = 10f;
+    public float invincibilityDuration = 0.5f;
+    public SpriteRenderer mySprite;
+
+
+    public bool onFire = false;
+    public float FireTimerFull = 1f;
+    public float FireTick = 5f;
 
     private void Awake()
     {
@@ -41,15 +52,89 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        
-        currentHealth -= damage;
-        healthBar.SetHealth(currentHealth);
+        if (!isInvincible)
+        {
+            currentHealth -= damage;
+            healthBar.SetHealth(currentHealth);
+        }
+
         if (currentHealth <= 0)
         {
             Die();
         }
     }
 
+    public void fireHurt(float fire)
+    {
+        onFire = true;
+        StartCoroutine(FireDamage(fire));
+    }
+
+    IEnumerator FireDamage(float fire)
+    {
+        int temp = 0;
+        while (temp <= FireTick)
+        {
+            currentHealth -= fire;
+            healthBar.SetHealth(currentHealth);
+            if (currentHealth <= 0)
+            {
+                Die();
+            }
+            yield return new WaitForSeconds(FireTimerFull);
+
+            temp++;
+        }
+        onFire = false;
+    }
+
+    public void PoisonHurt(float poison)
+    {
+        poisoned = true;
+        StartCoroutine(PoisonDamage(poison));
+    }
+
+    IEnumerator PoisonDamage(float poison)
+    {
+        int temp = 0;
+        while (temp <= PoisonTick)
+        {
+            currentHealth -= poison;
+            healthBar.SetHealth(currentHealth);
+            if (currentHealth <= 0)
+            {
+                Die();
+            }
+            yield return new WaitForSeconds(poisonTimerfull);
+
+            temp++;
+        }
+        poisoned = false;
+        mySprite.color = Color.white; // Reset color after poison effect
+    }
+
+    IEnumerator InvincibilityFrames()
+    {
+        isInvincible = true;
+
+        yield return new WaitForSeconds(invincibilityDuration);
+
+        isInvincible = false;
+    }
+
+    /* COULD MAKE THIS IN TAKEDAMAGE SCRIPT AS ITS OWN THING MAYBE SOMEHOW IDK
+      public void DamageOverTime(float damage, float time)
+    {
+        currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    */
 
     void Die()
     {

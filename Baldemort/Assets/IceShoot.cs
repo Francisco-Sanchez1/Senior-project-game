@@ -35,7 +35,7 @@ public class IceShoot : BaseProjectile
             int randomDamage = Random.Range(damageUpgradeice.currentMinDamage, damageUpgradeice.currentMaxDamage);
             Debug.Log("Random damage applied Ice: " + randomDamage);
             enemy.TakeDamage(randomDamage);
-            hitInfo.GetComponent<Enemy>().currentState = EnemyState.Slowed;
+            hitInfo.GetComponent<Enemy>().currentState = EnemyState.Freeze;
 
             // Set the flag to true to prevent further damage applications in this frame
             hasDealtDamage = true;
