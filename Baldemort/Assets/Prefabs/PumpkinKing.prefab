@@ -815,6 +815,11 @@ MonoBehaviour:
   itemToDropPrefab2: {fileID: 0}
   itemToDropPrefab3: {fileID: 0}
   itemDropSuccessChance: 0.2
+  poisoned: 0
+  poisonTimerfull: 0.5
+  PoisonTick: 10
+  invincibilityDuration: 1
+  mySprite: {fileID: 4036811628359731477}
   target: {fileID: 1755490314798967455, guid: f1e103621049a1f44beb860ad709badb, type: 3}
   chaseRadius: 15
   attackRadius: 1.5
@@ -827,6 +832,10 @@ MonoBehaviour:
   attackDecisionInterval: 5
   detectionRadius: 9
   Rechaseradius: 5
+  FrozeColor: {r: 0.38039216, g: 0.5411765, b: 1, a: 1}
+  regularColor: {r: 1, g: 1, b: 1, a: 1}
+  mySprite: {fileID: 4036811628359731477}
+  frozenTimeFull: 4
 --- !u!114 &3895038882185820915
 MonoBehaviour:
   m_ObjectHideFlags: 0

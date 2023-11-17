@@ -773,12 +773,23 @@ MonoBehaviour:
   itemToDropPrefab2: {fileID: 670818523711551255, guid: 545b2206ba628d4448adbaaf50702248, type: 3}
   itemToDropPrefab3: {fileID: 670818523711551255, guid: 80d7fe6c4873e864fba745c5c8468d5e, type: 3}
   itemDropSuccessChance: 0.2
+  poisoned: 0
+  poisonTimerfull: 0.5
+  PoisonTick: 10
+  invincibilityDuration: 1
+  PoisonColor: {r: 0.026610898, g: 0.24528301, b: 0.06488888, a: 1}
+  mySprite: {fileID: 4778751023751108866}
   target: {fileID: 0}
   chaseRadius: 10
   attackRadius: 1.1
   homePosition: {fileID: 0}
   moveSpeed: 2
   anim: {fileID: 0}
+  FrozeColor: {r: 0.3820755, g: 0.5420091, b: 1, a: 1}
+  regularColor: {r: 1, g: 1, b: 1, a: 1}
+  mySprite: {fileID: 4778751023751108866}
+  frozenTime: 4
+  frozenTimeFull: 4
 --- !u!50 &9031481670320475911
 Rigidbody2D:
   serializedVersion: 4

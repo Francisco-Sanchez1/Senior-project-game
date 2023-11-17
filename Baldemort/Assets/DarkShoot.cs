@@ -5,7 +5,7 @@ public class DarkShoot : BaseProjectile
     // Flag to prevent multiple damage applications in a single frame
     private bool hasDealtDamage = false;
     public float manaCost = 10f;
-
+    private float poisonDamage = 1f;
     // Reference to the PlayerDamageStats script on the player
     private DamageUpgradeDark damageUpgradedark;
 
@@ -36,6 +36,8 @@ public class DarkShoot : BaseProjectile
             Debug.Log("Random damage applied Dark: " + randomDamage);
             enemy.TakeDamage(randomDamage);
 
+            enemy.PoisonHurt(poisonDamage);
+            Debug.Log("Applying: " +poisonDamage);
             // Set the flag to true to prevent further damage applications in this frame
             hasDealtDamage = true;
         }
