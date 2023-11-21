@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 4605329594483138232}
   - component: {fileID: 6661686748012914290}
   - component: {fileID: 9145233281700565656}
-  - component: {fileID: 3591185461139148795}
+  - component: {fileID: 7007168315942707798}
   m_Layer: 0
-  m_Name: Dark_Energy
+  m_Name: energy_projectile_1
   m_TagString: Attack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75,8 +75,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 639596292742974788, guid: 21f141ec93371ae488579fdc2a21d78e, type: 3}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: -5099292496197868168, guid: 58bc992cce7f2af4a8ff4dadb78faf68, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -152,7 +152,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.05, y: 1.05}
+    oldSize: {x: 1.66, y: 0.88}
     newSize: {x: 1.66, y: 0.88}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -176,7 +176,7 @@ PolygonCollider2D:
       - {x: 0.58, y: -0.049999997}
       - {x: 0.59, y: -0.02}
   m_UseDelaunayMesh: 0
---- !u!114 &3591185461139148795
+--- !u!114 &7007168315942707798
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -185,7 +185,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 670818523711551255}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98b0ad63bbe95f74d81e84ba6e37601b, type: 3}
+  m_Script: {fileID: 11500000, guid: b6bcdcccb2c3a5045bc33e485d32b4a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  manaCost: 10
+  manaCost: 5
+  minDamage: 0
+  maxDamage: 0
+  manaCost: 5
