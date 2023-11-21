@@ -54,11 +54,11 @@ MonoBehaviour:
   swarmerPrefab: {fileID: 7614282412117228158, guid: 0654a2264962944498fcbb55f36762c0, type: 3}
   archerSwarmPrefab: {fileID: 0}
   swarmInterval: 5
-  archerSwarm: 10
   detectionRadius: 5
   spawn: 0
   spawnTimer: 0
   spawnTimeFull: 5
+  canSpawn: 1
 --- !u!61 &3571095960313207668
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -97,7 +97,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.97333336, y: 1.0533333}
+    oldSize: {x: 0.32, y: 0.32}
     newSize: {x: 0.97333336, y: 1.0533333}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -173,7 +173,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3190103786788552980, guid: 5eb9e694d113faa468881958e18ead39, type: 3}
+  m_Sprite: {fileID: 388129722, guid: 45a9b86e1947b1a4382f586295279c53, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -245,7 +245,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.97333336, y: 1.0533333}
+    oldSize: {x: 0.32, y: 0.32}
     newSize: {x: 0.97333336, y: 1.0533333}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

@@ -41339,8 +41339,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98a4534c20911ff42a651af5c228fd24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  entranceID: 1
-  sceneToLoad: town_map
+  entranceID: 3
+  sceneToLoad: CaveSpawn
 --- !u!61 &1799874686
 BoxCollider2D:
   m_ObjectHideFlags: 0
