@@ -28,6 +28,7 @@ public class FireShoot : BaseProjectile
         {
             return;
         }
+        SpawnerDie spawner = hitInfo.GetComponent<SpawnerDie>();
 
         Enemy enemy = hitInfo.GetComponent<Enemy>();
         if (enemy != null)
@@ -40,7 +41,15 @@ public class FireShoot : BaseProjectile
             // Set the flag to true to prevent further damage applications in this frame
             hasDealtDamage = true;
         }
+        if (spawner != null)
+        {
+            int randomDamage = Random.Range(damageUpgradefire.currentMinDamage, damageUpgradefire.currentMaxDamage);
+            Instantiate(flamesPrefab, hitInfo.transform.position, Quaternion.identity);
 
+            spawner.TakeDamage(randomDamage);
+            hasDealtDamage = true;
+
+        }
         if (hitInfo.gameObject.CompareTag("Player") || (hitInfo.gameObject.CompareTag("Attack") || hitInfo.gameObject.CompareTag("Collectable")))
         {
             return;

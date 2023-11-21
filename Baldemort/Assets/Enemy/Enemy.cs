@@ -24,6 +24,7 @@ public class Enemy : MonoBehaviour
     public GameObject itemToDropPrefab;
 
 
+
     public GameObject itemToDropPrefab1;
     public GameObject itemToDropPrefab2;
     public GameObject itemToDropPrefab3;
@@ -43,11 +44,15 @@ public class Enemy : MonoBehaviour
     public float FireTimerFull = 1f;
     public float FireTick = 5f;
 
+    private PlayerDataInitializer playerDataInitializer;
+
     private void Awake()
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
         currentState = EnemyState.idle;
+        playerDataInitializer = FindObjectOfType<PlayerDataInitializer>();
+
     }
 
     public void TakeDamage(float damage)
@@ -170,7 +175,11 @@ public class Enemy : MonoBehaviour
                 Instantiate(itemToDropPrefab, transform.position, Quaternion.identity);
             }
         }
-        Destroy(gameObject);
+
+        Debug.Log("My name is: " + gameObject.name);
+        PlayerPrefs.SetInt(gameObject.name + "_isEnemyDead", 1);
+        PlayerPrefs.Save();
+        gameObject.SetActive(false);
     }
 
 

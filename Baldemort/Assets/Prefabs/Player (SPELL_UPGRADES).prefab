@@ -105,6 +105,7 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 4
   otherTag: Enemy
+  otherTag2: Breakable
 --- !u!1 &2360412397487074411
 GameObject:
   m_ObjectHideFlags: 0
@@ -597,6 +598,7 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 4
   otherTag: Enemy
+  otherTag2: Breakable
 --- !u!1 &5597614305811559938
 GameObject:
   m_ObjectHideFlags: 0
@@ -700,6 +702,7 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 4
   otherTag: Enemy
+  otherTag2: Breakable
 --- !u!1 &5725572768414345184
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,6 +825,8 @@ MonoBehaviour:
   sprintSpeed: 10
   rb: {fileID: 0}
   healthBar: {fileID: 3321056245897445765}
+  maxHealth: 0
+  currentHealth: 0
   maxMana: 100
   currentMana: 0
   manaBar: {fileID: 3391534656043277920}
@@ -842,7 +847,6 @@ MonoBehaviour:
   mySprite: {fileID: 4341321010485468085}
   currentSceneIndex: 0
   isDead: 0
-  playerData: {fileID: 0}
   coins: 0
 --- !u!50 &280794489718572643
 Rigidbody2D:
@@ -1028,8 +1032,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53b9e1ae47ca7d143a17763b486d577a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseMinDamage: 8
-  baseMaxDamage: 14
   currentMinDamage: 0
   currentMaxDamage: 0
   damageUpgraded: 0
@@ -1046,8 +1048,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54c191bcfaab90844a0699e98838cbab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseMinDamage: 6
-  baseMaxDamage: 10
   currentMinDamage: 0
   currentMaxDamage: 0
   damageUpgraded: 0
@@ -1064,8 +1064,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a2ae5fa294a2446ac5fd3f889c3b5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseMinDamage: 15
-  baseMaxDamage: 30
   currentMinDamage: 0
   currentMaxDamage: 0
   damageUpgraded: 0
@@ -1082,8 +1080,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 009ea45be5d8ab44395bbfceca1bfa14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseMinDamage: 2
-  baseMaxDamage: 8
   currentMinDamage: 0
   currentMaxDamage: 0
   damageUpgraded: 0
@@ -1547,6 +1543,7 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 4
   otherTag: Enemy
+  otherTag2: Breakable
 --- !u!1 &7398315758069571151
 GameObject:
   m_ObjectHideFlags: 0

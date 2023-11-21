@@ -13,33 +13,40 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField]
     private float swarmInterval = 3.5f;
     [SerializeField]
-    private float archerSwarm = 10f;
+    //private float archerSwarm = 10f;
     public float detectionRadius;
     public bool spawn;
     public float spawnTimer;
     public float spawnTimeFull = 5f;
+
+    [SerializeField]
+    private bool canSpawn = true;
 
     // Start is called before the first frame update
     void Start()
     {
         target = GameObject.FindWithTag("Player").transform;
     }
+
     void FixedUpdate()
     {
         float distanceToPlayer = Vector2.Distance(target.position, transform.position);
-        
-        if (distanceToPlayer < detectionRadius)
-        {
-            spawnTimer -= Time.deltaTime;
-        }
-        if (distanceToPlayer < detectionRadius && spawn == false)
+
+        if (distanceToPlayer < detectionRadius && canSpawn)
         {
             spawnEnemy(swarmerPrefab);
+            canSpawn = false; // Prevent spawning until the timer resets
         }
-        if (spawnTimer <= 0 && distanceToPlayer < detectionRadius)
+
+        if (!canSpawn)
         {
-            spawnTimer = spawnTimeFull;
-            spawn = false;
+            spawnTimer -= Time.deltaTime;
+
+            if (spawnTimer <= 0)
+            {
+                canSpawn = true; // Allow spawning after the timer reaches zero
+                spawnTimer = spawnTimeFull;
+            }
         }
     }
 
@@ -48,7 +55,7 @@ public class EnemySpawner : MonoBehaviour
     private void spawnEnemy(GameObject enemy)
     {
         // Define the spawn radius around the EnemySpawner
-        float spawnRadius = 2.0f; // You can adjust this value to your desired radius.
+        float spawnRadius = 1.5f; // You can adjust this value to your desired radius.
 
         // Generate random coordinates within the spawn radius
         float randomX = transform.position.x + Random.Range(-spawnRadius, spawnRadius);
@@ -63,4 +70,6 @@ public class EnemySpawner : MonoBehaviour
         GameObject newEnemy = Instantiate(enemy, spawnPoint, Quaternion.identity);
         spawn = true;
     }
+
+
 }

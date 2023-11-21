@@ -27,6 +27,9 @@ public class PumpkinMelee : Enemy
     public SpriteRenderer mySprite;
     public float frozenTimeFull = 4f;
     private bool isFrozen = false;
+
+
+
     // Start is called before the first frame update
     void Start()
 
@@ -35,6 +38,7 @@ public class PumpkinMelee : Enemy
         anim = GetComponent<Animator>();
         rigidbody = GetComponent<Rigidbody2D>();
         target = GameObject.FindWithTag("Player").transform;
+
     }
 
     // Update is called once per frame

@@ -30,6 +30,7 @@ public class DarkShoot : BaseProjectile
         }
 
         Enemy enemy = hitInfo.GetComponent<Enemy>();
+        SpawnerDie spawner = hitInfo.GetComponent<SpawnerDie>();
         if (enemy != null)
         {
             int randomDamage = Random.Range(damageUpgradedark.currentMinDamage, damageUpgradedark.currentMaxDamage);
@@ -40,6 +41,15 @@ public class DarkShoot : BaseProjectile
             Debug.Log("Applying: " +poisonDamage);
             // Set the flag to true to prevent further damage applications in this frame
             hasDealtDamage = true;
+        }
+        if (spawner != null)
+        {
+            int randomDamage = Random.Range(damageUpgradedark.currentMinDamage, damageUpgradedark.currentMaxDamage);
+            spawner.TakeDamage(randomDamage);
+
+            spawner.PoisonHurt(poisonDamage);
+            hasDealtDamage = true;
+
         }
 
         if (hitInfo.gameObject.CompareTag("Player") || (hitInfo.gameObject.CompareTag("Attack") || hitInfo.gameObject.CompareTag("Collectable")))

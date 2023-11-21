@@ -5,6 +5,7 @@ public class mainMenu : MonoBehaviour
 {
 
 
+    public PlayerDataInitializer playerDataInitializer;
 
     public void NewGame()
     {
@@ -13,6 +14,7 @@ public class mainMenu : MonoBehaviour
 
     public void Play()
     {
+        playerDataInitializer.ResetSavedData();
         PlayerPrefs.SetInt("EntranceID", 1);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
