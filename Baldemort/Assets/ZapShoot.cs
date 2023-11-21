@@ -30,6 +30,8 @@ public class ZapShoot : BaseProjectile
         }
 
         Enemy enemy = hitInfo.GetComponent<Enemy>();
+        SpawnerDie spawner = hitInfo.GetComponent<SpawnerDie>();
+
         if (enemy != null)
         {
             int randomDamage = Random.Range(damageUpgradezap.currentMinDamage, damageUpgradezap.currentMaxDamage);
@@ -39,7 +41,12 @@ public class ZapShoot : BaseProjectile
             // Set the flag to true to prevent further damage applications in this frame
             hasDealtDamage = true;
         }
+        if(spawner != null)
+        {
+            int randomDamage = Random.Range(damageUpgradezap.currentMinDamage, damageUpgradezap.currentMaxDamage);
+            spawner.TakeDamage(randomDamage);
 
+        }
         if (hitInfo.gameObject.CompareTag("Player") || (hitInfo.gameObject.CompareTag("Attack") || hitInfo.gameObject.CompareTag("Collectable")))
         {
             return;

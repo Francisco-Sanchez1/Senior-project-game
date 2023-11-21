@@ -49,6 +49,7 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 5
   otherTag: Player
+  otherTag2: 
 --- !u!60 &9002922823317184775
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -228,6 +229,7 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 5
   otherTag: Player
+  otherTag2: 
 --- !u!60 &5922619816190863363
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -332,6 +334,7 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 5
   otherTag: Player
+  otherTag2: 
 --- !u!60 &4656241510359689842
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -437,6 +440,7 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 5
   otherTag: Player
+  otherTag2: 
 --- !u!60 &4868860733367225371
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -751,6 +755,7 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 1
   otherTag: Player
+  otherTag2: 
 --- !u!114 &6071222430898889713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -777,8 +782,10 @@ MonoBehaviour:
   poisonTimerfull: 0.5
   PoisonTick: 10
   invincibilityDuration: 1
-  PoisonColor: {r: 0.026610898, g: 0.24528301, b: 0.06488888, a: 1}
   mySprite: {fileID: 4778751023751108866}
+  onFire: 0
+  FireTimerFull: 1
+  FireTick: 5
   target: {fileID: 0}
   chaseRadius: 10
   attackRadius: 1.1
@@ -788,7 +795,6 @@ MonoBehaviour:
   FrozeColor: {r: 0.3820755, g: 0.5420091, b: 1, a: 1}
   regularColor: {r: 1, g: 1, b: 1, a: 1}
   mySprite: {fileID: 4778751023751108866}
-  frozenTime: 4
   frozenTimeFull: 4
 --- !u!50 &9031481670320475911
 Rigidbody2D:

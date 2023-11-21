@@ -8,6 +8,7 @@ public class MeleeStrike : MonoBehaviour
     [SerializeField] private float KnockbackTime;
     public float damage;
     [SerializeField] private string otherTag;
+    [SerializeField] private string otherTag2;
 
     private PhysicsMaterial2D originalPhysicsMaterial;
     private PhysicsMaterial2D temporaryPhysicsMaterial;
@@ -16,7 +17,7 @@ public class MeleeStrike : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag(otherTag))
+        if (collision.gameObject.CompareTag(otherTag) || (collision.gameObject.CompareTag(otherTag2)))
         {
             Rigidbody2D hit = collision.GetComponent<Rigidbody2D>();
             if (hit != null)
@@ -30,6 +31,11 @@ public class MeleeStrike : MonoBehaviour
                     hit.GetComponent<Enemy>().currentState = EnemyState.stagger;
                     collision.GetComponent<Enemy>().Knock(hit, KnockbackTime, damage);
                 }
+                if (collision.gameObject.CompareTag("Breakable") && collision.isTrigger)
+                {
+                    collision.GetComponent<SpawnerDie>().TakeDamage(damage);
+                }
+
                 if (collision.gameObject.CompareTag("Player") && collision.isTrigger)
                 {
                     hit.GetComponent<PlayerCntrl>().currentState = PlayerState.stagger; 

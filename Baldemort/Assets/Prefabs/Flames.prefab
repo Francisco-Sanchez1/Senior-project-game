@@ -169,3 +169,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 5
   otherTag: Enemy
+  otherTag2: Breakable

@@ -28,7 +28,7 @@ public class IceShoot : BaseProjectile
         {
             return;
         }
-
+        SpawnerDie spawner = hitInfo.GetComponent<SpawnerDie>();
         Enemy enemy = hitInfo.GetComponent<Enemy>();
         if (enemy != null)
         {
@@ -40,7 +40,11 @@ public class IceShoot : BaseProjectile
             // Set the flag to true to prevent further damage applications in this frame
             hasDealtDamage = true;
         }
-
+        if (spawner != null)
+        {
+            int randomDamage = Random.Range(damageUpgradeice.currentMinDamage, damageUpgradeice.currentMaxDamage);
+            spawner.TakeDamage(randomDamage);
+        }
         if (hitInfo.gameObject.CompareTag("Player") || (hitInfo.gameObject.CompareTag("Attack") || hitInfo.gameObject.CompareTag("Collectable")))
         {
             return;

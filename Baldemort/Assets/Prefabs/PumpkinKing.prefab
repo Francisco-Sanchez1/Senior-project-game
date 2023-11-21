@@ -123,11 +123,11 @@ MonoBehaviour:
   swarmerPrefab: {fileID: 7614282412117228158, guid: 0654a2264962944498fcbb55f36762c0, type: 3}
   archerSwarmPrefab: {fileID: 7614282412117228158, guid: 947cc39264053464f9a7cac4bc917ace, type: 3}
   swarmInterval: 100
-  archerSwarm: 100
   detectionRadius: 0
   spawn: 0
   spawnTimer: 0
   spawnTimeFull: 5
+  canSpawn: 1
 --- !u!1 &2663718182007916135
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,6 +177,7 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 10
   otherTag: Player
+  otherTag2: 
 --- !u!60 &6281812338306996131
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -381,6 +382,7 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 10
   otherTag: Player
+  otherTag2: 
 --- !u!60 &5534369914940398561
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -698,6 +700,7 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 0
   otherTag: Player
+  otherTag2: 
 --- !u!50 &8215626288188449551
 Rigidbody2D:
   serializedVersion: 4
@@ -806,7 +809,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  maxHealth: 200
+  maxHealth: 50
   currentHealth: 0
   healthBar: {fileID: 6316101631331956278}
   baseAttack: 0
@@ -820,6 +823,9 @@ MonoBehaviour:
   PoisonTick: 10
   invincibilityDuration: 1
   mySprite: {fileID: 4036811628359731477}
+  onFire: 0
+  FireTimerFull: 1
+  FireTick: 5
   target: {fileID: 1755490314798967455, guid: f1e103621049a1f44beb860ad709badb, type: 3}
   chaseRadius: 15
   attackRadius: 1.5
@@ -989,6 +995,7 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 10
   otherTag: Player
+  otherTag2: 
 --- !u!60 &5582227367969468348
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1091,6 +1098,7 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 10
   otherTag: Player
+  otherTag2: 
 --- !u!60 &7890724228228185481
 PolygonCollider2D:
   m_ObjectHideFlags: 0

@@ -8,6 +8,7 @@ public class Flames : MonoBehaviour
 {
     public float damage = 5f;
     [SerializeField] private string otherTag;
+    [SerializeField] private string otherTag2;
 
     private bool hasDealtDamage = false;
     private float invincibilityDuration = 0.5f;
@@ -21,7 +22,7 @@ public class Flames : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!hasDealtDamage && collision.gameObject.CompareTag(otherTag))
+        if (!hasDealtDamage && collision.gameObject.CompareTag(otherTag) || (collision.gameObject.CompareTag(otherTag2)))
         {
 
             Rigidbody2D hit = collision.GetComponent<Rigidbody2D>();
@@ -31,6 +32,11 @@ public class Flames : MonoBehaviour
                 {
                     Enemy enemy = collision.GetComponent<Enemy>();
                     enemy.fireHurt(damage);
+                }
+                if (collision.gameObject.CompareTag("Breakable") && collision.isTrigger)
+                {
+                    SpawnerDie spawner = collision.GetComponent<SpawnerDie>();
+                    spawner.fireHurt(damage);
                 }
                 if (collision.gameObject.CompareTag("Player") && collision.isTrigger)
                 {

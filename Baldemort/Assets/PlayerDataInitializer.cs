@@ -26,16 +26,20 @@ public class PlayerDataInitializer : MonoBehaviour
     public bool dark1Up;
     public bool ice1Up;
 
+    
     public void Start()
     {
-        currentMana = maxMana;
-        currentHealth = maxHealth;
+
         // Ensure that this object is not destroyed when loading a new scene
+
         DontDestroyOnLoad(this.gameObject);
+
+        SceneManager.sceneLoaded += OnSceneLoaded;
 
         // Load player data when the game starts THIS IS WHAT CAUSES THE CURRENT HEALTH TO NOT REDUCE CAN PROBABLY USE THIS FOR A SAVE GAME TYPE SCENARIO WHERE THE PLAYER PRESSES PLAY INSTEAD OF NEW GAME
         //LoadPlayerData();
     }
+
 
     private void LoadPlayerData()
     {
@@ -49,8 +53,8 @@ public class PlayerDataInitializer : MonoBehaviour
         }
         else
         {
-            currentHealth = maxHealth;
-            player.healthBar.SetHealth(maxHealth);
+            //currentHealth = maxHealth;
+            //player.healthBar.SetHealth(maxHealth);
         }
 
         // Load current mana if available, otherwise, use the default max mana
@@ -62,8 +66,8 @@ public class PlayerDataInitializer : MonoBehaviour
         }
         else
         {
-            currentMana = maxMana;
-            player.manaBar.SetMana(maxMana);
+            //currentMana = maxMana;
+            //player.manaBar.SetMana(maxMana);
         }
         if (PlayerPrefs.HasKey("PlayerCoins"))
         {
@@ -131,8 +135,50 @@ public class PlayerDataInitializer : MonoBehaviour
 
     }
 
+    public void DeadEnemy()
+    {
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        foreach (GameObject enemy in enemies)
+        {
+            int isEnemyDead = PlayerPrefs.GetInt(enemy.name + "_isEnemyDead", 0);
+
+            if (isEnemyDead == 1)
+            {
+                enemy.SetActive(false);
+                Debug.Log(enemy.name + " is set as dead.");
+            }
+        }
+    }
+
+    public void LoadSpawnerStates()
+    {
+        GameObject[] spawners = GameObject.FindGameObjectsWithTag("Breakable");
+        Debug.Log("List of spawners! " + spawners);
+        foreach (GameObject spawner in spawners)
+        {
+            int isDead = PlayerPrefs.GetInt(spawner.name + "_IsDead", 0);
+
+            if (isDead == 1)
+            {
+                spawner.SetActive(false);
+                Debug.Log(spawner.name + " is set as dead.");
+            }
+        }
+    }
+
+    public void ResetSavedData()
+    {
+        // Reset all player-related saved data to their default values
+        PlayerPrefs.DeleteAll(); // This clears all PlayerPrefs
+
+        // You might also reset the variables in this script to their initial values
+        currentHealth = maxHealth;
+        currentMana = maxMana;
+        // Reset other variables to default values
+    }
+
     // You can also add a method to save the player data if necessary
-      private void SavePlayerData()
+    private void SavePlayerData()
       {
           PlayerCntrl player = FindObjectOfType<PlayerCntrl>();
           if (player != null)
@@ -179,6 +225,9 @@ public class PlayerDataInitializer : MonoBehaviour
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         // Initialize player data when a new scene is loaded
+        Debug.Log("I am a loading scene!");
         LoadPlayerData();
+        LoadSpawnerStates();
+        DeadEnemy();
     }
 }
