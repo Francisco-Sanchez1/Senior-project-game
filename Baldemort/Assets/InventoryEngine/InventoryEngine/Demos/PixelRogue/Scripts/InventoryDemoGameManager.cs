@@ -9,12 +9,12 @@ namespace MoreMountains.InventoryEngine
 	/// </summary>
 	public class InventoryDemoGameManager : MMSingleton<InventoryDemoGameManager> 
 	{
-		public InventoryDemoCharacter Player { get; protected set; }
+		public PlayerCntrl Player { get; protected set; }
 
 		protected override void Awake () 
 		{
 			base.Awake ();
-			Player = GameObject.FindGameObjectWithTag("Player").GetComponent<InventoryDemoCharacter>()	;
+			Player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerCntrl>()	;
 		}
 
 		/// <summary>

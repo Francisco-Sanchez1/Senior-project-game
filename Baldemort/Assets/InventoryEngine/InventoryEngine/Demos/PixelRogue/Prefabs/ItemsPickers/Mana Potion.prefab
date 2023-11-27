@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2774094010533977136}
   - component: {fileID: 4089651723904092849}
   - component: {fileID: 7495664109524707559}
+  - component: {fileID: -6915057075688942856}
   m_Layer: 0
   m_Name: Mana Potion
   m_TagString: Untagged
@@ -146,7 +147,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Item: {fileID: 11400000, guid: f06f705216126a040a13ddadbe208b20, type: 2}
   Quantity: 5
-  RemainingQuantity: 1
+  RemainingQuantity: 0
   PickableIfInventoryIsFull: 0
   DisableObjectWhenDepleted: 1
   RequirePlayerTag: 1
+--- !u!114 &-6915057075688942856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744204287374304130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0397bb261ecd924ba0668927c40ba3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SaveActive: 1
+  UniqueIDSuffix: 
+  _guid: 
+  GenerateGuidButton: 0
+  SavePosition: 1
+  SaveLocalRotation: 1
+  SaveLocalScale: 1
+  SaveActiveState: 1
+  SaveEnabledStates: 0

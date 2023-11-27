@@ -9,21 +9,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fac9bd89dcafc049b19f543ccf8fd57, type: 3}
+  m_Script: {fileID: 11500000, guid: b81620ec522496e48a194e036efc4606, type: 3}
   m_Name: HealthPotion
   m_EditorClassIdentifier: 
-  ItemID: Health Potion
+  ItemID: HealthPotion
   TargetInventoryName: RogueMainInventory
   ForceSlotIndex: 0
   TargetIndex: 0
   Usable: 1
   Consumable: 1
   ConsumeQuantity: 1
-  Equippable: 1
+  Equippable: 0
   EquippableIfInventoryIsFull: 1
   MoveWhenEquipped: 1
   Droppable: 1
-  CanMoveObject: 1
+  CanMoveObject: 0
   CanSwapObject: 1
   DisplayProperties:
     DisplayEquipUseButton: 1
@@ -34,8 +34,8 @@ MonoBehaviour:
     DisplayUnequipButton: 1
   Quantity: 1
   ItemName: Health Potion
-  ShortDescription: Health Potion
-  Description: When needing health, use me!
+  ShortDescription: Heals health
+  Description: Use this item to heal health points
   Icon: {fileID: 8717908661333387831, guid: b2a2f6c47a345f14d804ac47e722fd47, type: 3}
   Prefab: {fileID: 0}
   ForcePrefabDropQuantity: 0
@@ -89,3 +89,4 @@ MonoBehaviour:
   MovedSound: {fileID: 0}
   DroppedSound: {fileID: 0}
   UseDefaultSoundsIfNull: 1
+  HealthBonus: 25

@@ -18,7 +18,7 @@ public class attack : MonoBehaviour
     private void Start()
     {
         player = GetComponent<PlayerCntrl>();
-        spellSlot = FindObjectOfType<allSpellSlot>(); // Change this line
+        spellSlot = FindObjectOfType<allSpellSlot>(); // Find the allSpellSlot component in the scene.
 
         if (spellSlot == null)
         {
@@ -81,7 +81,7 @@ public class attack : MonoBehaviour
             GameObject projectile = Instantiate(projectilePrefab, transform.position, projectileRotation);
             Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
             rb.velocity = attackDirection * attackSpeed;
-            Destroy(projectile, 1.5f); // Adjust as needed
+            Destroy(projectile, 1.5f);
 
             player.useMana(manaCost);
         }
