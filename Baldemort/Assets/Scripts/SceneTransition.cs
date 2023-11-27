@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using MoreMountains.Tools;
 
 public class DoorTrigger : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class DoorTrigger : MonoBehaviour
 
             // Load the destination scene and pass the entrance ID as a parameter
             SceneManager.LoadScene(sceneToLoad, LoadSceneMode.Single);
+            MMGameEvent.Trigger("Save");
             PlayerPrefs.SetInt("EntranceID", entranceID);
         }
     }

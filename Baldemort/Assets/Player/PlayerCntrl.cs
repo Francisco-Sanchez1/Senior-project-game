@@ -433,12 +433,56 @@ public class PlayerCntrl : MonoBehaviour
 
         public void RegainMana(float amount)
         {
-        playerDataInitializer.currentMana += amount;
-            if(playerDataInitializer.currentMana > playerDataInitializer.maxMana)
+            // Ensure playerDataInitializer is not null
+            if (playerDataInitializer != null)
             {
-            playerDataInitializer.currentMana = playerDataInitializer.maxMana; // Ensure mana doesn't exceed max value
+                playerDataInitializer.currentMana += amount;
+                if (playerDataInitializer.currentMana > playerDataInitializer.maxMana)
+                {
+                    playerDataInitializer.currentMana = playerDataInitializer.maxMana; // Ensure mana doesn't exceed max value
+                }
+
+                // Update mana UI if manaBar is assigned
+                if (manaBar != null)
+                {
+                    manaBar.SetMana(playerDataInitializer.currentMana);
+                }
+                else
+                {
+                    Debug.LogWarning("ManaBar reference not set in PlayerCntrl.");
+                }
             }
-            manaBar.SetMana(playerDataInitializer.currentMana);
+            else
+            {
+                Debug.LogError("PlayerDataInitializer is null in PlayerCntrl.");
+            }
+        }
+
+        public void RegainHealth(float amount)
+        {
+            // Ensure playerDataInitializer is not null
+            if (playerDataInitializer != null)
+            {
+                playerDataInitializer.currentHealth += amount;
+                if (playerDataInitializer.currentHealth > playerDataInitializer.maxHealth)
+                {
+                    playerDataInitializer.currentHealth = playerDataInitializer.maxHealth; // Ensure health doesn't exceed max value
+                }
+
+                // Update health UI if healthBar is assigned
+                if (healthBar != null)
+                {
+                    healthBar.SetHealth(playerDataInitializer.currentHealth);
+                }
+                else
+                {
+                    Debug.LogWarning("HealthBar reference not set in PlayerCntrl.");
+                }
+            }
+            else
+            {
+                Debug.LogError("PlayerDataInitializer is null in PlayerCntrl.");
+            }
         }
 
         /// <summary>

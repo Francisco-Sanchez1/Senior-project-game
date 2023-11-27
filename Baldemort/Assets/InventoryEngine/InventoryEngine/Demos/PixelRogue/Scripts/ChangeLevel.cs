@@ -21,7 +21,7 @@ namespace MoreMountains.InventoryEngine
 		/// <param name="collider">Collider.</param>
 		public virtual void OnTriggerEnter2D (Collider2D collider) 
 		{
-			if ((Destination != null) && (collider.gameObject.GetComponent<InventoryDemoCharacter>() != null))
+			if ((Destination != null))
 			{
 				MMGameEvent.Trigger("Save");
 				SceneManager.LoadScene(Destination);
