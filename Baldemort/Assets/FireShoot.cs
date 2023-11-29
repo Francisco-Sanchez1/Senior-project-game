@@ -29,6 +29,7 @@ public class FireShoot : BaseProjectile
             return;
         }
         SpawnerDie spawner = hitInfo.GetComponent<SpawnerDie>();
+        ChestDie Chest = hitInfo.GetComponent<ChestDie>();
 
         Enemy enemy = hitInfo.GetComponent<Enemy>();
         if (enemy != null)
@@ -47,6 +48,15 @@ public class FireShoot : BaseProjectile
             Instantiate(flamesPrefab, hitInfo.transform.position, Quaternion.identity);
 
             spawner.TakeDamage(randomDamage);
+            hasDealtDamage = true;
+
+        }
+        if (Chest != null)
+        {
+            int randomDamage = Random.Range(damageUpgradefire.currentMinDamage, damageUpgradefire.currentMaxDamage);
+            Instantiate(flamesPrefab, hitInfo.transform.position, Quaternion.identity);
+
+            Chest.TakeDamage(randomDamage);
             hasDealtDamage = true;
 
         }

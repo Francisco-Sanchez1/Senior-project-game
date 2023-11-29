@@ -453,8 +453,10 @@ MonoBehaviour:
   poisonTimerfull: 0.5
   PoisonTick: 10
   invincibilityDuration: 1
-  PoisonColor: {r: 0.02745098, g: 0.24705882, b: 0.06666667, a: 1}
   mySprite: {fileID: 4778751023751108866}
+  onFire: 0
+  FireTimerFull: 1
+  FireTick: 5
   target: {fileID: 0}
   chaseRadius: 8
   attackRadius: 5
@@ -464,7 +466,6 @@ MonoBehaviour:
   FrozeColor: {r: 0.38039216, g: 0.5411765, b: 1, a: 1}
   regularColor: {r: 1, g: 1, b: 1, a: 1}
   mySprite: {fileID: 4778751023751108866}
-  frozenTime: 0
   frozenTimeFull: 4
 --- !u!114 &8822232535320556804
 MonoBehaviour:

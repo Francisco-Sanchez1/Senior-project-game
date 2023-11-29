@@ -11,6 +11,7 @@ public class NPCINTERACT : MonoBehaviour
         if(collision.gameObject.CompareTag("Player") == true)
         {
             trigger.StartDialogue();
+
         }
     }
 }

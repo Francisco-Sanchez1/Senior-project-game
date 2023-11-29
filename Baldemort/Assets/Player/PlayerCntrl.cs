@@ -84,6 +84,15 @@ public class PlayerCntrl : MonoBehaviour
     public bool isDead = false;
     private PlayerDataInitializer playerDataInitializer;
 
+
+
+
+    //POISON STUFF
+    public bool poisoned = false;
+    public float poisonTimerfull = 0.5f;
+    public float PoisonTick = 5f;
+    public float invincibilityDuration = 0.5f;
+    public bool poisonedtimer = false;
     //MONEY
     public int coins;
     // Start is called before the first frame update
@@ -188,6 +197,7 @@ public class PlayerCntrl : MonoBehaviour
 
     void UpdateAnimateAndMove()
     {
+
         if (movement != Vector2.zero)
         {
 
@@ -206,6 +216,11 @@ public class PlayerCntrl : MonoBehaviour
 
     public void FixedUpdate()
     {
+        //Poisoned
+        if (poisoned == true)
+        {
+            mySprite.color = new Color(0.5f, 0f, 1f);
+        }
 
         //movement
         if (DialogManager.isActive == true || ShopKeeperNPC.ShopActive == true)
@@ -229,6 +244,44 @@ public class PlayerCntrl : MonoBehaviour
         //rb.rotation = angle;
 
     }
+
+    public void PoisonHurt(float poison)
+    {
+        if (poisonedtimer == true)
+        {
+            return;
+        }
+        else
+        {
+            StartCoroutine(PoisonDamage(poison));
+        }
+    }
+
+
+    IEnumerator PoisonDamage(float poison)
+    {
+        float timer = 0f;
+        poisonedtimer = true;
+        while (timer < PoisonTick)
+        {
+            currentHealth -= poison;
+            healthBar.SetHealth(currentHealth);
+
+            if (currentHealth <= 0)
+            {
+                StartCoroutine(Death_Anim());
+                break;
+            }
+
+            timer += poisonTimerfull;
+            yield return new WaitForSeconds(poisonTimerfull);
+        }
+
+        poisoned = false;
+        poisonedtimer = false;
+        mySprite.color = Color.white; 
+    }
+
 
 
     public void takeDamage(float damage)
@@ -272,35 +325,49 @@ public class PlayerCntrl : MonoBehaviour
 
     public void Heart_Pick(float amount)
     {
-        playerDataInitializer.currentHealth += amount;
-        currentHealth = playerDataInitializer.currentHealth;
-
-        if (playerDataInitializer.currentHealth >= playerDataInitializer.maxHealth)
+        if(playerDataInitializer.maxHealth < 300)
         {
-            playerDataInitializer.currentHealth = playerDataInitializer.maxHealth;
+            playerDataInitializer.currentHealth += amount;
             currentHealth = playerDataInitializer.currentHealth;
-        }
-        healthBar.SetHealth(playerDataInitializer.currentHealth);
 
-        healthSlider.value = playerDataInitializer.currentHealth;
+            if (playerDataInitializer.currentHealth >= playerDataInitializer.maxHealth)
+            {
+                playerDataInitializer.currentHealth = playerDataInitializer.maxHealth;
+                currentHealth = playerDataInitializer.currentHealth;
+            }
+            healthBar.SetHealth(playerDataInitializer.currentHealth);
+
+            healthSlider.value = playerDataInitializer.currentHealth;
+        }
+        else
+        {
+            Coin_Pick(40);
+        }
     }
 
     public void IncreaseMana(float amount)
     {
-        playerDataInitializer.maxMana += amount;
-        maxMana = playerDataInitializer.maxMana;
-        if (playerDataInitializer.currentMana <= playerDataInitializer.maxMana)
+        if(playerDataInitializer.maxMana < 200)
         {
-            currentMana = playerDataInitializer.maxMana;
-            playerDataInitializer.currentMana = playerDataInitializer.maxMana;
+            playerDataInitializer.maxMana += amount;
+            maxMana = playerDataInitializer.maxMana;
+            if (playerDataInitializer.currentMana <= playerDataInitializer.maxMana)
+            {
+                currentMana = playerDataInitializer.maxMana;
+                playerDataInitializer.currentMana = playerDataInitializer.maxMana;
+            }
+
+            manaBar.SetMaxMana(playerDataInitializer.maxMana);
+            manaBar.SetMana(playerDataInitializer.currentMana);
+
+            // Update the mana slider's max value and current value
+            manaSlider.maxValue = playerDataInitializer.maxMana;
+            manaSlider.value = playerDataInitializer.currentMana;
         }
-
-        manaBar.SetMaxMana(playerDataInitializer.maxMana);
-        manaBar.SetMana(playerDataInitializer.currentMana);
-
-        // Update the mana slider's max value and current value
-        manaSlider.maxValue = playerDataInitializer.maxMana;
-        manaSlider.value = playerDataInitializer.currentMana;
+        else
+        {
+            Coin_Pick(20);
+        }
     }
 
 
@@ -336,7 +403,7 @@ public class PlayerCntrl : MonoBehaviour
         //set  to kinematic to prevent movement
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
         rb.isKinematic = true;
-
+        
         // Optionally, you can disable player controls here
         PlayerCntrl playerController = GetComponent<PlayerCntrl>();
         if (playerController != null)
@@ -464,9 +531,12 @@ public class PlayerCntrl : MonoBehaviour
             if (playerDataInitializer != null)
             {
                 playerDataInitializer.currentHealth += amount;
-                if (playerDataInitializer.currentHealth > playerDataInitializer.maxHealth)
+                currentHealth = playerDataInitializer.currentHealth;
+                healthBar.SetHealth(playerDataInitializer.currentHealth);
+            if (playerDataInitializer.currentHealth > playerDataInitializer.maxHealth)
                 {
-                    playerDataInitializer.currentHealth = playerDataInitializer.maxHealth; // Ensure health doesn't exceed max value
+                currentHealth = playerDataInitializer.maxHealth;
+                playerDataInitializer.currentHealth = playerDataInitializer.maxHealth; // Ensure health doesn't exceed max value
                 }
 
                 // Update health UI if healthBar is assigned

@@ -31,6 +31,7 @@ public class ZapShoot : BaseProjectile
 
         Enemy enemy = hitInfo.GetComponent<Enemy>();
         SpawnerDie spawner = hitInfo.GetComponent<SpawnerDie>();
+        ChestDie Chest = hitInfo.GetComponent<ChestDie>();
 
         if (enemy != null)
         {
@@ -46,6 +47,11 @@ public class ZapShoot : BaseProjectile
             int randomDamage = Random.Range(damageUpgradezap.currentMinDamage, damageUpgradezap.currentMaxDamage);
             spawner.TakeDamage(randomDamage);
 
+        }
+        if (Chest != null)
+        {
+            int randomDamage = Random.Range(damageUpgradezap.currentMinDamage, damageUpgradezap.currentMaxDamage);
+            Chest.TakeDamage(randomDamage);
         }
         if (hitInfo.gameObject.CompareTag("Player") || (hitInfo.gameObject.CompareTag("Attack") || hitInfo.gameObject.CompareTag("Collectable")))
         {

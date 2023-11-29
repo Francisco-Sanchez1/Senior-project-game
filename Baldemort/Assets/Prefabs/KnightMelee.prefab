@@ -763,8 +763,10 @@ MonoBehaviour:
   poisonTimerfull: 0.5
   PoisonTick: 10
   invincibilityDuration: 1
-  PoisonColor: {r: 0.02745098, g: 0.24705882, b: 0.06666667, a: 1}
   mySprite: {fileID: 4036811628359731477}
+  onFire: 0
+  FireTimerFull: 1
+  FireTick: 5
   target: {fileID: 1755490314798967455, guid: f1e103621049a1f44beb860ad709badb, type: 3}
   chaseRadius: 10
   attackRadius: 1.5

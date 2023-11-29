@@ -22,7 +22,10 @@ public class Goblin_Range : Enemy
     // Start is called before the first frame update
     void Start()
 
+
     {
+        mySprite = GetComponent<SpriteRenderer>();
+
         currentState = EnemyState.idle;
         anim = GetComponent<Animator>();
         rigidbody = GetComponent<Rigidbody2D>();

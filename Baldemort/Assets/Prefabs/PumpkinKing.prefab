@@ -177,7 +177,6 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 10
   otherTag: Player
-  otherTag2: 
 --- !u!60 &6281812338306996131
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -382,7 +381,6 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 10
   otherTag: Player
-  otherTag2: 
 --- !u!60 &5534369914940398561
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -700,7 +698,6 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 0
   otherTag: Player
-  otherTag2: 
 --- !u!50 &8215626288188449551
 Rigidbody2D:
   serializedVersion: 4
@@ -813,7 +810,10 @@ MonoBehaviour:
   currentHealth: 0
   healthBar: {fileID: 6316101631331956278}
   baseAttack: 0
+  nextSceneObject: {fileID: 5347717555093466850, guid: 6757f3e47c193fe42b2b986776dcbc82, type: 3}
+  caveSceneObject: {fileID: 7207363483994101458, guid: 9676f28c654b15749a16f693e65ae0a8, type: 3}
   itemToDropPrefab: {fileID: 670818523711551255, guid: 8af99e57ffabe7e4aa0580c3a486d639, type: 3}
+  BlockadeSceneObject: {fileID: 3571278550799199239, guid: eebce619ef6f8474b8342be8ec9740f9, type: 3}
   itemToDropPrefab1: {fileID: 0}
   itemToDropPrefab2: {fileID: 0}
   itemToDropPrefab3: {fileID: 0}
@@ -995,7 +995,6 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 10
   otherTag: Player
-  otherTag2: 
 --- !u!60 &5582227367969468348
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1098,7 +1097,6 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 10
   otherTag: Player
-  otherTag2: 
 --- !u!60 &7890724228228185481
 PolygonCollider2D:
   m_ObjectHideFlags: 0

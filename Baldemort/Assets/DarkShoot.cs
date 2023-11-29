@@ -30,6 +30,8 @@ public class DarkShoot : BaseProjectile
         }
 
         Enemy enemy = hitInfo.GetComponent<Enemy>();
+        ChestDie Chest = hitInfo.GetComponent<ChestDie>();
+
         SpawnerDie spawner = hitInfo.GetComponent<SpawnerDie>();
         if (enemy != null)
         {
@@ -51,7 +53,15 @@ public class DarkShoot : BaseProjectile
             hasDealtDamage = true;
 
         }
+        if (Chest != null)
+        {
+            int randomDamage = Random.Range(damageUpgradedark.currentMinDamage, damageUpgradedark.currentMaxDamage);
+            Chest.TakeDamage(randomDamage);
 
+
+            Chest.PoisonHurt(poisonDamage);
+            hasDealtDamage = true;
+        }
         if (hitInfo.gameObject.CompareTag("Player") || (hitInfo.gameObject.CompareTag("Attack") || hitInfo.gameObject.CompareTag("Collectable")))
         {
             return;

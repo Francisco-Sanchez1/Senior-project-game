@@ -29,6 +29,7 @@ public class IceShoot : BaseProjectile
             return;
         }
         SpawnerDie spawner = hitInfo.GetComponent<SpawnerDie>();
+        ChestDie Chest = hitInfo.GetComponent<ChestDie>();
         Enemy enemy = hitInfo.GetComponent<Enemy>();
         if (enemy != null)
         {
@@ -44,6 +45,11 @@ public class IceShoot : BaseProjectile
         {
             int randomDamage = Random.Range(damageUpgradeice.currentMinDamage, damageUpgradeice.currentMaxDamage);
             spawner.TakeDamage(randomDamage);
+        }
+        if (Chest != null)
+        {
+            int randomDamage = Random.Range(damageUpgradeice.currentMinDamage, damageUpgradeice.currentMaxDamage);
+            Chest.TakeDamage(randomDamage);
         }
         if (hitInfo.gameObject.CompareTag("Player") || (hitInfo.gameObject.CompareTag("Attack") || hitInfo.gameObject.CompareTag("Collectable")))
         {

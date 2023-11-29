@@ -15,6 +15,7 @@ public class mainMenu : MonoBehaviour
     public void Play()
     {
         playerDataInitializer.ResetSavedData();
+        playerDataInitializer.ResetBossStatus();
         PlayerPrefs.SetInt("EntranceID", 1);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
