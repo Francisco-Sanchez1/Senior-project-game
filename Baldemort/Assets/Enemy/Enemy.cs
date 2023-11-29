@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public enum EnemyState
@@ -21,9 +22,12 @@ public class Enemy : MonoBehaviour
     public HealthBar healthBar;
     public int baseAttack;
 
+
+
+    public GameObject nextSceneObject;
+    public GameObject caveSceneObject;
     public GameObject itemToDropPrefab;
-
-
+    public GameObject BlockadeSceneObject;
 
     public GameObject itemToDropPrefab1;
     public GameObject itemToDropPrefab2;
@@ -34,17 +38,17 @@ public class Enemy : MonoBehaviour
     private bool isInvincible = false;
 
     public bool poisoned = false;
-    public float poisonTimerfull = 1f;
+    public float poisonTimerfull = 0.5f;
     public float PoisonTick = 10f;
     public float invincibilityDuration = 0.5f;
     public SpriteRenderer mySprite;
-
 
     public bool onFire = false;
     public float FireTimerFull = 1f;
     public float FireTick = 5f;
 
     private PlayerDataInitializer playerDataInitializer;
+
 
     private void Awake()
     {
@@ -170,11 +174,33 @@ public class Enemy : MonoBehaviour
         // Check if this enemy is the PumpkinKing by comparing its name
         if (gameObject.name == "PumpkinKing")
         {
+            // Access the PlayerDataInitializer and update the boss state
+            PlayerDataInitializer playerDataInitializer = FindObjectOfType<PlayerDataInitializer>();
+            if (playerDataInitializer != null)
+            {
+                playerDataInitializer.BossDeadList(gameObject.name);
+            }
+
             if (itemToDropPrefab != null)
             {
                 Instantiate(itemToDropPrefab, transform.position, Quaternion.identity);
+
             }
+            if (nextSceneObject != null)
+            {
+                nextSceneObject.SetActive(true);
+            }
+            if (caveSceneObject != null)
+            {
+                caveSceneObject.SetActive(true);
+            }
+            if (BlockadeSceneObject != null)
+            {
+                BlockadeSceneObject.SetActive(false);
+            }
+
         }
+    
 
         Debug.Log("My name is: " + gameObject.name);
         PlayerPrefs.SetInt(gameObject.name + "_isEnemyDead", 1);

@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ShopOLD.unity
     guid: ec23bee7d596d1e4ba9adc300778684d
   - enabled: 1
+    path: Assets/Scenes/Ancient Town.unity
+    guid: cf8fc5c5547941347bc7f1d9e0925e39
+  - enabled: 1
     path: Assets/InventoryEngine/InventoryEngine/Demos/PixelRogue/PixelRogueRoom1.unity
     guid: bbd1671f1789c734ebafbab88956dd66
   - enabled: 1

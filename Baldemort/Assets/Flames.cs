@@ -20,7 +20,7 @@ public class Flames : MonoBehaviour
         Destroy(gameObject, 4f);
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerStay2D(Collider2D collision)
     {
         if (!hasDealtDamage && collision.gameObject.CompareTag(otherTag) || (collision.gameObject.CompareTag(otherTag2)))
         {

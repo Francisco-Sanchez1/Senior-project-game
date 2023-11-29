@@ -49,7 +49,6 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 5
   otherTag: Player
-  otherTag2: 
 --- !u!60 &9002922823317184775
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -229,7 +228,6 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 5
   otherTag: Player
-  otherTag2: 
 --- !u!60 &5922619816190863363
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -334,7 +332,6 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 5
   otherTag: Player
-  otherTag2: 
 --- !u!60 &4656241510359689842
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -440,7 +437,6 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 5
   otherTag: Player
-  otherTag2: 
 --- !u!60 &4868860733367225371
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -755,7 +751,6 @@ MonoBehaviour:
   KnockbackTime: 0.4
   damage: 1
   otherTag: Player
-  otherTag2: 
 --- !u!114 &6071222430898889713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -773,7 +768,10 @@ MonoBehaviour:
   currentHealth: 0
   healthBar: {fileID: 3653279070070313470}
   baseAttack: 10
+  nextSceneObject: {fileID: 0}
+  caveSceneObject: {fileID: 0}
   itemToDropPrefab: {fileID: 0}
+  BlockadeSceneObject: {fileID: 0}
   itemToDropPrefab1: {fileID: 670818523711551255, guid: 49a5ce4780000424b8446f949f68339f, type: 3}
   itemToDropPrefab2: {fileID: 670818523711551255, guid: 545b2206ba628d4448adbaaf50702248, type: 3}
   itemToDropPrefab3: {fileID: 670818523711551255, guid: 80d7fe6c4873e864fba745c5c8468d5e, type: 3}
@@ -786,6 +784,7 @@ MonoBehaviour:
   onFire: 0
   FireTimerFull: 1
   FireTick: 5
+  damageNumber: {fileID: 7126745514522523881, guid: a9ec404767977774ab62671e0d452b90, type: 3}
   target: {fileID: 0}
   chaseRadius: 10
   attackRadius: 1.1

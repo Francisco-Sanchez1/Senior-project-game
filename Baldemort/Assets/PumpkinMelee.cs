@@ -34,6 +34,7 @@ public class PumpkinMelee : Enemy
     void Start()
 
     {
+        mySprite = GetComponent<SpriteRenderer>();
         currentState = EnemyState.idle;
         anim = GetComponent<Animator>();
         rigidbody = GetComponent<Rigidbody2D>();

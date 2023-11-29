@@ -26,7 +26,11 @@ public class PlayerDataInitializer : MonoBehaviour
     public bool dark1Up;
     public bool ice1Up;
 
-    
+    public GameObject nextSceneObject;
+    public GameObject caveSceneObject;
+    public GameObject BlockadeSceneObject;
+
+
     public void Start()
     {
 
@@ -166,6 +170,11 @@ public class PlayerDataInitializer : MonoBehaviour
         }
     }
 
+    public void DialogueFinished()
+    {
+
+    }
+
     public void ResetSavedData()
     {
         // Reset all player-related saved data to their default values
@@ -174,6 +183,7 @@ public class PlayerDataInitializer : MonoBehaviour
         // You might also reset the variables in this script to their initial values
         currentHealth = maxHealth;
         currentMana = maxMana;
+
         // Reset other variables to default values
     }
 
@@ -206,7 +216,27 @@ public class PlayerDataInitializer : MonoBehaviour
             PlayerPrefs.Save();
           }
       }
-  
+
+    public void ResetBossStatus()
+    {
+        // Reset boss defeat status to default (0 means not defeated)
+        PlayerPrefs.SetInt("PumpkinKing_isEnemyDead", 0);
+        // If PumpkinKing is dead, activate related game objects
+        nextSceneObject.SetActive(false);
+        caveSceneObject.SetActive(false);
+        BlockadeSceneObject.SetActive(true);
+        
+        // Add similar lines for other boss defeat statuses if needed
+
+        PlayerPrefs.Save();
+    }
+
+    public void BossDeadList(string bossName)
+    {
+        // When a boss is defeated, set a PlayerPrefs value indicating it
+        PlayerPrefs.SetInt(bossName + "_isEnemyDead", 1);
+        PlayerPrefs.Save();
+    }
     private void OnApplicationQuit()
     {
         // Save the player data when the application is closed
@@ -229,5 +259,17 @@ public class PlayerDataInitializer : MonoBehaviour
         LoadPlayerData();
         LoadSpawnerStates();
         DeadEnemy();
+
+        int isPumpkinKingDead = PlayerPrefs.GetInt("PumpkinKing_isEnemyDead", 0);
+        if (isPumpkinKingDead == 1)
+        {
+            // If PumpkinKing is dead, activate related game objects
+            if (nextSceneObject != null)
+            {
+                nextSceneObject.SetActive(true);
+                caveSceneObject.SetActive(true);
+                BlockadeSceneObject.SetActive(false);
+            }
+        }
     }
 }

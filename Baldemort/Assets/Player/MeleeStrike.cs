@@ -32,6 +32,12 @@ public class MeleeStrike : MonoBehaviour
                 }
 
 
+                if (collision.gameObject.CompareTag("Breakable") && collision.isTrigger)
+                {
+                    collision.GetComponent<ChestDie>().TakeDamage(damage);
+                    collision.GetComponent<SpawnerDie>().TakeDamage(damage);
+                }
+
                 if (collision.gameObject.CompareTag("Player") && collision.isTrigger)
                 {
                     hit.GetComponent<PlayerCntrl>().currentState = PlayerState.stagger; 

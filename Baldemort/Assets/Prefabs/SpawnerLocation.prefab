@@ -97,7 +97,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.32}
+    oldSize: {x: 0.9142857, y: 0.9142857}
     newSize: {x: 0.97333336, y: 1.0533333}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be9de13e3a34b0f49b86f31827d98f11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 5
+  maxHealth: 30
   currentHealth: 0
   healthBar: {fileID: 11686222318417223}
   poisoned: 0
@@ -245,7 +245,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.32, y: 0.32}
+    oldSize: {x: 0.9142857, y: 0.9142857}
     newSize: {x: 0.97333336, y: 1.0533333}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
