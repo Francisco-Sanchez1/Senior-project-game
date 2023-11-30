@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 public class CaveGenerator : MonoBehaviour
 {
+    public static CaveGenerator Instance;
     public int width = 50;
     public int height = 50;
     public float fillPercentage = 0.45f;
@@ -21,16 +22,32 @@ public class CaveGenerator : MonoBehaviour
     public GameObject doorPrefab;
     public GameObject enemyPrefab;
 
+    public GameObject secretDoorPrefab;
+
+    private GameObject secretDoor;
+
+
+    [SerializeField]
+private int enemiesKilled = 0;
+
+    [SerializeField]
+    private int enemiesRequiredForSecretDoor = 5;
     private int[,] map;
 
     void Start()
     {
+         Instance = this;
         GenerateCave();
         VisualizeMap();
         SpawnEnemies();
         SpawnPlayer();
         SpawnDoor(PPlayer.transform.position);
 
+        if (secretDoor == null)
+        {
+            secretDoor = Instantiate(secretDoorPrefab, new Vector3(-1, -1, 0), Quaternion.identity);
+            secretDoor.SetActive(true);
+        }
 
         CinemachineVirtualCamera Vcam = FindObjectOfType<CinemachineVirtualCamera>();
 
@@ -40,6 +57,7 @@ public class CaveGenerator : MonoBehaviour
             Vcam.Follow = playerPrefab.transform;
         }
     }
+
 
     void GenerateCave()
     {
@@ -154,17 +172,20 @@ public class CaveGenerator : MonoBehaviour
 
 
     void SpawnEnemies()
+{
+    for (int i = 0; i < numberOfEnemies; i++)
     {
-        // Instantiate enemies only in a fraction of open spaces
-        for (int i = 0; i < numberOfEnemies; i++)
-        {
-            Vector3 enemyPosition = GetRandomOpenSpacePosition();
-            GameObject enemy = Instantiate(enemyPrefab, enemyPosition, Quaternion.identity);
+        Vector3 enemyPosition = GetRandomOpenSpacePosition();
+        GameObject enemy = Instantiate(enemyPrefab, enemyPosition, Quaternion.identity);
 
-            // Set the sorting layer and order in layer for the enemy
-            SetSortingLayer(enemy, "Characters", 1); // Adjust order as needed
-        }
+        // Set the sorting layer and order in layer for the enemy
+        SetSortingLayer(enemy, "Characters", 1); // Adjust order as needed
+
+        // Do NOT increment the enemiesKilled count here
+        // enemiesKilled++;
     }
+}
+
 
     void SpawnPlayer()
     {
@@ -182,7 +203,7 @@ public class CaveGenerator : MonoBehaviour
             PPlayer = playerObject; // Set PPlayer to the instantiated playerObject
 
             // Spawn the door
-            SpawnDoor(doorPosition);
+
 
             // Set CinemachineVirtualCamera properties
             CinemachineVirtualCamera virtualCamera = FindObjectOfType<CinemachineVirtualCamera>();
@@ -243,7 +264,7 @@ public class CaveGenerator : MonoBehaviour
             {
                 if (map[x, y] == 0)
                 {
-                    bool hasEnoughSpace = CheckSurroundingSpace(x, y, 1,1); // Adjust the distance as needed
+                    bool hasEnoughSpace = CheckSurroundingSpace(x, y, 1, 1); // Adjust the distance as needed
 
                     if (hasEnoughSpace)
                     {
@@ -306,6 +327,61 @@ public class CaveGenerator : MonoBehaviour
     {
         // Example: Shift the door position 12 units to the right of the player
         return new Vector3(playerPosition.x + 12, playerPosition.y, playerPosition.z);
+    }
+
+    void Update()
+{
+    Debug.Log("Current enemies killed: " + enemiesKilled);
+
+    // Check if the required number of enemies have been killed
+    if (enemiesKilled >= enemiesRequiredForSecretDoor)
+    {
+        Debug.Log("Enemies killed: " + enemiesKilled);
+        // Spawn the secret door at a specific location
+        SpawnSecretDoor();
+
+        // Reset the enemiesKilled count to avoid spawning multiple doors
+        enemiesKilled = 0;
+        Debug.Log("Enemies killed reset to 0");
+    }
+}
+
+    void SpawnSecretDoor()
+    {
+        // Find a suitable open space for the secret door
+        Vector3 secretDoorPosition = GetRandomOpenSpacePosition();
+
+        // Deactivate the secret door initially
+        secretDoor.SetActive(false);
+
+        // Set the sorting layer and order in layer for the secret door
+        SetSortingLayer(secretDoor, "Characters", 4); // Adjust order as needed
+
+        // Set the position of the secret door
+        secretDoor.transform.position = secretDoorPosition;
+
+        // Activate the secret door
+        secretDoor.SetActive(true);
+    }
+
+    public void EnemyKilled()
+    {
+        // Increment the enemiesKilled count
+        enemiesKilled++;
+
+        // Log the current enemiesKilled count for debugging
+        Debug.Log("Enemies killed: " + enemiesKilled);
+
+        // Check if the condition for spawning the secret door is met
+        if (enemiesKilled >= enemiesRequiredForSecretDoor)
+        {
+            // Spawn the secret door at a specific location
+            SpawnSecretDoor();
+
+            // Reset the enemiesKilled count to avoid spawning multiple doors
+            enemiesKilled = 0;
+            Debug.Log("Enemies killed reset to 0");
+        }
     }
 
 }

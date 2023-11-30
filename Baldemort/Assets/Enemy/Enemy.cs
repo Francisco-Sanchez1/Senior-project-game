@@ -206,6 +206,7 @@ public class Enemy : MonoBehaviour
         PlayerPrefs.SetInt(gameObject.name + "_isEnemyDead", 1);
         PlayerPrefs.Save();
         gameObject.SetActive(false);
+        CaveGenerator.Instance.EnemyKilled();
     }
 
 
