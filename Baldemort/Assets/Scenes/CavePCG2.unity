@@ -159,6 +159,9 @@ MonoBehaviour:
   openSpaceSprite: {fileID: -1024248686, guid: f9ecfc27b6aa547e392f725679791900, type: 3}
   doorPrefab: {fileID: 6835931969486050741, guid: 1f774beb2191749089530907c717e2d2, type: 3}
   enemyPrefab: {fileID: 7614282412117228158, guid: 0654a2264962944498fcbb55f36762c0, type: 3}
+  secretDoorPrefab: {fileID: 6835931969486050741, guid: 210b1d275bb844c958074cf8b2e654ec, type: 3}
+  enemiesKilled: 0
+  enemiesRequiredForSecretDoor: 5
 --- !u!4 &1226589289
 Transform:
   m_ObjectHideFlags: 0
