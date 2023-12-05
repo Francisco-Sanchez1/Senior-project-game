@@ -30,6 +30,9 @@ public class PlayerDataInitializer : MonoBehaviour
     public GameObject caveSceneObject;
     public GameObject BlockadeSceneObject;
 
+    public GameObject nextSceneObject1;
+    public GameObject caveSceneObject1;
+    public GameObject BlockadeSceneObject1;
 
     public void Start()
     {
@@ -225,8 +228,14 @@ public class PlayerDataInitializer : MonoBehaviour
         nextSceneObject.SetActive(false);
         caveSceneObject.SetActive(false);
         BlockadeSceneObject.SetActive(true);
-        
+
         // Add similar lines for other boss defeat statuses if needed
+        PlayerPrefs.SetInt("LIzardKing_isEnemyDead", 0);
+        // If PumpkinKing is dead, activate related game objects
+        nextSceneObject1.SetActive(false);
+        caveSceneObject1.SetActive(false);
+        BlockadeSceneObject1.SetActive(true);
+
 
         PlayerPrefs.Save();
     }
@@ -269,6 +278,18 @@ public class PlayerDataInitializer : MonoBehaviour
                 nextSceneObject.SetActive(true);
                 caveSceneObject.SetActive(true);
                 BlockadeSceneObject.SetActive(false);
+            }
+        }
+
+        int isLIzardKingDead = PlayerPrefs.GetInt("LIzardKing_isEnemyDead", 0);
+        if (isLIzardKingDead == 1)
+        {
+            // If LizardKing is dead, activate related game objects
+            if (nextSceneObject != null)
+            {
+                nextSceneObject1.SetActive(true);
+                caveSceneObject1.SetActive(true);
+                BlockadeSceneObject1.SetActive(false);
             }
         }
     }

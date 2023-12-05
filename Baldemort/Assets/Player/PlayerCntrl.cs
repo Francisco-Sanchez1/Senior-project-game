@@ -264,8 +264,9 @@ public class PlayerCntrl : MonoBehaviour
         poisonedtimer = true;
         while (timer < PoisonTick)
         {
-            currentHealth -= poison;
-            healthBar.SetHealth(currentHealth);
+            playerDataInitializer.currentHealth -= poison;
+            currentHealth = playerDataInitializer.currentHealth;
+            healthBar.SetHealth(playerDataInitializer.currentHealth);
 
             if (currentHealth <= 0)
             {

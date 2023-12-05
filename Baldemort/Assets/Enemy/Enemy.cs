@@ -12,6 +12,7 @@ public enum EnemyState
     summon,
     attackRange,
     Freeze,
+    attackThrust,
 }
 
 public class Enemy : MonoBehaviour
@@ -200,13 +201,41 @@ public class Enemy : MonoBehaviour
             }
 
         }
-    
+
+        if (gameObject.name == "LIzardKing")
+        {
+            // Access the PlayerDataInitializer and update the boss state
+            PlayerDataInitializer playerDataInitializer = FindObjectOfType<PlayerDataInitializer>();
+            if (playerDataInitializer != null)
+            {
+                playerDataInitializer.BossDeadList(gameObject.name);
+            }
+
+            if (itemToDropPrefab != null)
+            {
+                Instantiate(itemToDropPrefab, transform.position, Quaternion.identity);
+
+            }
+            if (nextSceneObject != null)
+            {
+                nextSceneObject.SetActive(true);
+            }
+            if (caveSceneObject != null)
+            {
+                caveSceneObject.SetActive(true);
+            }
+            if (BlockadeSceneObject != null)
+            {
+                BlockadeSceneObject.SetActive(false);
+            }
+
+        }
 
         Debug.Log("My name is: " + gameObject.name);
         PlayerPrefs.SetInt(gameObject.name + "_isEnemyDead", 1);
         PlayerPrefs.Save();
         gameObject.SetActive(false);
-        CaveGenerator.Instance.EnemyKilled();
+       CaveGenerator.Instance.EnemyKilled();
     }
 
 

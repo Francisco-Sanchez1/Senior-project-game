@@ -182,7 +182,7 @@ MonoBehaviour:
   baseAttack: 20
   nextSceneObject: {fileID: 0}
   caveSceneObject: {fileID: 0}
-  itemToDropPrefab: {fileID: 0}
+  itemToDropPrefab: {fileID: 1834165715407195548, guid: 96ae0989472bf8546b8888358b4c0547, type: 3}
   BlockadeSceneObject: {fileID: 0}
   itemToDropPrefab1: {fileID: 1744204287374304130, guid: 6fc0317fda4fcaf44afd2259a33b0eb2, type: 3}
   itemToDropPrefab2: {fileID: 0}
@@ -594,7 +594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 2
   KnockbackTime: 0.4
-  damage: 5
+  damage: 10
   otherTag: Player
 --- !u!60 &5624069759741898530
 PolygonCollider2D:
@@ -698,7 +698,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 2
   KnockbackTime: 0.4
-  damage: 5
+  damage: 10
   otherTag: Player
 --- !u!60 &2030569477613956688
 PolygonCollider2D:
@@ -905,7 +905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 2
   KnockbackTime: 0.4
-  damage: 5
+  damage: 10
   otherTag: Player
 --- !u!60 &2090611756007555377
 PolygonCollider2D:
@@ -1010,7 +1010,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thrust: 2
   KnockbackTime: 0.4
-  damage: 5
+  damage: 10
   otherTag: Player
 --- !u!60 &3067661945101940811
 PolygonCollider2D:

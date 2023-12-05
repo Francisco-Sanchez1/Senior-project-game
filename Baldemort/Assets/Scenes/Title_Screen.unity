@@ -1238,9 +1238,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7207363483994101458, guid: 9676f28c654b15749a16f693e65ae0a8, type: 3}
     - target: {fileID: 4733489585783010704, guid: ca750cb99e910b24cb7090dd5e94ec86, type: 3}
+      propertyPath: caveSceneObject1
+      value: 
+      objectReference: {fileID: 5347717555093466850, guid: 9d508317f9b7b994ca0add9040b5a0c5, type: 3}
+    - target: {fileID: 4733489585783010704, guid: ca750cb99e910b24cb7090dd5e94ec86, type: 3}
+      propertyPath: nextSceneObject1
+      value: 
+      objectReference: {fileID: 6729927442350265795, guid: 5ce225adc4325dd4b8ad959493d7d1ef, type: 3}
+    - target: {fileID: 4733489585783010704, guid: ca750cb99e910b24cb7090dd5e94ec86, type: 3}
       propertyPath: BlockadeSceneObject
       value: 
       objectReference: {fileID: 3571278550799199239, guid: eebce619ef6f8474b8342be8ec9740f9, type: 3}
+    - target: {fileID: 4733489585783010704, guid: ca750cb99e910b24cb7090dd5e94ec86, type: 3}
+      propertyPath: BlockadeSceneObject1
+      value: 
+      objectReference: {fileID: 2451825184516055373, guid: 22e449220f6f74d41993b3c21a331d51, type: 3}
     - target: {fileID: 7322051789932809970, guid: ca750cb99e910b24cb7090dd5e94ec86, type: 3}
       propertyPath: m_LocalPosition.x
       value: 990.3472
