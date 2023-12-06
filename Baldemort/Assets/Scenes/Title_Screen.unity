@@ -1358,6 +1358,10 @@ PrefabInstance:
       value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4733489585783010704, guid: ca750cb99e910b24cb7090dd5e94ec86, type: 3}
+      propertyPath: Dialogue
+      value: 
+      objectReference: {fileID: 1465011363674919539, guid: 3903566bdb21da449b0541bd7f9e25c8, type: 3}
+    - target: {fileID: 4733489585783010704, guid: ca750cb99e910b24cb7090dd5e94ec86, type: 3}
       propertyPath: caveSceneObject
       value: 
       objectReference: {fileID: 5347717555093466850, guid: 6757f3e47c193fe42b2b986776dcbc82, type: 3}

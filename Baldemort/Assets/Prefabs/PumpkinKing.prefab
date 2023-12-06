@@ -814,6 +814,7 @@ MonoBehaviour:
   caveSceneObject: {fileID: 7207363483994101458, guid: 9676f28c654b15749a16f693e65ae0a8, type: 3}
   itemToDropPrefab: {fileID: 670818523711551255, guid: 8af99e57ffabe7e4aa0580c3a486d639, type: 3}
   BlockadeSceneObject: {fileID: 3571278550799199239, guid: eebce619ef6f8474b8342be8ec9740f9, type: 3}
+  Dialogue: {fileID: 1465011363674919539, guid: 3903566bdb21da449b0541bd7f9e25c8, type: 3}
   itemToDropPrefab1: {fileID: 0}
   itemToDropPrefab2: {fileID: 0}
   itemToDropPrefab3: {fileID: 0}

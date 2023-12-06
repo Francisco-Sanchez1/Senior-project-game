@@ -10,6 +10,8 @@ TagManager:
   - Boss
   - Collectable
   - Breakable
+  - Door
+  - Dialogue
   layers:
   - Default
   - TransparentFX

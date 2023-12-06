@@ -29,6 +29,7 @@ public class Enemy : MonoBehaviour
     public GameObject caveSceneObject;
     public GameObject itemToDropPrefab;
     public GameObject BlockadeSceneObject;
+    public GameObject Dialogue;
 
     public GameObject itemToDropPrefab1;
     public GameObject itemToDropPrefab2;
@@ -199,6 +200,10 @@ public class Enemy : MonoBehaviour
             {
                 BlockadeSceneObject.SetActive(false);
             }
+            if (Dialogue != null)
+            {
+                Dialogue.SetActive(true);
+            }
 
         }
 
@@ -227,6 +232,10 @@ public class Enemy : MonoBehaviour
             if (BlockadeSceneObject != null)
             {
                 BlockadeSceneObject.SetActive(false);
+            }
+            if (Dialogue != null)
+            {
+                Dialogue.SetActive(true);
             }
 
         }
