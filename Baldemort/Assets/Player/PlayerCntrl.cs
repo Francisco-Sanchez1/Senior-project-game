@@ -32,7 +32,7 @@ public class PlayerCntrl : MonoBehaviour
     Vector2 mousePos;
 
     [SerializeField]
-    public HealthBar healthBar;
+    public PlayerHealthBar healthBar;
     public float maxHealth;
     public float currentHealth;
     //ManaStuff

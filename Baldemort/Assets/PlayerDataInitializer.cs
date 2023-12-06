@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -29,10 +30,13 @@ public class PlayerDataInitializer : MonoBehaviour
     public GameObject nextSceneObject;
     public GameObject caveSceneObject;
     public GameObject BlockadeSceneObject;
+    public GameObject Dialogue;
+
 
     public GameObject nextSceneObject1;
     public GameObject caveSceneObject1;
     public GameObject BlockadeSceneObject1;
+
 
     public void Start()
     {
@@ -46,6 +50,7 @@ public class PlayerDataInitializer : MonoBehaviour
         // Load player data when the game starts THIS IS WHAT CAUSES THE CURRENT HEALTH TO NOT REDUCE CAN PROBABLY USE THIS FOR A SAVE GAME TYPE SCENARIO WHERE THE PLAYER PRESSES PLAY INSTEAD OF NEW GAME
         //LoadPlayerData();
     }
+
 
 
     private void LoadPlayerData()
@@ -157,6 +162,29 @@ public class PlayerDataInitializer : MonoBehaviour
         }
     }
 
+    public void DeadDialogue()
+    {
+        GameObject[] dialogues = GameObject.FindGameObjectsWithTag("Dialogue");
+        foreach (GameObject dialogue in dialogues)
+        {
+            int isDialogueDead = PlayerPrefs.GetInt(dialogue.name + "_isdialogueDead", 0);
+
+            if (isDialogueDead == 1)
+            {
+                dialogue.SetActive(false);
+                Debug.Log(dialogue.name + " is set as dead.");
+
+                // Access the parent GameObject and deactivate it if it exists
+                if (dialogue.transform.parent != null)
+                {
+                    dialogue.transform.parent.gameObject.SetActive(false);
+                    Debug.Log("Parent of " + dialogue.name + " is set as dead.");
+                }
+            }
+        }
+    }
+
+
     public void LoadSpawnerStates()
     {
         GameObject[] spawners = GameObject.FindGameObjectsWithTag("Breakable");
@@ -173,10 +201,6 @@ public class PlayerDataInitializer : MonoBehaviour
         }
     }
 
-    public void DialogueFinished()
-    {
-
-    }
 
     public void ResetSavedData()
     {
@@ -228,7 +252,7 @@ public class PlayerDataInitializer : MonoBehaviour
         nextSceneObject.SetActive(false);
         caveSceneObject.SetActive(false);
         BlockadeSceneObject.SetActive(true);
-
+        Dialogue.SetActive(false);
         // Add similar lines for other boss defeat statuses if needed
         PlayerPrefs.SetInt("LIzardKing_isEnemyDead", 0);
         // If PumpkinKing is dead, activate related game objects
@@ -246,6 +270,9 @@ public class PlayerDataInitializer : MonoBehaviour
         PlayerPrefs.SetInt(bossName + "_isEnemyDead", 1);
         PlayerPrefs.Save();
     }
+
+
+
     private void OnApplicationQuit()
     {
         // Save the player data when the application is closed
@@ -268,7 +295,7 @@ public class PlayerDataInitializer : MonoBehaviour
         LoadPlayerData();
         LoadSpawnerStates();
         DeadEnemy();
-
+        DeadDialogue();
         int isPumpkinKingDead = PlayerPrefs.GetInt("PumpkinKing_isEnemyDead", 0);
         if (isPumpkinKingDead == 1)
         {

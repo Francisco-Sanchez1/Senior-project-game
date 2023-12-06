@@ -840,7 +840,7 @@ MonoBehaviour:
   FireTimerFull: 1
   FireTick: 5
   target: {fileID: 0}
-  chaseRadius: 10
+  chaseRadius: 15
   attackRadius: 1.5
   homePosition: {fileID: 0}
   moveSpeed: 3

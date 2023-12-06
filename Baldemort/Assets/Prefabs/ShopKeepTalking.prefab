@@ -556,7 +556,6 @@ GameObject:
   - component: {fileID: 8597546409680049802}
   - component: {fileID: 4612251688595669004}
   - component: {fileID: 3036747850177494940}
-  - component: {fileID: 4792804615842999963}
   m_Layer: 3
   m_Name: ShopKeepTalking
   m_TagString: Enemy
@@ -806,26 +805,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   trigger: {fileID: 4612251688595669004}
---- !u!114 &4792804615842999963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7568689333367416810}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41367004cb4509541ae543bfada364ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialoguePanel: {fileID: 0}
-  dialogueText: {fileID: 0}
-  dialogue: []
-  SHOP: {fileID: 0}
-  DamageUp1: {fileID: 0}
-  Dialogue: {fileID: 0}
-  ShopMenu: {fileID: 0}
-  SOLDOUT: {fileID: 0}
-  wordSpeed: 0
-  playerIsClose: 0
-  shoot: {fileID: 0}
