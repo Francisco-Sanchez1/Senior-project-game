@@ -6,7 +6,13 @@ public class attack : MonoBehaviour
     public GameObject projectilePrefabB;
     public GameObject projectilePrefabC;
     public GameObject projectilePrefabD;
-    
+
+    //spells sound effect
+    [SerializeField] private AudioSource spellSoundA;
+    [SerializeField] private AudioSource spellSoundB;
+    [SerializeField] private AudioSource spellSoundC;
+    [SerializeField] private AudioSource spellSoundD;
+
     public float attackSpeed = 20f;
     public float cooldownTime = 2f;
     private float nextAttackTime = 0f;
@@ -40,22 +46,27 @@ public class attack : MonoBehaviour
 
     void HandleAttack()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse1))
+        // if the right mouse button is pressed and the attack is not on cooldown or the player has enough mana to attack
+        if (Input.GetMouseButtonDown(1) && Time.time >= nextAttackTime && player.currentMana >= 10)
         {
             if (Time.time >= nextAttackTime)
             {
                 switch (spellSlot.selectedSpell)
                 {
                     case allSpellSlot.SpellType.A:
+                        spellSoundA.Play();
                         PerformAttack(projectilePrefabA);
                         break;
                     case allSpellSlot.SpellType.B:
+                        spellSoundB.Play();
                         PerformAttack(projectilePrefabB);
                         break;
                     case allSpellSlot.SpellType.C:
+                        spellSoundC.Play();
                         PerformAttack(projectilePrefabC);
                         break;
                     case allSpellSlot.SpellType.D:
+                        spellSoundD.Play();
                         PerformAttack(projectilePrefabD);
                         break;
                 }
