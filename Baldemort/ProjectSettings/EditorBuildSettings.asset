@@ -47,5 +47,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Voldies Castle.unity
     guid: 51de2fa8251b2424ba072497646f3bed
+  - enabled: 1
+    path: Assets/Scenes/ending.unity
+    guid: 7c6e75f48ccabd74282bbd9aeb60cf16
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

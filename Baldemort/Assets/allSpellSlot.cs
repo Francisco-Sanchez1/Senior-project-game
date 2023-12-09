@@ -32,55 +32,90 @@ public class allSpellSlot : MonoBehaviour
     public Sprite emptySpellC;
     public Sprite emptySpellD;
 
-    // Boolean flags to check if spells are unlocked
-    public bool isSpellAUnlocked = false;
-    public bool isSpellBUnlocked = false;
-    public bool isSpellCUnlocked = false;
-    public bool isSpellDUnlocked = false;
+    // Integer flags to check if spells are unlocked (0 for locked, 1 for unlocked)
+    public int isSpellAUnlocked = 0;
+    public int isSpellBUnlocked = 0;
+    public int isSpellCUnlocked = 1;
+    public int isSpellDUnlocked = 0;
 
-    // selected spell
-    public enum SpellType { A, B, C, D };
-    public SpellType selectedSpell;
+    // selected spell represented as an integer
+    // 0 for A, 1 for B, 2 for C, 3 for D
+    public int selectedSpell;
 
-
+    void Start()
+    {
+        LoadSpellData();
+    }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow) && isSpellAUnlocked)
-    {
-        // Only assign the sprite to the UI Image component if the spell is unlocked.
-        selectedSpell = SpellType.A;
-        uiImageA.sprite = spellSlotAImage;
-        uiImageB.sprite = emptySpellB;
-        uiImageC.sprite = emptySpellC;
-        uiImageD.sprite = emptySpellD;
-        Debug.Log(selectedSpell);
+        if (Input.GetKeyDown(KeyCode.UpArrow) && isSpellAUnlocked == 1)
+        {
+            selectedSpell = 0; // Spell A
+            uiImageA.sprite = spellSlotAImage;
+            uiImageB.sprite = emptySpellB;
+            uiImageC.sprite = emptySpellC;
+            uiImageD.sprite = emptySpellD;
+            Debug.Log(selectedSpell);
+            SaveSpellData();
+        }
+        if (Input.GetKeyDown(KeyCode.LeftArrow) && isSpellBUnlocked == 1)
+        {
+            selectedSpell = 1; // Spell B
+            uiImageA.sprite = emptySpellA;
+            uiImageB.sprite = spellSlotBImage;
+            uiImageC.sprite = emptySpellC;
+            uiImageD.sprite = emptySpellD;
+            Debug.Log(selectedSpell);
+            SaveSpellData();
+        }
+        if (Input.GetKeyDown(KeyCode.RightArrow) && isSpellCUnlocked == 1)
+        {
+            selectedSpell = 2; // Spell C
+            uiImageA.sprite = emptySpellA;
+            uiImageB.sprite = emptySpellB;
+            uiImageC.sprite = spellSlotCImage;
+            uiImageD.sprite = emptySpellD;
+            Debug.Log(selectedSpell);
+            SaveSpellData();
+        }
+        if (Input.GetKeyDown(KeyCode.DownArrow) && isSpellDUnlocked == 1)
+        {
+            selectedSpell = 3; // Spell D
+            uiImageA.sprite = emptySpellA;
+            uiImageB.sprite = emptySpellB;
+            uiImageC.sprite = emptySpellC;
+            uiImageD.sprite = spellSlotDImage;
+            Debug.Log(selectedSpell);
+            SaveSpellData();
+        }
     }
-    if (Input.GetKeyDown(KeyCode.LeftArrow) && isSpellBUnlocked)
+
+    public void SaveSpellData()
     {
-        selectedSpell = SpellType.B;
-        uiImageA.sprite = emptySpellA;
-        uiImageB.sprite = spellSlotBImage;
-        uiImageC.sprite = emptySpellC;
-        uiImageD.sprite = emptySpellD;
-        Debug.Log(selectedSpell);
+        PlayerPrefs.SetInt("isSpellAUnlocked", isSpellAUnlocked);
+        PlayerPrefs.SetInt("isSpellBUnlocked", isSpellBUnlocked);
+        PlayerPrefs.SetInt("isSpellCUnlocked", isSpellCUnlocked);
+        PlayerPrefs.SetInt("isSpellDUnlocked", isSpellDUnlocked);
+        PlayerPrefs.SetInt("selectedSpell", selectedSpell);
+        PlayerPrefs.Save();
     }
-    if (Input.GetKeyDown(KeyCode.RightArrow) && isSpellCUnlocked)
+
+    public void LoadSpellData()
     {
-        selectedSpell = SpellType.C;
-        uiImageA.sprite = emptySpellA;
-        uiImageB.sprite = emptySpellB;
-        uiImageC.sprite = spellSlotCImage;
-        uiImageD.sprite = emptySpellD;
-        Debug.Log(selectedSpell);
+        isSpellAUnlocked = PlayerPrefs.GetInt("isSpellAUnlocked", 1);
+        isSpellBUnlocked = PlayerPrefs.GetInt("isSpellBUnlocked", 1);
+        isSpellCUnlocked = PlayerPrefs.GetInt("isSpellCUnlocked", 1);
+        isSpellDUnlocked = PlayerPrefs.GetInt("isSpellDUnlocked", 1);
+        selectedSpell = PlayerPrefs.GetInt("selectedSpell", 2);
+
+        UpdateSpellUI();
     }
-    if (Input.GetKeyDown(KeyCode.DownArrow) && isSpellDUnlocked)
+
+    private void UpdateSpellUI()
     {
-        selectedSpell = SpellType.D;
-        uiImageA.sprite = emptySpellA;
-        uiImageB.sprite = emptySpellB;
-        uiImageC.sprite = emptySpellC;
-        uiImageD.sprite = spellSlotDImage;
-        Debug.Log(selectedSpell);
-    }
+    uiImageA.sprite = (selectedSpell == 0 && isSpellAUnlocked == 1) ? spellSlotAImage : emptySpellA;
+    uiImageB.sprite = (selectedSpell == 1 && isSpellBUnlocked == 1) ? spellSlotBImage : emptySpellB;
+    uiImageC.sprite = (selectedSpell == 2 && isSpellCUnlocked == 1) ? spellSlotCImage : emptySpellC;
+    uiImageD.sprite = (selectedSpell == 3 && isSpellDUnlocked == 1) ? spellSlotDImage : emptySpellD;
     }
 }

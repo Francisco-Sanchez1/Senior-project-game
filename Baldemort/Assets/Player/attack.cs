@@ -53,19 +53,19 @@ public class attack : MonoBehaviour
             {
                 switch (spellSlot.selectedSpell)
                 {
-                    case allSpellSlot.SpellType.A:
+                    case 0: // Spell A
                         spellSoundA.Play();
                         PerformAttack(projectilePrefabA);
                         break;
-                    case allSpellSlot.SpellType.B:
+                    case 1: // Spell B
                         spellSoundB.Play();
                         PerformAttack(projectilePrefabB);
                         break;
-                    case allSpellSlot.SpellType.C:
+                    case 2: // Spell C
                         spellSoundC.Play();
                         PerformAttack(projectilePrefabC);
                         break;
-                    case allSpellSlot.SpellType.D:
+                    case 3: // Spell D
                         spellSoundD.Play();
                         PerformAttack(projectilePrefabD);
                         break;
