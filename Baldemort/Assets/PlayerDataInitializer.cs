@@ -37,6 +37,8 @@ public class PlayerDataInitializer : MonoBehaviour
     public GameObject caveSceneObject1;
     public GameObject BlockadeSceneObject1;
 
+    public GameObject FinalSceneObject;
+    public GameObject FinalDialogue;
 
     public void Start()
     {
@@ -51,9 +53,16 @@ public class PlayerDataInitializer : MonoBehaviour
         //LoadPlayerData();
     }
 
+    public void RespawnPlayerData()
+    {
+        PlayerCntrl player = FindObjectOfType<PlayerCntrl>();
+        currentHealth = maxHealth;
+        currentMana = maxMana;
 
 
-    private void LoadPlayerData()
+    }
+
+    public void LoadPlayerData()
     {
         PlayerCntrl player = FindObjectOfType<PlayerCntrl>();
         // Load current health if available, otherwise, use the default max health
@@ -208,11 +217,30 @@ public class PlayerDataInitializer : MonoBehaviour
         PlayerPrefs.DeleteAll(); // This clears all PlayerPrefs
 
         // You might also reset the variables in this script to their initial values
+        maxHealth = 100;
         currentHealth = maxHealth;
+        maxMana = 100;
         currentMana = maxMana;
+        coins = 0;
 
         // Reset other variables to default values
-    }
+        minZap = 8;
+        minZap = 14;
+
+        minDark = 6;
+        minDark= 10;
+
+        minIce = 2;
+        minIce = 8;
+
+        minFire = 20;
+        minFire = 30;
+
+        zap1Up = false; 
+        fire1Up = false;
+        dark1Up = false;
+        ice1Up = false;
+}
 
     // You can also add a method to save the player data if necessary
     private void SavePlayerData()
@@ -260,7 +288,9 @@ public class PlayerDataInitializer : MonoBehaviour
         caveSceneObject1.SetActive(false);
         BlockadeSceneObject1.SetActive(true);
 
-
+        PlayerPrefs.SetInt("Baldemort_isEnemyDead", 0);
+        FinalSceneObject.SetActive(false);
+        FinalDialogue.SetActive(false);
         PlayerPrefs.Save();
     }
 
@@ -317,6 +347,16 @@ public class PlayerDataInitializer : MonoBehaviour
                 nextSceneObject1.SetActive(true);
                 caveSceneObject1.SetActive(true);
                 BlockadeSceneObject1.SetActive(false);
+            }
+        }
+
+        int isBaldemortDead = PlayerPrefs.GetInt("Baldemort_isEnemyDead", 0);
+        if (isBaldemortDead == 1)
+        {
+            // If LizardKing is dead, activate related game objects
+            if (nextSceneObject != null)
+            {
+                FinalSceneObject.SetActive(true);
             }
         }
     }

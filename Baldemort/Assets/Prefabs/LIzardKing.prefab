@@ -923,7 +923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  maxHealth: 10
+  maxHealth: 200
   currentHealth: 0
   healthBar: {fileID: 6316101631331956278}
   baseAttack: 0
@@ -931,6 +931,7 @@ MonoBehaviour:
   caveSceneObject: {fileID: 6729927442350265795, guid: 5ce225adc4325dd4b8ad959493d7d1ef, type: 3}
   itemToDropPrefab: {fileID: 670818523711551255, guid: 8af99e57ffabe7e4aa0580c3a486d639, type: 3}
   BlockadeSceneObject: {fileID: 2451825184516055373, guid: 22e449220f6f74d41993b3c21a331d51, type: 3}
+  Dialogue: {fileID: 0}
   itemToDropPrefab1: {fileID: 0}
   itemToDropPrefab2: {fileID: 0}
   itemToDropPrefab3: {fileID: 0}

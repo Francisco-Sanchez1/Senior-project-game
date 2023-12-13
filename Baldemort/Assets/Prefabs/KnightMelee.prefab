@@ -618,7 +618,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.6, y: 1.600586}
+    oldSize: {x: 1.6, y: 1.6}
     newSize: {x: 1.6, y: 1.600586}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -707,7 +707,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.6, y: 1.600586}
+    oldSize: {x: 1.6, y: 1.6}
     newSize: {x: 1.6, y: 1.600586}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -750,11 +750,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  maxHealth: 100
+  maxHealth: 50
   currentHealth: 0
   healthBar: {fileID: 6316101631331956278}
   baseAttack: 0
+  nextSceneObject: {fileID: 0}
+  caveSceneObject: {fileID: 0}
   itemToDropPrefab: {fileID: 0}
+  BlockadeSceneObject: {fileID: 0}
+  Dialogue: {fileID: 0}
   itemToDropPrefab1: {fileID: 670818523711551255, guid: 49a5ce4780000424b8446f949f68339f, type: 3}
   itemToDropPrefab2: {fileID: 670818523711551255, guid: 545b2206ba628d4448adbaaf50702248, type: 3}
   itemToDropPrefab3: {fileID: 670818523711551255, guid: 80d7fe6c4873e864fba745c5c8468d5e, type: 3}

@@ -764,7 +764,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  maxHealth: 40
+  maxHealth: 20
   currentHealth: 0
   healthBar: {fileID: 3653279070070313470}
   baseAttack: 10
@@ -772,6 +772,7 @@ MonoBehaviour:
   caveSceneObject: {fileID: 0}
   itemToDropPrefab: {fileID: 0}
   BlockadeSceneObject: {fileID: 0}
+  Dialogue: {fileID: 0}
   itemToDropPrefab1: {fileID: 670818523711551255, guid: 49a5ce4780000424b8446f949f68339f, type: 3}
   itemToDropPrefab2: {fileID: 670818523711551255, guid: 545b2206ba628d4448adbaaf50702248, type: 3}
   itemToDropPrefab3: {fileID: 670818523711551255, guid: 80d7fe6c4873e864fba745c5c8468d5e, type: 3}
@@ -784,7 +785,6 @@ MonoBehaviour:
   onFire: 0
   FireTimerFull: 1
   FireTick: 5
-  damageNumber: {fileID: 7126745514522523881, guid: a9ec404767977774ab62671e0d452b90, type: 3}
   target: {fileID: 0}
   chaseRadius: 10
   attackRadius: 1.1

@@ -305,29 +305,9 @@ public class PlayerCntrl : MonoBehaviour
     }
 
 
-    public void IncreaseHealth(float amount)
-    {
-        playerDataInitializer.maxHealth += amount;
-        maxHealth = playerDataInitializer.maxHealth;
-
-        if (playerDataInitializer.currentHealth <= playerDataInitializer.maxHealth)
-        {
-            currentHealth = playerDataInitializer.maxHealth;
-            playerDataInitializer.currentHealth = playerDataInitializer.maxHealth;
-            
-        }
-
-        healthBar.SetMaxHealth(playerDataInitializer.maxHealth);
-        healthBar.SetHealth(playerDataInitializer.currentHealth);
-
-        healthSlider.maxValue = playerDataInitializer.maxHealth;
-        healthSlider.value = playerDataInitializer.currentHealth;
-    }
 
     public void Heart_Pick(float amount)
     {
-        if(playerDataInitializer.maxHealth < 300)
-        {
             playerDataInitializer.currentHealth += amount;
             currentHealth = playerDataInitializer.currentHealth;
 
@@ -339,10 +319,34 @@ public class PlayerCntrl : MonoBehaviour
             healthBar.SetHealth(playerDataInitializer.currentHealth);
 
             healthSlider.value = playerDataInitializer.currentHealth;
+        
+
+    }
+
+    public void IncreaseHealth(float amount)
+    {
+        if (playerDataInitializer.maxHealth < 200)
+        {
+            playerDataInitializer.maxHealth += amount;
+            maxHealth = playerDataInitializer.maxHealth;
+            playerDataInitializer.currentHealth = playerDataInitializer.maxHealth;
+            currentHealth = playerDataInitializer.maxHealth;
+            if (playerDataInitializer.currentHealth >= playerDataInitializer.maxHealth)
+            {
+                currentHealth = playerDataInitializer.maxHealth;
+                playerDataInitializer.currentHealth = playerDataInitializer.maxHealth;
+            }
+
+            healthBar.SetMaxHealth(playerDataInitializer.maxHealth);
+            healthBar.SetHealth(playerDataInitializer.currentHealth);
+
+            // Update the mana slider's max value and current value
+            healthSlider.maxValue = playerDataInitializer.maxHealth;
+            healthSlider.value = playerDataInitializer.currentHealth;
         }
         else
         {
-            Coin_Pick(40);
+            Coin_Pick(20);
         }
     }
 
@@ -352,7 +356,9 @@ public class PlayerCntrl : MonoBehaviour
         {
             playerDataInitializer.maxMana += amount;
             maxMana = playerDataInitializer.maxMana;
-            if (playerDataInitializer.currentMana <= playerDataInitializer.maxMana)
+            playerDataInitializer.currentMana = playerDataInitializer.maxMana;
+            currentMana = playerDataInitializer.maxMana;
+            if (playerDataInitializer.currentMana >= playerDataInitializer.maxMana)
             {
                 currentMana = playerDataInitializer.maxMana;
                 playerDataInitializer.currentMana = playerDataInitializer.maxMana;
@@ -415,6 +421,8 @@ public class PlayerCntrl : MonoBehaviour
         // Wait for the animation to finish (adjust the duration as needed)
         yield return new WaitForSeconds(4);
 
+        PlayerPrefs.SetString("PreviousScene", SceneManager.GetActiveScene().name);
+        PlayerPrefs.Save();
         // Transition to the game over screen
         SceneManager.LoadScene("Death_Screen");
     }

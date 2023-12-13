@@ -5,8 +5,12 @@ public class mainMenu : MonoBehaviour
 {
 
 
-    public PlayerDataInitializer playerDataInitializer;
+    private PlayerDataInitializer playerDataInitializer;
+    public void Start()
+    {
+        playerDataInitializer = FindObjectOfType<PlayerDataInitializer>();
 
+    }
     public void NewGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

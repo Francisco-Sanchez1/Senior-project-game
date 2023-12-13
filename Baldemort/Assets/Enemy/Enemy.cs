@@ -35,7 +35,7 @@ public class Enemy : MonoBehaviour
     public GameObject itemToDropPrefab2;
     public GameObject itemToDropPrefab3;
 
-    public float itemDropSuccessChance = 0.2f;
+    public float itemDropSuccessChance = 0.8f;
 
     private bool isInvincible = false;
 
@@ -239,7 +239,25 @@ public class Enemy : MonoBehaviour
             }
 
         }
+        if (gameObject.name == "Baldemort")
+        {
+            // Access the PlayerDataInitializer and update the boss state
+            PlayerDataInitializer playerDataInitializer = FindObjectOfType<PlayerDataInitializer>();
+            if (playerDataInitializer != null)
+            {
+                playerDataInitializer.BossDeadList(gameObject.name);
+            }
 
+            if (nextSceneObject != null)
+            {
+                nextSceneObject.SetActive(true);
+            }
+            if (Dialogue != null)
+            {
+                Dialogue.SetActive(true);
+            }
+
+        }
         Debug.Log("My name is: " + gameObject.name);
         PlayerPrefs.SetInt(gameObject.name + "_isEnemyDead", 1);
         PlayerPrefs.Save();
