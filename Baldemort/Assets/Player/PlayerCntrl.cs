@@ -513,6 +513,8 @@ public class PlayerCntrl : MonoBehaviour
             if (playerDataInitializer != null)
             {
                 playerDataInitializer.currentMana += amount;
+                currentMana = playerDataInitializer.currentMana;
+                manaBar.SetMana(playerDataInitializer.currentMana);
                 if (playerDataInitializer.currentMana > playerDataInitializer.maxMana)
                 {
                     playerDataInitializer.currentMana = playerDataInitializer.maxMana; // Ensure mana doesn't exceed max value
